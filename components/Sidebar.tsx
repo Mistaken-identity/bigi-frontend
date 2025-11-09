@@ -35,7 +35,7 @@ export const Sidebar: FC<{ onNavigate: (view: View, data?: any) => void, isOpen:
         <aside ref={sidebarRef} className={`fixed top-0 left-0 h-full bg-gray-800 text-white w-64 transform transition-transform z-50 ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`}>
           <div className="p-4 border-b border-gray-700 flex flex-col items-center">
             <img 
-                src="/src/assets/images/logo/medium_128x128.png" 
+                src="/assets/images/logo/medium_128x128.png" 
                 alt="Bigi Logo" 
                 className="w-24 h-auto cursor-pointer" 
                 onClick={() => handleNavigate('home')} 

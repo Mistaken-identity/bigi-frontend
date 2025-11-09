@@ -101,7 +101,7 @@ export const Footer: FC<{ onNavigate: (view: View, data?: any) => void }> = ({ o
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8 pt-12">
                      <div className="col-span-2 md:col-span-2">
                         <img 
-                            src="/src/assets/images/logo/medium_128x128.png" 
+                            src="/assets/images/logo/medium_128x128.png" 
                             alt="Bigi Logo" 
                             className="w-24 h-auto cursor-pointer" 
                             onClick={() => onNavigate('home')} 

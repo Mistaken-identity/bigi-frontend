@@ -96,14 +96,14 @@ export const DELIVERY_LOCATIONS = {
 };
 
 export const TESTIMONIALS: Testimonial[] = [
-    { name: "Joy Gitonga.", location: "Kilimani, Nairobi", stars: 5, feedback: "I'm so impressed with the speed of delivery! I ordered a blender in the morning and had it by evening. The product quality is excellent too. Bigi is my new go-to!", imageUrl: "/src/assets/images/My name is philomina ujunwa Vincent,  aka….jpeg" },
-    { name: "Isaac Etyang.", location: "Westlands, Nairobi", stars: 5, feedback: "The variety is amazing. I found exactly the kids' shoes I was looking for, which are hard to find elsewhere. The website is easy to use, and checkout was a breeze.", imageUrl: "/src/assets/images/aadbfa91-25c1-4233-adb5-b2820979c61b.jpeg" },
+    { name: "Joy Gitonga.", location: "Kilimani, Nairobi", stars: 5, feedback: "I'm so impressed with the speed of delivery! I ordered a blender in the morning and had it by evening. The product quality is excellent too. Bigi is my new go-to!", imageUrl: "/assets/images/My name is philomina ujunwa Vincent,  aka….jpeg" },
+    { name: "Isaac Etyang.", location: "Westlands, Nairobi", stars: 5, feedback: "The variety is amazing. I found exactly the kids' shoes I was looking for, which are hard to find elsewhere. The website is easy to use, and checkout was a breeze.", imageUrl: "/assets/images/aadbfa91-25c1-4233-adb5-b2820979c61b.jpeg" },
     { name: "Fatima Amina.", location: "South C, Nairobi", stars: 5, feedback: "As a busy mom, Bigi is a lifesaver. I can order appliances and get them delivered for free without leaving the house. The cash on delivery is a huge plus for me.", imageUrl: "https://i.pravatar.cc/150?u=fatima" },
-    { name: "Brian Kitole.", location: "Parklands, Nairobi", stars: 5, feedback: "Finally, an online store that feels trustworthy. The product descriptions are accurate, and what you see is what you get. The Friday offers are a huge bonus!", imageUrl: "/src/assets/images/IMG_20231124_141810_184-1.jpg" },
-    { name: "Keneth Ekissa.", location: "Ruiru, Kiambu", stars: 5, feedback: "Living just outside Nairobi, I often struggle with delivery. Bigi was seamless. My computing accessories arrived the next day. Highly recommend their service!", imageUrl: "/src/assets/images/IMG_0596.JPG" },
-    { name: "Samuel Ndichu.", location: "Kitengela, Kajiado", stars: 5, feedback: "I was skeptical about ordering shoes online, but the quality exceeded my expectations. The customer support team called to confirm the order, which was a nice personal touch.", imageUrl: "/src/assets/images/simiti.jpg" },
-    { name: "Christine Kiare.", location: "Thika, Kiambu", stars: 4, feedback: "The health & beauty section has a great selection. I found my favorite brands at a very good price. Will definitely be shopping here again for my skincare needs.", imageUrl: "/src/assets/images/IMG_20231231_100302.jpg" },
-    { name: "Charles Nzyoka.", location: "Syokimau, Machakos", stars: 5, feedback: "The user experience is top-notch. The site is fast, the search works perfectly, and the checkout process is incredibly simple. A truly modern shopping platform.", imageUrl: "/src/assets/images/A bold and soulful portrait of an African boy….jpeg" },
+    { name: "Brian Kitole.", location: "Parklands, Nairobi", stars: 5, feedback: "Finally, an online store that feels trustworthy. The product descriptions are accurate, and what you see is what you get. The Friday offers are a huge bonus!", imageUrl: "/assets/images/IMG_20231124_141810_184-1.jpg" },
+    { name: "Keneth Ekissa.", location: "Ruiru, Kiambu", stars: 5, feedback: "Living just outside Nairobi, I often struggle with delivery. Bigi was seamless. My computing accessories arrived the next day. Highly recommend their service!", imageUrl: "/assets/images/IMG_0596.JPG" },
+    { name: "Samuel Ndichu.", location: "Kitengela, Kajiado", stars: 5, feedback: "I was skeptical about ordering shoes online, but the quality exceeded my expectations. The customer support team called to confirm the order, which was a nice personal touch.", imageUrl: "/assets/images/simiti.jpg" },
+    { name: "Christine Kiare.", location: "Thika, Kiambu", stars: 4, feedback: "The health & beauty section has a great selection. I found my favorite brands at a very good price. Will definitely be shopping here again for my skincare needs.", imageUrl: "/assets/images/IMG_20231231_100302.jpg" },
+    { name: "Charles Nzyoka.", location: "Syokimau, Machakos", stars: 5, feedback: "The user experience is top-notch. The site is fast, the search works perfectly, and the checkout process is incredibly simple. A truly modern shopping platform.", imageUrl: "/assets/images/A bold and soulful portrait of an African boy….jpeg" },
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
@@ -112,7 +112,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         title: "Co-Founder & CEO",
         role: "ceo",
         bio: "The Visionary. Shem saw the global stage and knew Africa's creators belonged on it. He's the driving force behind our mission, ensuring every partnership is built on respect, fairness, and a shared passion for authentic craftsmanship.",
-        imageUrl: "/src/assets/images/shem.jpg",
+        imageUrl: "/assets/images/shem.jpg",
         joke: "I told my team we need to think outside the box. The delivery arrived in a bag."
     },
     {
@@ -120,7 +120,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         title: "Co-Founder & CTO",
         role: "cto",
         bio: "Turns impossible ideas into flawless code. Antony is the reason the app feels less like software and more like magic.",
-        imageUrl: "/src/assets/images/teflon.jpg",
+        imageUrl: "/assets/images/teflon.jpg",
         joke: "There are 10 types of people: those who understand binary, and those who don't."
     },
     {
@@ -128,7 +128,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         title: "Co-Founder & Marketing Director",
         role: "marketing",
         bio: "Builds our community and shares the Bigi vision one great story at a time. He's the reason you're here reading this.",
-        imageUrl: "/src/assets/images/morice.jpg",
+        imageUrl: "/assets/images/morice.jpg",
         joke: "Why did the marketer get dumped? A lack of engagement."
     },
     {
@@ -136,7 +136,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         title: "Co-Founder & Logistics Director",
         role: "Logistics",
         bio: "The Bridge-Builder. Emmanuel masterminds the complex journey from a rural workshop to a customer's doorstep across the globe. He's building not just a supply chain, but a network of trust that connects our artisans to the world.",
-        imageUrl: "/src/assets/images/manu.jpg",
+        imageUrl: "/assets/images/manu.jpg",
         joke: "Our delivery is so fast, we're thinking of sponsoring The Flash."
     }
 ];

@@ -160,18 +160,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         '/public/assets/images/tvstand1.jpg',
         '/public/assets/images/tvstand2.jpg',
         '/public/assets/images/tvstand.jpg'
-      ], timesOrdered: 418, reviews: [{ id: 'review-h3-1', author: 'HostessWithTheMostess', rating: 5, comment: 'Solid, sturdy, and beautiful! It fits perfectly under my 55-inch TV. The natural finish is stunning.', date: '2025-07-22' }
-        { id: 'review-h3-1', author: 'Denis Wainaina', rating: 5, comment: 'Very stylish and functional. The open shelves make cable management easy. Could use more color options.', date: '2025-09-12' }
-      ]
+      ], timesOrdered: 418, reviews: [{ id: 'review-h3-1', author: 'HostessWithTheMostess', rating: 5, comment: 'Solid, sturdy, and beautiful! It fits perfectly under my 55-inch TV. The natural finish is stunning.', date: '2025-07-22' } ]
     },
     {
       id: 'home-004', name: 'Modern Minimalist TV Stand', description: 'Sleek wooden TV stand with open shelving and clean modern lines.', longDescription: 'The Modern Minimalist TV Stand is designed for simplicity and function. Crafted from sustainably sourced mahogany, it offers spacious open shelves for media accessories and a cable management slot to keep your setup clean. Perfect for modern apartments and minimalist interiors.', price: 7800, originalPrice: 7800, imageUrls: [
         '/public/assets/images/stand1.jpg',
         '/public/assets/images/stand3.jpg',
         '/public/assets/images/stand.jpg'
-      ], timesOrdered: 416, reviews: [{ id: 'review-h4-1', author: 'ArtfulHome', rating: 5, comment: 'A truly stunning piece of woodwork. The quality is exceptional and it has a wonderful, substantial feel.', date: '2025-08-20' }
-        { id: 'review-h4-1', author: 'James Tonge', rating: 5, comment: 'Love the clean lines and finish. It really opens up my living room space.', date: '2025-08-27' }
-      ]
+      ], timesOrdered: 416, reviews: [{ id: 'review-h4-1', author: 'ArtfulHome', rating: 5, comment: 'A truly stunning piece of woodwork. The quality is exceptional and it has a wonderful, substantial feel.', date: '2025-08-20' }]
     },
     {
       id: 'home-005', name: 'Ethiopian Cotton Throw Blanket', description: 'A soft, lightweight throw blanket handwoven from Ethiopian cotton.', longDescription: 'This luxurious throw is incredibly soft and features subtle, traditional Ethiopian patterns. It\'s perfect for draping over a sofa or adding an extra layer of comfort to your bed. Lightweight yet warm.', price: 9500, originalPrice: 10000, imageUrls: [
@@ -334,8 +330,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Faceless Monalisa painting',
       description: 'A vibrant and whimsical painting of Monalisa.',
       longDescription: 'This original Monalisa painting is characterized by its brilliant and cartoonish figures. Painted on canvas, this joyful depiction Monalisa will brighten any room.',
-      price: 8000,
-      originalPrice: 9500,
+      price: 8499,
+      originalPrice: 9000,
       imageUrls: [
         '/public/assets/images/lisa.jpg',
         '/public/assets/images/monalisa.jpg',
@@ -832,7 +828,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800',
         'https://images.unsplash.com/photo-1595134653554-227d8cf12e35?w=800',
         'https://images.unsplash.com/photo-1597089439121-515f4e0a724a?w=800'
-      ], timesOrdered: 1800, reviews: [{ id: 'review-bk2-1', author: 'Writer', rating: 5, comment: 'This journal is too beautiful to write in... but I will! The fabric cover is amazing and the paper quality is great.', date: '2024-07-21' }]
+      ], timesOrdered: 110, reviews: [{ id: 'review-bk2-1', author: 'Writer', rating: 5, comment: 'This journal is too beautiful to write in... but I will! The fabric cover is amazing and the paper quality is great.', date: '2024-07-21' }]
     },
     {
       id: 'books-003', name: '"Homegoing" by Yaa Gyasi', description: 'An epic, multi-generational novel from Ghana.', longDescription: '"Homegoing" follows the parallel paths of two half-sisters and their descendants through eight generations: from the Gold Coast of Africa to the plantations of Mississippi. A stunning and unforgettable debut.', price: 2200, originalPrice: 2200, imageUrls: [

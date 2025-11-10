@@ -37,7 +37,7 @@ export const AboutUsView: FC = () => {
             <div className="relative h-[60vh] flex items-center justify-center text-center text-white px-4">
                 <div className="absolute inset-0 bg-black">
                     <img 
-                        src="/assets/images/10bd146b-51cc-4bc9-bbe0-79234d2bed7e.jpeg" 
+                        src="/public/assets/images/10bd146b-51cc-4bc9-bbe0-79234d2bed7e.jpeg" 
                         alt="African market" 
                         className="w-full h-full object-cover opacity-50"
                     />
@@ -58,7 +58,7 @@ export const AboutUsView: FC = () => {
                                <p>{ABOUT_US_STORY.content[1]}</p>
                             </div>
                             <div className="unique-image-wrapper">
-                                <img src="/assets/images/053c2e3e-d8e4-4ee6-8070-aca0ebbc64bd.jpeg" alt="" />
+                                <img src="/public/assets/images/053c2e3e-d8e4-4ee6-8070-aca0ebbc64bd.jpeg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ export const AboutUsView: FC = () => {
                     <div className="container mx-auto px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                              <div className="unique-image-wrapper lg:order-last">
-                                <img src="/assets/images/little people 2🧍_♂️🧍_♀️.jpeg" alt="" />
+                                <img src="/public/assets/images/little people 2🧍_♂️🧍_♀️.jpeg" alt="" />
                             </div>
                             <div className="prose prose-xl max-w-none text-gray-700 space-y-4">
                                 <p>{ABOUT_US_STORY.content[2]}</p>

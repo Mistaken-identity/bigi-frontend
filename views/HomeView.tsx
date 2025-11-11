@@ -35,7 +35,7 @@ export const HomeView: FC<{ onNavigate: (view: View, data?: any) => void; onProd
     return (
         <div className="space-y-16">
             {/* Hero Section */}
-            <div className="relative h-[70vh] bg-cover bg-center rounded-b-2xl flex items-center justify-center text-center text-white p-4" style={{ backgroundImage: "url('/public/assets/images/10bd146b-51cc-4bc9-bbe0-79234d2bed7e.jpeg')" }}>
+            <div className="relative h-[70vh] bg-cover bg-center rounded-b-2xl flex items-center justify-center text-center text-white p-4" style={{ backgroundImage: "url('/assets/images/10bd146b-51cc-4bc9-bbe0-79234d2bed7e.jpeg')" }}>
                 <div className="absolute inset-0 bg-black/60 rounded-b-2xl"></div>
                 <div className="relative z-10 animate-slide-in-up">
                     <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>Artistry in Every Thread</h1>

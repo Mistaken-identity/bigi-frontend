@@ -157,16 +157,16 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
     },
     {
       id: 'home-003', name: 'Modern TV Stand', description: 'Elegant wooden TV stand with open storage and sleek design, handcrafted from sustainable wood.', longDescription: 'The Modern TV Stand combines function and beauty with clean lines, solid wood craftsmanship, and durable finishes. Designed with multiple shelves for media devices and decor, this piece offers both organization and aesthetic appeal. Hand-polished surfaces highlight the natural grain of the wood, adding warmth to any living space.', price: 2499, originalPrice: 2900, imageUrls: [
-        '/public/assets/images/tvstand1.jpg',
-        '/public/assets/images/tvstand2.jpg',
-        '/public/assets/images/tvstand.jpg'
+        '/assets/images/tvstand1.jpg',
+        '/assets/images/tvstand2.jpg',
+        '/assets/images/tvstand.jpg'
       ], timesOrdered: 418, reviews: [{ id: 'review-h3-1', author: 'HostessWithTheMostess', rating: 5, comment: 'Solid, sturdy, and beautiful! It fits perfectly under my 55-inch TV. The natural finish is stunning.', date: '2025-07-22' } ]
     },
     {
       id: 'home-004', name: 'Modern Minimalist TV Stand', description: 'Sleek wooden TV stand with open shelving and clean modern lines.', longDescription: 'The Modern Minimalist TV Stand is designed for simplicity and function. Crafted from sustainably sourced mahogany, it offers spacious open shelves for media accessories and a cable management slot to keep your setup clean. Perfect for modern apartments and minimalist interiors.', price: 7800, originalPrice: 7800, imageUrls: [
-        '/public/assets/images/stand1.jpg',
-        '/public/assets/images/stand3.jpg',
-        '/public/assets/images/stand.jpg'
+        '/assets/images/stand1.jpg',
+        '/assets/images/stand3.jpg',
+        '/assets/images/stand.jpg'
       ], timesOrdered: 416, reviews: [{ id: 'review-h4-1', author: 'ArtfulHome', rating: 5, comment: 'A truly stunning piece of woodwork. The quality is exceptional and it has a wonderful, substantial feel.', date: '2025-08-20' }]
     },
     {
@@ -333,9 +333,9 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 8499,
       originalPrice: 9000,
       imageUrls: [
-        '/public/assets/images/lisa.jpg',
-        '/public/assets/images/monalisa.jpg',
-        '/public/assets/images/monalisa1.jpg',
+        '/assets/images/lisa.jpg',
+        '/assets/images/monalisa.jpg',
+        '/assets/images/monalisa1.jpg',
       ],
       timesOrdered: 409,
       reviews: [

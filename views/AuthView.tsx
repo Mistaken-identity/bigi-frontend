@@ -311,7 +311,7 @@ export const AuthView: FC<{ users: User[], onLogin: (user: User) => void; onSign
             <div className="relative w-full max-w-md bg-white/80 backdrop-blur-lg rounded-xl shadow-2xl p-6 sm:p-8 transition-all duration-500">
                 <div className="text-center">
                     <img
-                        src="/public/assets/images/logo/medium_128x128.png"
+                        src="/assets/images/logo/medium_128x128.png"
                         alt="Bigi Logo"
                         className="w-32 h-auto mx-auto cursor-pointer"
                         onClick={() => onNavigate('home')}

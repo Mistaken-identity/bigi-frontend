@@ -146,8 +146,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       originalPrice: 1800,
       imageUrls: [
         '/assets/images/lamp.jpg',
-        '/assets/images/lamp shade.jpeg',
-        '/assets/images/lamb3.jpg',
+        '/assets/images/IMG_20250904_152625.jpg',
+        '/assets/images/lamp2.jpg',
       ],
       timesOrdered: 420,
       reviews: [

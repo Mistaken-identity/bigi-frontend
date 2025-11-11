@@ -10,7 +10,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 6499,
       originalPrice: 7200,
       imageUrls: [
-          '/public/assets/images/a khanga leso dress in Mombasa old town.jpeg',
+          '/assets/images/a khanga leso dress in Mombasa old town.jpeg',
           'https://images.unsplash.com/photo-1599827827055-66760591f24a?w=800',
           'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800',
       ],
@@ -29,7 +29,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 3299,
       originalPrice: 4000,
       imageUrls: [
-          '/public/assets/images/African Style-New5.jpeg',
+          '/assets/images/African Style-New5.jpeg',
           'https://images.unsplash.com/photo-1602133221473-207959438c22?w=800',
           'https://images.unsplash.com/photo-1585232240183-9b4f63ec255b?w=800',
       ],
@@ -47,8 +47,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 1800,
       originalPrice: 2000,
       imageUrls: [
-        '/public/assets/images/feb2f400-c264-4cd3-8336-50ed85d2f91e.jpeg',
-        '/public/assets/images/feb2f400-c264-4cd3-8336-50ed85d2f91e.jpeg',
+        '/assets/images/feb2f400-c264-4cd3-8336-50ed85d2f91e.jpeg',
+        '/assets/images/feb2f400-c264-4cd3-8336-50ed85d2f91e.jpeg',
         'https://images.unsplash.com/photo-1597089439121-515f4e0a724a?w=800'
       ],
       timesOrdered: 410,
@@ -145,9 +145,9 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 1499,
       originalPrice: 1800,
       imageUrls: [
-        '/public/assets/images/lamp.jpg',
-        '/public/assets/images/lamp shade.jpeg',
-        '/public/assets/images/lamb3.jpg',
+        '/assets/images/lamp.jpg',
+        '/assets/images/lamp shade.jpeg',
+        '/assets/images/lamb3.jpg',
       ],
       timesOrdered: 420,
       reviews: [

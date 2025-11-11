@@ -37,7 +37,7 @@ export const AboutUsView: FC = () => {
             <div className="relative h-[60vh] flex items-center justify-center text-center text-white px-4">
                 <div className="absolute inset-0 bg-black">
                     <img 
-                        src="/assets/images/053c2e3e-d8e4-4ee6-8070-aca0ebbc64bd.jpeg" 
+                        src="/assets/images/0ac46fab-eaa5-43ee-b14b-13c7171a29ec.jpeg" 
                         alt="African market" 
                         className="w-full h-full object-cover opacity-50"
                     />

@@ -111,7 +111,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         name: "Shem Johns",
         title: "Co-Founder & CEO",
         role: "ceo",
-        bio: "The Visionary. Shem saw the global stage and knew Africa's creators belonged on it. He's the driving force behind our mission, ensuring every partnership is built on respect, fairness, and a shared passion for authentic craftsmanship.",
+        bio: "The Visionary. He saw the global stage and knew Africa's creators belonged on it. He's the driving force behind our mission, ensuring every partnership is built on respect, fairness, and a shared passion for authentic craftsmanship.",
         imageUrl: "/assets/images/shem.jpg",
         joke: "I told my team we need to think outside the box. The delivery arrived in a bag."
     },
@@ -119,7 +119,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         name: "Antony Emongoluk",
         title: "Co-Founder & CTO",
         role: "cto",
-        bio: "Turns impossible ideas into flawless code. Antony is the reason the app feels less like software and more like magic.",
+        bio: "Turns impossible ideas into flawless code. From backend blueprints to front-end finesse, he’s the bridge between vision and execution. Every product that scales owes a bit of its soul to his precision.",
         imageUrl: "/assets/images/teflon.jpg",
         joke: "There are 10 types of people: those who understand binary, and those who don't."
     },
@@ -135,7 +135,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         name: "Emmanuel Otieno",
         title: "Co-Founder & Logistics Director",
         role: "Logistics",
-        bio: "The Bridge-Builder. Emmanuel masterminds the complex journey from a rural workshop to a customer's doorstep across the globe. He's building not just a supply chain, but a network of trust that connects our artisans to the world.",
+        bio: "The Bridge-Builder. He masterminds the complex journey from a rural workshop to a customer's doorstep across the globe. He's building not just a supply chain, but a network of trust that connects our artisans to the world.",
         imageUrl: "/assets/images/manu.jpg",
         joke: "Our delivery is so fast, we're thinking of sponsoring The Flash."
     }

@@ -28,12 +28,12 @@ export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 
 export const SLOGAN = "Buy it, get it.";
 export const WHATSAPP_NUMBER = "254791177106";
-export const INSTAGRAM_HANDLE = "bigikenya";
-export const FACEBOOK_HANDLE = "bigikenya";
-export const X_HANDLE = "bigi_kenya";
-export const TIKTOK_HANDLE = "bigi.kenya";
+export const INSTAGRAM_HANDLE = "bigiafrica";
+export const FACEBOOK_HANDLE = "bigiafrica";
+export const X_HANDLE = "bigi_africa";
+export const TIKTOK_HANDLE = "bigi.africa";
 export const LINKEDIN_HANDLE = "#"; 
-export const COMPANY_EMAIL = "bigikenya37@gmail.com";
+export const COMPANY_EMAIL = "bigiafrica37@gmail.com";
 export const CAREERS_EMAIL = "bigikenya37@gmail.com";
 export const SHIPPING_COST = 0;
 

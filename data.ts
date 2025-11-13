@@ -120,17 +120,17 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
   "Home & Decor": [
      {
       id: 'home-001',
-      name: 'Handwoven Sisal Basket',
+      name: 'Rattan Basket',
       description: 'A beautiful and functional decorative basket, handwoven by Kenyan artisans.',
-      longDescription: 'Add a touch of authentic African craftsmanship to your home with this sisal basket. Perfect for storing blankets, magazines, or as a planter pot cover. Each basket is unique, showcasing the skill of the weaver.',
-      price: 3500,
-      originalPrice: 4000,
+      longDescription: 'Add a touch of authentic African craftsmanship to your home with this sisal basket. Perfect for storing fruits, magazines, or as a planter pot cover. Each basket is unique, showcasing the skill of the weaver.',
+      price: 2299,
+      originalPrice: 2500,
       imageUrls: [
-          '/public/assets',
-          'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
-          'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
+          '/assets/images/rattan basket2.jpg',
+          '/assets/images/rattan basket4.jpg',
+          '/assets/images/rattan basket5.jpg',
       ],
-      timesOrdered: 307,
+      timesOrdered: 431,
       reviews: [
           { id: 'review-h1-1', author: 'Jane D.', rating: 5, comment: 'This basket is even more beautiful in person. The quality is amazing and it adds such a nice, natural touch to my living room.', date: '2024-07-12' },
           { id: 'review-h1-2', author: 'EcoLiving', rating: 5, comment: 'I love that this is a handmade, sustainable product. It\'s sturdy and beautifully made. Highly recommend!', date: '2024-07-10' },

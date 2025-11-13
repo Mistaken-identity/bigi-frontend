@@ -120,13 +120,13 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
   "Home & Decor": [
      {
       id: 'home-001',
-      name: 'Handwoven Sisal Basket',
+      name: 'Rattan Sisal Basket',
       description: 'A beautiful and functional decorative basket, handwoven by Kenyan artisans.',
       longDescription: 'Add a touch of authentic African craftsmanship to your home with this sisal basket. Perfect for storing blankets, magazines, or as a planter pot cover. Each basket is unique, showcasing the skill of the weaver.',
       price: 3500,
       originalPrice: 4000,
       imageUrls: [
-          '/public/assets',
+          '/assets/images/rattan basket2.jpeg',
           'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
           'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
       ],

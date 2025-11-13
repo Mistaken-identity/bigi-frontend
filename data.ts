@@ -130,7 +130,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
           '/assets/images/rattan basket4.jpg',
           '/assets/images/rattan basket5.jpg',
       ],
-      timesOrdered: 431,
+      timesOrdered: 437,
       reviews: [
           { id: 'review-h1-1', author: 'Jane D.', rating: 5, comment: 'This basket is even more beautiful in person. The quality is amazing and it adds such a nice, natural touch to my living room.', date: '2024-07-12' },
           { id: 'review-h1-2', author: 'EcoLiving', rating: 5, comment: 'I love that this is a handmade, sustainable product. It\'s sturdy and beautifully made. Highly recommend!', date: '2024-07-10' },

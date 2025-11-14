@@ -69,7 +69,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1579301258942-824f9b8b321a?w=800',
         'https://images.unsplash.com/photo-1594938382329-87a177558655?w=800'
       ],
-      timesOrdered: 210,
+      timesOrdered: 290,
       reviews: [
         { id: 'review-f4-1', author: 'DapperDan', rating: 5, comment: 'Stunning bow tie. The weaving is intricate and the colors pop. It was a huge hit at the gala.', date: '2024-07-19' },
       ]
@@ -86,7 +86,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1609228394464-63de239b3bd0?w=800',
         'https://images.unsplash.com/photo-1595882512144-db4520a767e4?w=800',
         'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800'
-      ], timesOrdered: 204, reviews: [{ id: 'review-f6-1', author: 'Ngozi A.', rating: 5, comment: 'The dye patterns are incredible. So much more beautiful in person. I love wearing this piece of my heritage.', date: '2024-07-21' }]
+      ], timesOrdered: 254, reviews: [{ id: 'review-f6-1', author: 'Ngozi A.', rating: 5, comment: 'The dye patterns are incredible. So much more beautiful in person. I love wearing this piece of my heritage.', date: '2024-07-21' }]
     },
     {
       id: 'fashion-007', name: 'Shweshwe A-Line Skirt', description: 'A colorful A-line skirt from South Africa.', longDescription: 'Made from iconic Three Cats Shweshwe fabric, this A-line skirt boasts vibrant geometric patterns and a flattering silhouette. It features a comfortable waistband and side pockets.', price: 4500, originalPrice: 4500, imageUrls: [
@@ -100,7 +100,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1592328775213-9a3a693ce480?w=800',
         'https://images.unsplash.com/photo-1590820088924-2c70094054a8?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800'
-      ], timesOrdered: 250, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2024-07-18' }]
+      ], timesOrdered: 270, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2024-07-18' }]
     },
     {
       id: 'fashion-009', name: 'Men\'s Agbada Robe', description: 'A grand, flowing robe for special occasions.', longDescription: 'This traditional Nigerian Agbada is a three-piece set featuring a grand, wide-sleeved robe, an undervest, and matching trousers. Made from premium damask with intricate embroidery.', price: 15000, originalPrice: 16500, imageUrls: [

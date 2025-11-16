@@ -69,7 +69,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1579301258942-824f9b8b321a?w=800',
         'https://images.unsplash.com/photo-1594938382329-87a177558655?w=800'
       ],
-      timesOrdered: 290,
+      timesOrdered: 294,
       reviews: [
         { id: 'review-f4-1', author: 'DapperDan', rating: 5, comment: 'Stunning bow tie. The weaving is intricate and the colors pop. It was a huge hit at the gala.', date: '2024-07-19' },
       ]
@@ -100,7 +100,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1592328775213-9a3a693ce480?w=800',
         'https://images.unsplash.com/photo-1590820088924-2c70094054a8?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800'
-      ], timesOrdered: 270, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2024-07-18' }]
+      ], timesOrdered: 292, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2024-07-18' }]
     },
     {
       id: 'fashion-009', name: 'Men\'s Agbada Robe', description: 'A grand, flowing robe for special occasions.', longDescription: 'This traditional Nigerian Agbada is a three-piece set featuring a grand, wide-sleeved robe, an undervest, and matching trousers. Made from premium damask with intricate embroidery.', price: 15000, originalPrice: 16500, imageUrls: [
@@ -181,7 +181,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1618221376839-a7965f7a0e23?w=800',
         'https://images.unsplash.com/photo-1618221376814-4903e62f689f?w=800',
         'https://images.unsplash.com/photo-1609228394464-63de239b3bd0?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-h6-1', author: 'DesignInspo', rating: 5, comment: 'An incredible find. The craftsmanship is breathtaking. It\'s the centerpiece of my gallery wall.', date: '2024-07-15' }]
+      ], timesOrdered: 243, reviews: [{ id: 'review-h6-1', author: 'DesignInspo', rating: 5, comment: 'An incredible find. The craftsmanship is breathtaking. It\'s the centerpiece of my gallery wall.', date: '2024-07-15' }]
     },
     {
       id: 'home-007', name: 'Ostrich Eggshell Candle Holder', description: 'A unique candle holder made from a decorated ostrich eggshell.', longDescription: 'Sourced from Namibia, this candle holder is made from a real, unfertilized ostrich eggshell, carefully carved and decorated with traditional San patterns. It casts a warm, beautiful glow.', price: 4200, originalPrice: 4200, imageUrls: [

@@ -221,7 +221,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 4200,
       originalPrice: 4200,
       imageUrls: [
-        '/assets/images/',
+        '/assets/images/necklace.jpeg',
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
       ],

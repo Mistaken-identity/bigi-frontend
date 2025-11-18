@@ -156,7 +156,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ]
     },
     {
-      id: 'home-003', name: 'Modern TV Stand', description: 'Elegant wooden TV stand with open storage and sleek design, handcrafted from sustainable wood.', longDescription: 'The Modern TV Stand combines function and beauty with clean lines, solid wood craftsmanship, and durable finishes. Designed with multiple shelves for media devices and decor, this piece offers both organization and aesthetic appeal. Hand-polished surfaces highlight the natural grain of the wood, adding warmth to any living space.', price: 2499, originalPrice: 2900, imageUrls: [
+      id: 'home-003', name: 'Modern TV Stand', description: 'Elegant wooden TV stand with open storage and sleek design, handcrafted from sustainable wood.', longDescription: 'The Modern TV Stand combines function and beauty with clean lines, solid wood craftsmanship, and durable finishes. Designed with multiple shelves for media devices and decor, this piece offers both organization and aesthetic appeal. Hand-polished surfaces highlight the natural grain of the wood, adding warmth to any living space.', price: 25499, originalPrice: 27000, imageUrls: [
         '/assets/images/tvstand1.jpg',
         '/assets/images/tvstand2.jpg',
         '/assets/images/tvstand.jpg'

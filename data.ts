@@ -79,14 +79,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1605346442657-4a2599c2FEB3?w=800',
         'https://images.unsplash.com/photo-1593431639803-3b898135506a?w=800',
         'https://images.unsplash.com/photo-1552826317-e9a9a3b69234?w=800'
-      ], timesOrdered: 230, reviews: [{ id: 'review-f5-1', author: 'ArtisanLover', rating: 5, comment: 'Absolutely beautiful. You can feel the quality and the story in the fabric. It drapes perfectly.', date: '2024-07-22' }]
+      ], timesOrdered: 239, reviews: [{ id: 'review-f5-1', author: 'ArtisanLover', rating: 5, comment: 'Absolutely beautiful. You can feel the quality and the story in the fabric. It drapes perfectly.', date: '2024-07-22' }]
     },
     {
       id: 'fashion-006', name: 'Adire Tunic', description: 'A vibrant, hand-dyed tunic from Nigeria.', longDescription: 'This beautiful tunic features traditional Adire tie-dye techniques from Nigeria, creating stunning and unique patterns. Made from soft, breathable cotton, it\'s perfect for a stylish, comfortable look.', price: 5200, originalPrice: 5500, imageUrls: [
         'https://images.unsplash.com/photo-1609228394464-63de239b3bd0?w=800',
         'https://images.unsplash.com/photo-1595882512144-db4520a767e4?w=800',
         'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800'
-      ], timesOrdered: 254, reviews: [{ id: 'review-f6-1', author: 'Ngozi A.', rating: 5, comment: 'The dye patterns are incredible. So much more beautiful in person. I love wearing this piece of my heritage.', date: '2024-07-21' }]
+      ], timesOrdered: 277, reviews: [{ id: 'review-f6-1', author: 'Ngozi A.', rating: 5, comment: 'The dye patterns are incredible. So much more beautiful in person. I love wearing this piece of my heritage.', date: '2024-07-21' }]
     },
     {
       id: 'fashion-007', name: 'Shweshwe A-Line Skirt', description: 'A colorful A-line skirt from South Africa.', longDescription: 'Made from iconic Three Cats Shweshwe fabric, this A-line skirt boasts vibrant geometric patterns and a flattering silhouette. It features a comfortable waistband and side pockets.', price: 4500, originalPrice: 4500, imageUrls: [

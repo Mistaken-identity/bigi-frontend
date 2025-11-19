@@ -369,7 +369,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 130, reviews: [{ id: 'review-a6-1', author: 'EcoChic', rating: 5, comment: 'So unique and colorful! I love that it\'s made from recycled materials. It\'s a perfect little pop of color on my dresser.', date: '2024-07-16' }]
+      ], timesOrdered: 135, reviews: [{ id: 'review-a6-1', author: 'EcoChic', rating: 5, comment: 'So unique and colorful! I love that it\'s made from recycled materials. It\'s a perfect little pop of color on my dresser.', date: '2024-07-16' }]
     },
     {
       id: 'art-007', name: 'Ashanti Fertility Doll', description: 'A traditional "Akua\'ba" doll from the Ashanti people of Ghana.', longDescription: 'Carved from wood with a large, disc-like head, these dolls are traditional symbols of fertility and good fortune. A beautiful and culturally significant decorative object.', price: 4800, originalPrice: 4800, imageUrls: [

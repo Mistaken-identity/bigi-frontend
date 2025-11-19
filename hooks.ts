@@ -77,7 +77,7 @@ export const useAnimateOnScroll = <T extends HTMLElement>(options?: Intersection
 
     return ref;
 };
-
+/* updat6e for production */
 /**
  * Manages all cart-related state and logic, simulating an async flow.
  */

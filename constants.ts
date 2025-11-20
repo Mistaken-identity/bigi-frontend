@@ -169,7 +169,7 @@ export const CAREERS_CONTENT = {
 export const HELP_CENTER_QAS = [
     {
         q: "What are your delivery times?",
-        a: "We deliver from 8 AM to 6 PM, Monday to Saturday. Orders placed before 12 PM are typically delivered on the same day within Nairobi. Orders placed after 12 PM, or for locations outside of Nairobi, are delivered the next business day."
+        a: "We deliver from 9 AM to 6 PM, Monday to Saturday. Orders placed before 12 PM are typically delivered on the same day within Nairobi. Orders placed after 12 PM, or for locations outside of Nairobi, are delivered the next business day."
     },
     {
         q: "What payment methods do you accept?",

@@ -130,7 +130,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
           'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
           'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
       ],
-      timesOrdered: 307,
+      timesOrdered: 310,
       reviews: [
           { id: 'review-h1-1', author: 'Jane D.', rating: 5, comment: 'This basket is even more beautiful in person. The quality is amazing and it adds such a nice, natural touch to my living room.', date: '2024-07-12' },
           { id: 'review-h1-2', author: 'EcoLiving', rating: 5, comment: 'I love that this is a handmade, sustainable product. It\'s sturdy and beautifully made. Highly recommend!', date: '2024-07-10' },
@@ -209,7 +209,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1551843425-1a8a7c2c2f82?w=800',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 180, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2024-07-05' }]
+      ], timesOrdered: 240, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2024-07-05' }]
     },
   ],
   "Jewelry": [

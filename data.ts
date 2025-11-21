@@ -202,7 +202,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1589997193238-552458627a6f?w=800',
         'https://images.unsplash.com/photo-1613919099457-65814a682a93?w=800',
         'https://images.unsplash.com/photo-1593113548208-88b1a2b5a198?w=800'
-      ], timesOrdered: 239, reviews: [{ id: 'review-h9-1', author: 'BohoChic', rating: 5, comment: 'The leather is beautiful and the stitching is perfect. It looks so good in my living room.', date: '2024-07-08' }]
+      ], timesOrdered: 245, reviews: [{ id: 'review-h9-1', author: 'BohoChic', rating: 5, comment: 'The leather is beautiful and the stitching is perfect. It looks so good in my living room.', date: '2024-07-08' }]
     },
     {
       id: 'home-010', name: 'Ndebele Print Table Runner', description: 'A vibrant table runner with South African Ndebele patterns.', longDescription: 'Brighten up your dining space with this colorful table runner. It features the bold, geometric patterns characteristic of Ndebele art, printed on durable, high-quality cotton.', price: 2900, originalPrice: 2900, imageUrls: [

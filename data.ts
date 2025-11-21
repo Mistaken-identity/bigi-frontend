@@ -348,7 +348,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-a3-1', author: 'ArtCollector', rating: 5, comment: 'A masterpiece. The level of detail is astounding. It is the pride of my collection.', date: '2024-07-21' }]
+      ], timesOrdered: 169, reviews: [{ id: 'review-a3-1', author: 'ArtCollector', rating: 5, comment: 'A masterpiece. The level of detail is astounding. It is the pride of my collection.', date: '2024-07-21' }]
     },
     {
       id: 'art-004', name: 'Shona Stone Bird', description: 'A stylized bird sculpture from Zimbabwe, carved from serpentine stone.', longDescription: 'Shona sculptures are known for their minimalist, elegant forms. This beautiful bird, carved from rich green serpentine stone and polished to a high shine, embodies that spirit perfectly.', price: 6500, originalPrice: 7000, imageUrls: [

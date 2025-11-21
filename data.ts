@@ -275,14 +275,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800'
-      ], timesOrdered: 251, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2024-07-16' }]
+      ], timesOrdered: 265, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2024-07-16' }]
     },
     {
       id: 'jewelry-007', name: 'Zulu Beaded Hoop Earrings', description: 'Small hoop earrings adorned with intricate Zulu beadwork.', longDescription: 'These vibrant hoop earrings feature tiny glass beads meticulously woven in traditional Zulu patterns. They are lightweight, colorful, and perfect for adding a touch of South African artistry to your look.', price: 2800, originalPrice: 2800, imageUrls: [
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800',
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800'
-      ], timesOrdered: 180, reviews: [{ id: 'review-j7-1', author: 'BeadLover', rating: 5, comment: 'The beadwork is so tiny and perfect! I\'m amazed at the skill. They are my new favorite earrings.', date: '2024-07-14' }]
+      ], timesOrdered: 189, reviews: [{ id: 'review-j7-1', author: 'BeadLover', rating: 5, comment: 'The beadwork is so tiny and perfect! I\'m amazed at the skill. They are my new favorite earrings.', date: '2024-07-14' }]
     },
     {
       id: 'jewelry-008', name: 'Recycled Paper Bead Bracelet', description: 'A colorful, stretchable bracelet made from rolled recycled paper beads.', longDescription: 'Handmade by women in Ugandan co-ops, each bead on this bracelet is carefully rolled and varnished from recycled paper. A beautiful example of sustainable, empowering art.', price: 1500, originalPrice: 1500, imageUrls: [

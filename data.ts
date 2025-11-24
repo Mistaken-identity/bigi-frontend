@@ -456,7 +456,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 135, reviews: [{ id: 'review-b5-1', author: 'Pampered', rating: 5, comment: 'Smells amazing and makes my skin feel so soft and hydrated all day. Not greasy at all.', date: '2024-07-18' }]
+      ], timesOrdered: 145, reviews: [{ id: 'review-b5-1', author: 'Pampered', rating: 5, comment: 'Smells amazing and makes my skin feel so soft and hydrated all day. Not greasy at all.', date: '2024-07-18' }]
     },
     {
       id: 'beauty-006', name: 'Chebe Hair Growth Powder', description: 'A traditional hair-strengthening powder from Chad.', longDescription: 'Chebe powder is the secret to the incredibly long hair of the women in Chad. Mix it with your favorite oil or conditioner to create a paste that strengthens hair, prevents breakage, and promotes length retention.', price: 2500, originalPrice: 2500, imageUrls: [

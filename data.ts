@@ -195,7 +195,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 155, reviews: [{ id: 'review-h8-1', author: 'DinnerPartyPro', rating: 5, comment: 'These look fantastic on my table. Very well made and easy to clean.', date: '2024-07-10' }]
+      ], timesOrdered: 175, reviews: [{ id: 'review-h8-1', author: 'DinnerPartyPro', rating: 5, comment: 'These look fantastic on my table. Very well made and easy to clean.', date: '2024-07-10' }]
     },
     {
       id: 'home-009', name: 'Tuareg Leather Floor Cushion', description: 'A hand-tooled leather pouf from Morocco.', longDescription: 'This authentic Moroccan pouf is made from genuine leather and hand-stitched with intricate Tuareg patterns. Perfect as extra seating, a footstool, or a unique side table. (Ships unstuffed).', price: 11500, originalPrice: 12500, imageUrls: [

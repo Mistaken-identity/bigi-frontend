@@ -640,7 +640,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800',
         'https://images.unsplash.com/photo-1595134653554-227d8cf12e35?w=800',
         'https://images.unsplash.com/photo-1597089439121-515f4e0a724a?w=800'
-      ], timesOrdered: 180, reviews: [{ id: 'review-s6-1', author: 'SneakerHead', rating: 5, comment: 'Awesome shoes! The print is sick and they are really well-made and comfortable.', date: '2024-07-14' }]
+      ], timesOrdered: 197, reviews: [{ id: 'review-s6-1', author: 'SneakerHead', rating: 5, comment: 'Awesome shoes! The print is sick and they are really well-made and comfortable.', date: '2024-07-14' }]
     },
     {
       id: 'shoes-007', name: 'Women\'s Beaded Thong Sandals', description: 'Elegant flat sandals with fine beadwork.', longDescription: 'These simple yet beautiful thong sandals are elevated by intricate, hand-stitched beadwork on the leather straps. They are perfect for a casual day out or a beach wedding.', price: 4200, originalPrice: 4200, imageUrls: [

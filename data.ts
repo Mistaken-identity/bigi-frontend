@@ -536,7 +536,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 310, reviews: [{ id: 'review-acc3-1', author: 'UrbanExplorer', rating: 5, comment: 'Such a cool and unique backpack. It\'s very sturdy and surprisingly spacious. I get compliments on it all the time.', date: '2024-07-20' }]
+      ], timesOrdered: 350, reviews: [{ id: 'review-acc3-1', author: 'UrbanExplorer', rating: 5, comment: 'Such a cool and unique backpack. It\'s very sturdy and surprisingly spacious. I get compliments on it all the time.', date: '2024-07-20' }]
     },
     {
       id: 'acc-004', name: 'Beaded Leather Belt', description: 'A handmade leather belt featuring colorful Maasai beadwork.', longDescription: 'Elevate your jeans or dress with this beautiful, handcrafted belt. The genuine leather is adorned with intricate, hand-stitched beadwork in traditional Maasai patterns, finished with a solid brass buckle.', price: 5800, originalPrice: 5800, imageUrls: [
@@ -578,7 +578,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800'
-      ], timesOrdered: 80, reviews: [{ id: 'review-acc9-1', author: 'SummerStyle', rating: 5, comment: 'My go-to summer bag. It\'s the perfect size and the natural texture is so chic.', date: '2024-07-11' }]
+      ], timesOrdered: 180, reviews: [{ id: 'review-acc9-1', author: 'SummerStyle', rating: 5, comment: 'My go-to summer bag. It\'s the perfect size and the natural texture is so chic.', date: '2024-07-11' }]
     },
     {
       id: 'acc-010', name: 'Shweshwe Sunglass Case', description: 'A soft, padded case for sunglasses in vibrant Shweshwe fabric.', longDescription: 'Protect your sunglasses with this colorful and soft case. Made from authentic South African Shweshwe fabric with a padded lining, it keeps your glasses safe from scratches in style.', price: 1600, originalPrice: 1600, imageUrls: [

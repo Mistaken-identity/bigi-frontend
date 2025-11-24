@@ -397,7 +397,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1576483515152-870a2d65a25e?w=800',
         'https://images.unsplash.com/photo-1608394988939-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800'
-      ], timesOrdered: 70, reviews: [{ id: 'review-a10-1', author: 'HolidaySpirit', rating: 5, comment: 'I\'ve never seen anything like it! So beautifully made and a very special piece for our family Christmas.', date: '2024-07-08' }]
+      ], timesOrdered: 170, reviews: [{ id: 'review-a10-1', author: 'HolidaySpirit', rating: 5, comment: 'I\'ve never seen anything like it! So beautifully made and a very special piece for our family Christmas.', date: '2024-07-08' }]
     },
    ],
    "Health & Beauty": [

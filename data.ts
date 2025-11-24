@@ -698,21 +698,21 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1543784184-1c6e156407db?w=800',
         'https://images.unsplash.com/photo-1461360370928-88290ab05292?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800'
-      ], timesOrdered: 100, reviews: [{ id: 'review-k4-1', author: 'BookwormParent', rating: 5, comment: 'The stories are wonderful and the illustrations are breathtaking. A new family favorite.', date: '2024-07-16' }]
+      ], timesOrdered: 130, reviews: [{ id: 'review-k4-1', author: 'BookwormParent', rating: 5, comment: 'The stories are wonderful and the illustrations are breathtaking. A new family favorite.', date: '2024-07-16' }]
     },
     {
       id: 'kids-005', name: 'Mini Djembe Drum', description: 'A small, playable djembe drum for kids, handcrafted in Ghana.', longDescription: 'Introduce your child to the rhythm of West Africa with this mini djembe. It features a solid wood body and a real goatskin head, producing a surprisingly rich sound. A fun and educational musical toy.', price: 3800, originalPrice: 4000, imageUrls: [
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',
         'https://images.unsplash.com/photo-1610714150249-93e5a5f45209?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-k5-1', author: 'MusicFamily', rating: 5, comment: 'This isn\'t just a toy, it\'s a real instrument. The quality is fantastic. My kids have so much fun with it.', date: '2024-07-15' }]
+      ], timesOrdered: 210, reviews: [{ id: 'review-k5-1', author: 'MusicFamily', rating: 5, comment: 'This isn't just a toy, it's a real instrument. The quality is fantastic. My kids have so much fun with it.', date: '2024-07-15' }]
     },
     {
       id: 'kids-006', name: 'Shweshwe Print Baby Bib', description: 'A stylish and absorbent bib made from South African Shweshwe fabric.', longDescription: 'Make mealtime a little more stylish with this durable bib. It features a colorful Shweshwe print on the front and a soft, absorbent backing to keep your baby clean and dry.', price: 1200, originalPrice: 1200, imageUrls: [
         'https://images.unsplash.com/photo-1551843425-1a8a7c2c2f82?w=800',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-k6-1', author: 'PracticalMom', rating: 5, comment: 'Cute and practical. It washes well and the colors don\'t fade. Great quality.', date: '2024-07-14' }]
+      ], timesOrdered: 150, reviews: [{ id: 'review-k6-1', author: 'PracticalMom', rating: 5, comment: 'Cute and practical. It washes well and the colors don't fade. Great quality.', date: '2024-07-14' }]
     },
     {
       id: 'kids-007', name: 'Beaded Animal Keychain Craft Kit', description: 'A DIY kit to make your own beaded animal keychains.', longDescription: 'A fun and creative activity for older kids. This kit includes all the beads, wire, and instructions needed to create several South African-style beaded animal keychains.', price: 2000, originalPrice: 2000, imageUrls: [

@@ -17,8 +17,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 420,
       reviews: [
           { id: 'review-f1-1', author: 'Wanja M.', rating: 5, comment: 'Absolutely gorgeous dress! The fabric is high quality and the colors are so vibrant. I received so many compliments.', date: '2024-07-20' },
-          { id: 'review-f1-2', author: 'Amina H.', rating: 5, comment: 'Fits perfectly and is very comfortable to wear. The craftsmanship is excellent.', date: '2024-07-18' },
-          { id: 'review-f1-3', author: 'Sarah K.', rating: 4, comment: 'Beautiful dress, though the zipper was a bit stiff at first. Overall, a great purchase.', date: '2024-07-15' },
+          { id: 'review-f1-2', author: 'Amina H.', rating: 5, comment: 'Fits perfectly and is very comfortable to wear. The craftsmanship is excellent.', date: '2025-08-18' },
+          { id: 'review-f1-3', author: 'Sarah K.', rating: 4, comment: 'Beautiful dress, though the zipper was a bit stiff at first. Overall, a great purchase.', date: '2025-08-15' },
       ]
     },
     {

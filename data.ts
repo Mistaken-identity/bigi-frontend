@@ -163,7 +163,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ], timesOrdered: 418, reviews: [{ id: 'review-h3-1', author: 'HostessWithTheMostess', rating: 5, comment: 'Solid, sturdy, and beautiful! It fits perfectly under my 55-inch TV. The natural finish is stunning.', date: '2025-07-22' } ]
     },
     {
-      id: 'home-004', name: 'Modern Minimalist TV Stand', description: 'Sleek wooden TV stand with open shelving and clean modern lines.', longDescription: 'The Modern Minimalist TV Stand is designed for simplicity and function. Crafted from sustainably sourced mahogany, it offers spacious open shelves for media accessories and a cable management slot to keep your setup clean. Perfect for modern apartments and minimalist interiors.', price: 7800, originalPrice: 7800, imageUrls: [
+      id: 'home-004', name: 'Modern Minimalist TV Stand', description: 'Sleek wooden TV stand with open shelving and clean modern lines.', longDescription: 'The Modern Minimalist TV Stand is designed for simplicity and function. Crafted from sustainably sourced mahogany, it offers spacious open shelves for media accessories and a cable management slot to keep your setup clean. Perfect for modern apartments and minimalist interiors.', price: 25699, originalPrice: 28000, imageUrls: [
         '/assets/images/stand1.jpg',
         '/assets/images/stand3.jpg',
         '/assets/images/stand.jpg'

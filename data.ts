@@ -79,7 +79,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1605346442657-4a2599c2FEB3?w=800',
         'https://images.unsplash.com/photo-1593431639803-3b898135506a?w=800',
         'https://images.unsplash.com/photo-1552826317-e9a9a3b69234?w=800'
-      ], timesOrdered: 239, reviews: [{ id: 'review-f5-1', author: 'ArtisanLover', rating: 5, comment: 'Absolutely beautiful. You can feel the quality and the story in the fabric. It drapes perfectly.', date: '2024-07-22' }]
+      ], timesOrdered: 239, reviews: [{ id: 'review-f5-1', author: 'ArtisanLover', rating: 5, comment: 'Absolutely beautiful. You can feel the quality and the story in the fabric. It drapes perfectly.', date: '2025-09-22' }]
     },
     {
       id: 'fashion-006', name: 'Adire Tunic', description: 'A vibrant, hand-dyed tunic from Nigeria.', longDescription: 'This beautiful tunic features traditional Adire tie-dye techniques from Nigeria, creating stunning and unique patterns. Made from soft, breathable cotton, it\'s perfect for a stylish, comfortable look.', price: 5200, originalPrice: 5500, imageUrls: [
@@ -132,9 +132,9 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 310,
       reviews: [
-          { id: 'review-h1-1', author: 'Jane D.', rating: 5, comment: 'This basket is even more beautiful in person. The quality is amazing and it adds such a nice, natural touch to my living room.', date: '2024-07-12' },
+          { id: 'review-h1-1', author: 'Jane D.', rating: 5, comment: 'This basket is even more beautiful in person. The quality is amazing and it adds such a nice, natural touch to my living room.', date: '2025-08-12' },
           { id: 'review-h1-2', author: 'EcoLiving', rating: 5, comment: 'I love that this is a handmade, sustainable product. It\'s sturdy and beautifully made. Highly recommend!', date: '2024-07-10' },
-          { id: 'review-h1-3', author: 'Mark T.', rating: 4, comment: 'Great basket. The colors are slightly different from the photo, but that\'s expected with handmade items.', date: '2024-07-09' },
+          { id: 'review-h1-3', author: 'Mark T.', rating: 4, comment: 'Great basket. The colors are slightly different from the photo, but that\'s expected with handmade items.', date: '2025-07-09' },
       ]
     },
     {

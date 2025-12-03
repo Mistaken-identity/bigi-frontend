@@ -202,14 +202,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1589997193238-552458627a6f?w=800',
         'https://images.unsplash.com/photo-1613919099457-65814a682a93?w=800',
         'https://images.unsplash.com/photo-1593113548208-88b1a2b5a198?w=800'
-      ], timesOrdered: 245, reviews: [{ id: 'review-h9-1', author: 'BohoChic', rating: 5, comment: 'The leather is beautiful and the stitching is perfect. It looks so good in my living room.', date: '2024-07-08' }]
+      ], timesOrdered: 245, reviews: [{ id: 'review-h9-1', author: 'BohoChic', rating: 5, comment: 'The leather is beautiful and the stitching is perfect. It looks so good in my living room.', date: '2025-07-08' }]
     },
     {
       id: 'home-010', name: 'Ndebele Print Table Runner', description: 'A vibrant table runner with South African Ndebele patterns.', longDescription: 'Brighten up your dining space with this colorful table runner. It features the bold, geometric patterns characteristic of Ndebele art, printed on durable, high-quality cotton.', price: 2900, originalPrice: 2900, imageUrls: [
         '/assets/images/',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 240, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2024-07-05' }]
+      ], timesOrdered: 240, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2025-07-05' }]
     },
   ],
   "Jewelry": [
@@ -228,7 +228,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 285,
       reviews: [
         { id: 'review-j1-1', author: 'AfroChic', rating: 5, comment: 'A true statement piece! The beadwork is incredibly detailed. It\'s lightweight and comfortable to wear all day.', date: '2024-07-21' },
-        { id: 'review-j1-2', author: 'GiftGiver', rating: 5, comment: 'Bought this as a gift for my sister and she was blown away. It\'s a beautiful piece of culture and art.', date: '2024-07-19' },
+        { id: 'review-j1-2', author: 'GiftGiver', rating: 5, comment: 'Bought this as a gift for my sister and she was blown away. It\'s a beautiful piece of culture and art.', date: '2025-07-19' },
       ]
     },
     {
@@ -243,10 +243,10 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
       ],
-      timesOrdered: 210,
+      timesOrdered: 230,
       reviews: [
         { id: 'review-j2-1', author: 'StylishSusan', rating: 5, comment: 'I wear these almost every day. They are simple, elegant, and go with everything. Plus, I love that they are made from recycled materials.', date: '2024-07-18' },
-        { id: 'review-j2-2', author: 'ArtLover', rating: 5, comment: 'Beautifully crafted. They have a lovely weight to them and catch the light perfectly.', date: '2024-07-15' },
+        { id: 'review-j2-2', author: 'ArtLover', rating: 5, comment: 'Beautifully crafted. They have a lovely weight to them and catch the light perfectly.', date: '2025-07-15' },
       ]
     },
     {
@@ -254,7 +254,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2024-07-22' }]
+      ], timesOrdered: 150, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2025-07-22' }]
     },
     {
       id: 'jewelry-004', name: 'Tuareg Silver Ring', description: 'A sterling silver ring with traditional Tuareg engravings.', longDescription: 'Handcrafted by Tuareg artisans in the Sahara, this sterling silver ring features intricate geometric patterns symbolic of the desert nomads. A solid, meaningful piece of wearable art.', price: 6200, originalPrice: 6200, imageUrls: [
@@ -275,7 +275,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800'
-      ], timesOrdered: 265, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2024-07-16' }]
+      ], timesOrdered: 285, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2024-07-16' }]
     },
     {
       id: 'jewelry-007', name: 'Zulu Beaded Hoop Earrings', description: 'Small hoop earrings adorned with intricate Zulu beadwork.', longDescription: 'These vibrant hoop earrings feature tiny glass beads meticulously woven in traditional Zulu patterns. They are lightweight, colorful, and perfect for adding a touch of South African artistry to your look.', price: 2800, originalPrice: 2800, imageUrls: [

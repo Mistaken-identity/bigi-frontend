@@ -100,14 +100,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1592328775213-9a3a693ce480?w=800',
         'https://images.unsplash.com/photo-1590820088924-2c70094054a8?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800'
-      ], timesOrdered: 292, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2024-07-18' }]
+      ], timesOrdered: 292, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2025-08-18' }]
     },
     {
       id: 'fashion-009', name: 'Men\'s Agbada Robe', description: 'A grand, flowing robe for special occasions.', longDescription: 'This traditional Nigerian Agbada is a three-piece set featuring a grand, wide-sleeved robe, an undervest, and matching trousers. Made from premium damask with intricate embroidery.', price: 15000, originalPrice: 16500, imageUrls: [
         'https://images.unsplash.com/photo-1585232240183-9b4f63ec255b?w=800',
         'https://images.unsplash.com/photo-1601925698619-8de3e497b714?w=800',
         'https://images.unsplash.com/photo-1602133221473-207959438c22?w=800'
-      ], timesOrdered: 324, reviews: [{ id: 'review-f9-1', author: 'Chief Ade', rating: 5, comment: 'An exceptional piece. The craftsmanship is flawless. I felt incredibly proud wearing it to my son\'s wedding.', date: '2024-07-15' }]
+      ], timesOrdered: 324, reviews: [{ id: 'review-f9-1', author: 'Chief Ade', rating: 5, comment: 'An exceptional piece. The craftsmanship is flawless. I felt incredibly proud wearing it to my son\'s wedding.', date: '2025-08-15' }]
     },
     {
       id: 'fashion-010', name: 'Maasai Shuka Blanket Scarf', description: 'A warm and vibrant scarf from Kenya.', longDescription: 'Made from the iconic red-checked Maasai Shuka fabric, this oversized blanket scarf is perfect for chilly evenings. It\'s durable, warm, and can also be used as a small throw.', price: 3200, originalPrice: 3200, imageUrls: [
@@ -188,14 +188,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1614285458922-a54b3834e5a9?w=800',
         'https://images.unsplash.com/photo-1596205244510-53434647355e?w=800',
         'https://images.unsplash.com/photo-1612188173489-86f78a7b5d0e?w=800'
-      ], timesOrdered: 80, reviews: [{ id: 'review-h7-1', author: 'GiftGiver', rating: 5, comment: 'Bought this as a unique gift and it was a huge success. So unusual and beautiful.', date: '2024-07-14' }]
+      ], timesOrdered: 80, reviews: [{ id: 'review-h7-1', author: 'GiftGiver', rating: 5, comment: 'Bought this as a unique gift and it was a huge success. So unusual and beautiful.', date: '2025-07-14' }]
     },
     {
       id: 'home-008', name: 'Raffia Palm Placemat Set', description: 'A set of 4 handwoven placemats from Madagascar.', longDescription: 'Bring a natural, bohemian touch to your dining table with these raffia placemats. Woven by hand, they are durable, beautiful, and protect your table in style.', price: 3800, originalPrice: 4000, imageUrls: [
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 175, reviews: [{ id: 'review-h8-1', author: 'DinnerPartyPro', rating: 5, comment: 'These look fantastic on my table. Very well made and easy to clean.', date: '2024-07-10' }]
+      ], timesOrdered: 175, reviews: [{ id: 'review-h8-1', author: 'DinnerPartyPro', rating: 5, comment: 'These look fantastic on my table. Very well made and easy to clean.', date: '2025-07-10' }]
     },
     {
       id: 'home-009', name: 'Tuareg Leather Floor Cushion', description: 'A hand-tooled leather pouf from Morocco.', longDescription: 'This authentic Moroccan pouf is made from genuine leather and hand-stitched with intricate Tuareg patterns. Perfect as extra seating, a footstool, or a unique side table. (Ships unstuffed).', price: 11500, originalPrice: 12500, imageUrls: [

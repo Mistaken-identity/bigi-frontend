@@ -275,7 +275,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800'
-      ], timesOrdered: 285, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2024-07-16' }]
+      ], timesOrdered: 285, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2025-07-16' }]
     },
     {
       id: 'jewelry-007', name: 'Zulu Beaded Hoop Earrings', description: 'Small hoop earrings adorned with intricate Zulu beadwork.', longDescription: 'These vibrant hoop earrings feature tiny glass beads meticulously woven in traditional Zulu patterns. They are lightweight, colorful, and perfect for adding a touch of South African artistry to your look.', price: 2800, originalPrice: 2800, imageUrls: [
@@ -289,7 +289,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1620786259049-775b310438a0?w=800',
         'https://images.unsplash.com/photo-1621949172421-9875de9a74c7?w=800',
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800'
-      ], timesOrdered: 250, reviews: [{ id: 'review-j8-1', author: 'GreenQueen', rating: 5, comment: 'Love the story behind this bracelet, and it\'s so colorful and fun to wear. A great, affordable gift.', date: '2024-07-11' }]
+      ], timesOrdered: 250, reviews: [{ id: 'review-j8-1', author: 'GreenQueen', rating: 5, comment: 'Love the story behind this bracelet, and it\'s so colorful and fun to wear. A great, affordable gift.', date: '2025-07-11' }]
     },
     {
       id: 'jewelry-009', name: 'Berber Enamel Pendant', description: 'A silver and enamel pendant from the Berber artisans of Morocco.', longDescription: 'This striking pendant features the intricate silverwork and vibrant enamel detailing characteristic of Berber jewelry. A powerful amulet and a beautiful piece of North African history.', price: 7500, originalPrice: 8000, imageUrls: [
@@ -303,7 +303,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800'
-      ], timesOrdered: 310, reviews: [{ id: 'review-j10-1', author: 'ProudlyAfrican', rating: 5, comment: 'Simple, elegant, and meaningful. I haven\'t taken it off since I got it.', date: '2024-07-08' }]
+      ], timesOrdered: 310, reviews: [{ id: 'review-j10-1', author: 'ProudlyAfrican', rating: 5, comment: 'Simple, elegant, and meaningful. I haven\'t taken it off since I got it.', date: '2025-07-08' }]
     },
    ],
    "Art & Crafts": [
@@ -322,7 +322,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 280,
       reviews: [
         { id: 'review-a1-1', author: 'CollectorKen', rating: 5, comment: 'The carving is exquisite and the finish is so smooth. A beautiful addition to my collection of African art.', date: '2024-07-22' },
-        { id: 'review-a1-2', author: 'Grace P.', rating: 5, comment: 'I bought this as a housewarming gift, and it was a huge hit. It\'s a very elegant and authentic piece.', date: '2024-07-20' },
+        { id: 'review-a1-2', author: 'Grace P.', rating: 5, comment: 'I bought this as a housewarming gift, and it was a huge hit. It\'s a very elegant and authentic piece.', date: '2025-07-20' },
       ]
     },
     {
@@ -348,7 +348,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800'
-      ], timesOrdered: 169, reviews: [{ id: 'review-a3-1', author: 'ArtCollector', rating: 5, comment: 'A masterpiece. The level of detail is astounding. It is the pride of my collection.', date: '2024-07-21' }]
+      ], timesOrdered: 169, reviews: [{ id: 'review-a3-1', author: 'ArtCollector', rating: 5, comment: 'A masterpiece. The level of detail is astounding. It is the pride of my collection.', date: '2025-07-21' }]
     },
     {
       id: 'art-004', name: 'Shona Stone Bird', description: 'A stylized bird sculpture from Zimbabwe, carved from serpentine stone.', longDescription: 'Shona sculptures are known for their minimalist, elegant forms. This beautiful bird, carved from rich green serpentine stone and polished to a high shine, embodies that spirit perfectly.', price: 6500, originalPrice: 7000, imageUrls: [
@@ -362,42 +362,42 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800'
-      ], timesOrdered: 250, reviews: [{ id: 'review-a5-1', author: 'CultureConnect', rating: 5, comment: 'These figures are so powerful and have such a presence. A very meaningful purchase for me.', date: '2024-07-18' }]
+      ], timesOrdered: 250, reviews: [{ id: 'review-a5-1', author: 'CultureConnect', rating: 5, comment: 'These figures are so powerful and have such a presence. A very meaningful purchase for me.', date: '2025-07-18' }]
     },
     {
       id: 'art-006', name: 'Telephone Wire Bowl', description: 'A small, vibrant bowl woven from recycled telephone wire by Zulu artisans.', longDescription: 'A beautiful fusion of traditional weaving techniques and modern materials. This colorful bowl is a testament to the ingenuity of Zulu artisans in South Africa. Perfect as a catch-all for keys or jewelry.', price: 2800, originalPrice: 3000, imageUrls: [
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 135, reviews: [{ id: 'review-a6-1', author: 'EcoChic', rating: 5, comment: 'So unique and colorful! I love that it\'s made from recycled materials. It\'s a perfect little pop of color on my dresser.', date: '2024-07-16' }]
+      ], timesOrdered: 135, reviews: [{ id: 'review-a6-1', author: 'EcoChic', rating: 5, comment: 'So unique and colorful! I love that it\'s made from recycled materials. It\'s a perfect little pop of color on my dresser.', date: '2025-07-16' }]
     },
     {
       id: 'art-007', name: 'Ashanti Fertility Doll', description: 'A traditional "Akua\'ba" doll from the Ashanti people of Ghana.', longDescription: 'Carved from wood with a large, disc-like head, these dolls are traditional symbols of fertility and good fortune. A beautiful and culturally significant decorative object.', price: 4800, originalPrice: 4800, imageUrls: [
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800',
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 70, reviews: [{ id: 'review-a7-1', author: 'GlobalCollector', rating: 5, comment: 'A classic piece of African art. The carving is authentic and it has a wonderful energy.', date: '2024-07-14' }]
+      ], timesOrdered: 70, reviews: [{ id: 'review-a7-1', author: 'GlobalCollector', rating: 5, comment: 'A classic piece of African art. The carving is authentic and it has a wonderful energy.', date: '2025-07-14' }]
     },
     {
       id: 'art-008', name: 'Papyrus Painting', description: 'A painting on genuine papyrus depicting ancient Egyptian scenes.', longDescription: 'This artwork is hand-painted on authentic papyrus, made from the papyrus plant as it was in ancient Egypt. It features classic scenes of pharaohs and gods, bringing a piece of ancient history to your home.', price: 5500, originalPrice: 6000, imageUrls: [
         'https://images.unsplash.com/photo-1543784184-1c6e156407db?w=800',
         'https://images.unsplash.com/photo-1604462489955-a05a18ac4de5?w=800',
         'https://images.unsplash.com/photo-1569084051212-4a3a30f78137?w=800'
-      ], timesOrdered: 50, reviews: [{ id: 'review-a8-1', author: 'HistoryLover', rating: 5, comment: 'Fascinating to see and touch real papyrus. The painting is well done. It looks amazing framed on my wall.', date: '2024-07-12' }]
+      ], timesOrdered: 50, reviews: [{ id: 'review-a8-1', author: 'HistoryLover', rating: 5, comment: 'Fascinating to see and touch real papyrus. The painting is well done. It looks amazing framed on my wall.', date: '2025-07-12' }]
     },
     {
       id: 'art-009', name: 'Dan Mask', description: 'A carved wooden ceremonial mask from the Dan people of Liberia/Côte d\'Ivoire.', longDescription: 'This replica Dan mask, known for its fine features and polished finish, represents a spirit of the forest. Carved from local wood, it is a powerful example of West African sculptural art.', price: 11000, originalPrice: 11000, imageUrls: [
         'https://images.unsplash.com/photo-1524210214436-15682ab574bb?w=800',
         'https://images.unsplash.com/photo-1525287236833-360157077884?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800'
-      ], timesOrdered: 300, reviews: [{ id: 'review-a9-1', author: 'ArtEnthusiast', rating: 5, comment: 'The craftsmanship is superb. The smooth finish and expressive features are captivating. A very powerful piece.', date: '2024-07-10' }]
+      ], timesOrdered: 300, reviews: [{ id: 'review-a9-1', author: 'ArtEnthusiast', rating: 5, comment: 'The craftsmanship is superb. The smooth finish and expressive features are captivating. A very powerful piece.', date: '2025-07-10' }]
     },
     {
       id: 'art-010', name: 'Banana Fiber Nativity Scene', description: 'A unique nativity scene handcrafted from banana fibers in Kenya.', longDescription: 'This charming, eco-friendly nativity set is meticulously crafted from dried banana leaves and fibers. A wonderful and unique addition to your holiday decorations.', price: 4200, originalPrice: 4200, imageUrls: [
         'https://images.unsplash.com/photo-1576483515152-870a2d65a25e?w=800',
         'https://images.unsplash.com/photo-1608394988939-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800'
-      ], timesOrdered: 170, reviews: [{ id: 'review-a10-1', author: 'HolidaySpirit', rating: 5, comment: 'I\'ve never seen anything like it! So beautifully made and a very special piece for our family Christmas.', date: '2024-07-08' }]
+      ], timesOrdered: 170, reviews: [{ id: 'review-a10-1', author: 'HolidaySpirit', rating: 5, comment: 'I\'ve never seen anything like it! So beautifully made and a very special piece for our family Christmas.', date: '2025-07-08' }]
     },
    ],
    "Health & Beauty": [
@@ -413,7 +413,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1596701918349-74d32a0a2bfb?w=800'
       ],
-      timesOrdered: 250,
+      timesOrdered: 275,
       reviews: [
         { id: 'review-b1-1', author: 'NaturalBeauty', rating: 5, comment: 'This is the real deal. So creamy and moisturizing. It has done wonders for my dry skin and my daughter\'s eczema.', date: '2024-07-21' },
         { id: 'review-b1-2', author: 'Chris P.', rating: 5, comment: 'Amazing product. I use it for my hair and beard. A little goes a long way.', date: '2024-07-17' },

@@ -296,7 +296,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
         'https://images.unsplash.com/photo-1600985497269-37a4a2b56412?w=800',
         'https://images.unsplash.com/photo-1547496614-54c7283c7a9f?w=800'
-      ], timesOrdered: 244, reviews: [{ id: 'review-j9-1', author: 'HistoryBuff', rating: 5, comment: 'A museum-quality piece. The craftsmanship is stunning. It feels amazing to wear.', date: '2024-07-10' }]
+      ], timesOrdered: 244, reviews: [{ id: 'review-j9-1', author: 'HistoryBuff', rating: 5, comment: 'A museum-quality piece. The craftsmanship is stunning. It feels amazing to wear.', date: '2025-07-10' }]
     },
     {
       id: 'jewelry-010', name: 'Africa Map Brass Necklace', description: 'A simple and elegant necklace with a brass pendant of the African continent.', longDescription: 'Show your love for the motherland with this chic necklace. The pendant is cut from polished brass and hangs on a delicate, adjustable chain. A perfect everyday piece.', price: 2200, originalPrice: 2200, imageUrls: [
@@ -348,7 +348,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800'
-      ], timesOrdered: 169, reviews: [{ id: 'review-a3-1', author: 'ArtCollector', rating: 5, comment: 'A masterpiece. The level of detail is astounding. It is the pride of my collection.', date: '2025-07-21' }]
+      ], timesOrdered: 175, reviews: [{ id: 'review-a3-1', author: 'ArtCollector', rating: 5, comment: 'A masterpiece. The level of detail is astounding. It is the pride of my collection.', date: '2025-07-21' }]
     },
     {
       id: 'art-004', name: 'Shona Stone Bird', description: 'A stylized bird sculpture from Zimbabwe, carved from serpentine stone.', longDescription: 'Shona sculptures are known for their minimalist, elegant forms. This beautiful bird, carved from rich green serpentine stone and polished to a high shine, embodies that spirit perfectly.', price: 6500, originalPrice: 7000, imageUrls: [

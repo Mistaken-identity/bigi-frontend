@@ -449,7 +449,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 120, reviews: [{ id: 'review-b4-1', author: 'GlowUp', rating: 5, comment: 'This oil feels so light but is incredibly moisturizing. My skin has a beautiful glow after using it for a week.', date: '2024-07-20' }]
+      ], timesOrdered: 120, reviews: [{ id: 'review-b4-1', author: 'GlowUp', rating: 5, comment: 'This oil feels so light but is incredibly moisturizing. My skin has a beautiful glow after using it for a week.', date: '2025-07-20' }]
     },
     {
       id: 'beauty-005', name: 'Rooibos Infused Body Butter', description: 'A rich body butter infused with antioxidant-rich South African rooibos.', longDescription: 'Soothe and protect your skin with this creamy body butter. It combines the moisturizing power of shea butter with the anti-aging benefits of rooibos tea extract.', price: 2200, originalPrice: 2200, imageUrls: [

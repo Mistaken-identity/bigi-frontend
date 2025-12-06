@@ -433,7 +433,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 120,
       reviews: [
-        { id: 'review-b2-1', author: 'ClearSkin', rating: 5, comment: 'This soap has been a game-changer for my acne-prone skin. My face feels so clean and my breakouts have reduced significantly.', date: '2024-07-22' },
+        { id: 'review-b2-1', author: 'ClearSkin', rating: 5, comment: 'This soap has been a game-changer for my acne-prone skin. My face feels so clean and my breakouts have reduced significantly.', date: '2025-07-22' },
         { id: 'review-b2-2', author: 'Sam D.', rating: 4, comment: 'Very effective, but make sure to moisturize well after using as it can be a bit drying. It lathers up really well.', date: '2024-07-15' },
       ]
     },
@@ -442,7 +442,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 200, reviews: [{ id: 'review-b3-1', author: 'SkincareGuru', rating: 5, comment: 'My skin has never felt so clean and soft. It\'s amazing as a face mask. A new holy grail product for me!', date: '2024-07-21' }]
+      ], timesOrdered: 200, reviews: [{ id: 'review-b3-1', author: 'SkincareGuru', rating: 5, comment: 'My skin has never felt so clean and soft. It\'s amazing as a face mask. A new holy grail product for me!', date: '2025-07-21' }]
     },
     {
       id: 'beauty-004', name: 'Marula Oil', description: 'Cold-pressed, virgin marula oil from Namibia.', longDescription: 'This luxurious, fast-absorbing oil is packed with antioxidants and omega fatty acids. It hydrates skin, reduces redness, and adds shine to hair without feeling greasy. A true super-food for your skin.', price: 2800, originalPrice: 3200, imageUrls: [
@@ -463,35 +463,35 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800'
-      ], timesOrdered: 220, reviews: [{ id: 'review-b6-1', author: 'LongHairGoals', rating: 5, comment: 'I\'ve noticed so much less shedding since I started using Chebe. My hair feels stronger and healthier.', date: '2024-07-16' }]
+      ], timesOrdered: 220, reviews: [{ id: 'review-b6-1', author: 'LongHairGoals', rating: 5, comment: 'I\'ve noticed so much less shedding since I started using Chebe. My hair feels stronger and healthier.', date: '2025-07-16' }]
     },
     {
       id: 'beauty-007', name: 'Baobab Oil', description: '100% pure, cold-pressed baobab seed oil.', longDescription: 'Known in Africa as the "Tree of Life," the baobab provides this nourishing oil rich in vitamins. It helps improve skin elasticity, regenerate cells, and heal dry, cracked skin.', price: 2600, originalPrice: 2800, imageUrls: [
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-b7-1', author: 'SensitiveSkin', rating: 5, comment: 'This oil is amazing for my sensitive skin. It\'s very gentle and has helped with my dry patches.', date: '2024-07-15' }]
+      ], timesOrdered: 210, reviews: [{ id: 'review-b7-1', author: 'SensitiveSkin', rating: 5, comment: 'This oil is amazing for my sensitive skin. It\'s very gentle and has helped with my dry patches.', date: '2025-07-15' }]
     },
     {
       id: 'beauty-008', name: 'African Net Exfoliating Sponge', description: 'A long, durable exfoliating net used in West Africa.', longDescription: 'Ditch your loofah for this incredible exfoliating sponge. It lathers beautifully, dries quickly, and is long enough to easily scrub your back. It exfoliates dead skin, leaving you smooth all over.', price: 1000, originalPrice: 1000, imageUrls: [
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800'
-      ], timesOrdered: 120, reviews: [{ id: 'review-b8-1', author: 'SmoothOperator', rating: 5, comment: 'I will never go back to a regular loofah. This thing is a miracle worker. My skin has never been so smooth!', date: '2024-07-12' }]
+      ], timesOrdered: 120, reviews: [{ id: 'review-b8-1', author: 'SmoothOperator', rating: 5, comment: 'I will never go back to a regular loofah. This thing is a miracle worker. My skin has never been so smooth!', date: '2025-07-12' }]
     },
     {
       id: 'beauty-009', name: 'Kalahari Melon Seed Oil', description: 'A lightweight, detoxifying oil for oily and acne-prone skin.', longDescription: 'This non-comedogenic oil from the Kalahari desert is rich in linoleic acid, which helps to unclog pores and balance sebum production. It absorbs quickly, leaving skin feeling balanced and hydrated.', price: 2400, originalPrice: 2400, imageUrls: [
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 143, reviews: [{ id: 'review-b9-1', author: 'OilySkinStruggles', rating: 5, comment: 'Finally, an oil that doesn\'t make me break out! It has actually helped reduce my blackheads and control my shine.', date: '2024-07-10' }]
+      ], timesOrdered: 143, reviews: [{ id: 'review-b9-1', author: 'OilySkinStruggles', rating: 5, comment: 'Finally, an oil that doesn\'t make me break out! It has actually helped reduce my blackheads and control my shine.', date: '2025-07-10' }]
     },
     {
       id: 'beauty-010', name: 'Frankincense Resin Incense', description: 'Raw frankincense resin from the Horn of Africa for burning.', longDescription: 'Purify your space with the sacred smoke of frankincense resin. Used for millennia in ceremonies, it has a calming, grounding aroma. Burn on a charcoal disc for the best experience.', price: 1600, originalPrice: 1600, imageUrls: [
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800'
-      ], timesOrdered: 190, reviews: [{ id: 'review-b10-1', author: 'ZenMaster', rating: 5, comment: 'The scent is absolutely divine and so calming. Much better than stick incense. Very high quality resin.', date: '2024-07-09' }]
+      ], timesOrdered: 190, reviews: [{ id: 'review-b10-1', author: 'ZenMaster', rating: 5, comment: 'The scent is absolutely divine and so calming. Much better than stick incense. Very high quality resin.', date: '2025-07-09' }]
     },
    ],
    "Bags & Accessories": [
@@ -509,8 +509,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 250,
       reviews: [
-        { id: 'review-acc1-1', author: 'Techie Tom', rating: 5, comment: 'Fits my laptop perfectly and looks amazing. The padding is thick enough to feel protective. Great conversation starter at the office!', date: '2024-07-18' },
-        { id: 'review-acc1-2', author: 'StudentLife', rating: 5, comment: 'I love this sleeve! The colors are so bright and it makes my boring laptop look cool.', date: '2024-07-11' },
+        { id: 'review-acc1-1', author: 'Techie Tom', rating: 5, comment: 'Fits my laptop perfectly and looks amazing. The padding is thick enough to feel protective. Great conversation starter at the office!', date: '2025-07-18' },
+        { id: 'review-acc1-2', author: 'StudentLife', rating: 5, comment: 'I love this sleeve! The colors are so bright and it makes my boring laptop look cool.', date: '2025-07-11' },
       ]
     },
     {

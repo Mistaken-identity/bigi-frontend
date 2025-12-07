@@ -35,7 +35,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 399,
       reviews: [
-          { id: 'review-f2-1', author: 'Isaac Etyang.', rating: 5, comment: 'The embroidery is stunning and the fabric feels great. I wore it to a wedding and felt like a king!', date: '2024-07-21' },
+          { id: 'review-f2-1', author: 'Isaac Etyang.', rating: 5, comment: 'The embroidery is stunning and the fabric feels great. I wore it to a wedding and felt like a king!', date: '2025-07-21' },
           { id: 'review-f2-2', author: 'Brian Kilile.', rating: 5, comment: 'Excellent quality and fits perfectly. The color is even richer in person.', date: '2024-07-19' },
       ]
     },
@@ -53,7 +53,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 410,
       reviews: [
-        { id: 'review-f3-1', author: 'Cynthia N.', rating: 5, comment: 'The fabric is beautiful and the length is perfect for so many styles. I love it!', date: '2024-07-20' },
+        { id: 'review-f3-1', author: 'Cynthia N.', rating: 5, comment: 'The fabric is beautiful and the length is perfect for so many styles. I love it!', date: '2025-07-20' },
         { id: 'review-f3-2', author: 'Naturalista', rating: 5, comment: 'High-quality fabric that doesn\'t slip. The colors are exactly as pictured.', date: '2025-08-18' }
       ]
     },

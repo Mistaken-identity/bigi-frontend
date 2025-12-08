@@ -528,7 +528,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 280,
       reviews: [
         { id: 'review-acc2-1', author: 'Fashionista_Flo', rating: 5, comment: 'My new favorite bag. It\'s beautifully made, spacious, and the combination of leather and Kitenge is just stunning.', date: '2024-07-21' },
-        { id: 'review-acc2-2', author: 'Brenda K.', rating: 5, comment: 'This bag is a work of art. The quality is top-notch and it\'s the perfect size for all my essentials.', date: '2024-07-18' },
+        { id: 'review-acc2-2', author: 'Brenda K.', rating: 5, comment: 'This bag is a work of art. The quality is top-notch and it\'s the perfect size for all my essentials.', date: '2025-07-18' },
       ]
     },
     {
@@ -536,42 +536,42 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 350, reviews: [{ id: 'review-acc3-1', author: 'UrbanExplorer', rating: 5, comment: 'Such a cool and unique backpack. It\'s very sturdy and surprisingly spacious. I get compliments on it all the time.', date: '2024-07-20' }]
+      ], timesOrdered: 350, reviews: [{ id: 'review-acc3-1', author: 'UrbanExplorer', rating: 5, comment: 'Such a cool and unique backpack. It\'s very sturdy and surprisingly spacious. I get compliments on it all the time.', date: '2025-07-20' }]
     },
     {
       id: 'acc-004', name: 'Beaded Leather Belt', description: 'A handmade leather belt featuring colorful Maasai beadwork.', longDescription: 'Elevate your jeans or dress with this beautiful, handcrafted belt. The genuine leather is adorned with intricate, hand-stitched beadwork in traditional Maasai patterns, finished with a solid brass buckle.', price: 5800, originalPrice: 5800, imageUrls: [
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800'
-      ], timesOrdered: 332, reviews: [{ id: 'review-acc4-1', author: 'Style Maven', rating: 5, comment: 'The craftsmanship is incredible. A stunning, high-quality belt that makes any outfit special.', date: '2024-07-19' }]
+      ], timesOrdered: 332, reviews: [{ id: 'review-acc4-1', author: 'Style Maven', rating: 5, comment: 'The craftsmanship is incredible. A stunning, high-quality belt that makes any outfit special.', date: '2025-07-19' }]
     },
     {
       id: 'acc-005', name: 'Ankara Print Fabric Fan', description: 'A beautiful and functional folding fan made with Ankara fabric.', longDescription: 'Stay cool in style with this vibrant folding fan. Constructed with a sturdy wooden frame and covered in bold Ankara print fabric, it\'s a practical and beautiful accessory for warm days.', price: 1500, originalPrice: 1500, imageUrls: [
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800',
         'https://images.unsplash.com/photo-1595134653554-227d8cf12e35?w=800',
         'https://images.unsplash.com/photo-1597089439121-515f4e0a724a?w=800'
-      ], timesOrdered: 302, reviews: [{ id: 'review-acc5-1', author: 'SunnyD', rating: 5, comment: 'So pretty and works great! I keep it in my purse all the time. The fabric is beautiful.', date: '2024-07-17' }]
+      ], timesOrdered: 302, reviews: [{ id: 'review-acc5-1', author: 'SunnyD', rating: 5, comment: 'So pretty and works great! I keep it in my purse all the time. The fabric is beautiful.', date: '2025-07-17' }]
     },
     {
       id: 'acc-006', name: 'Bogolan Passport Holder', description: 'A stylish passport holder made from authentic mudcloth.', longDescription: 'Travel in style while protecting your passport. This holder is made from genuine Malian mudcloth, with a durable lining and slots for your passport and travel cards.', price: 2900, originalPrice: 2900, imageUrls: [
         'https://images.unsplash.com/photo-1622372033333-dc8b5c5a278d?w=800',
         'https://images.unsplash.com/photo-1621949172421-9875de9a74c7?w=800',
         'https://images.unsplash.com/photo-1620786259049-775b310438a0?w=800'
-      ], timesOrdered: 220, reviews: [{ id: 'review-acc6-1', author: 'Globetrotter', rating: 5, comment: 'Love this! It\'s so unique and well-made. Makes finding my passport in my bag so much easier.', date: '2024-07-15' }]
+      ], timesOrdered: 220, reviews: [{ id: 'review-acc6-1', author: 'Globetrotter', rating: 5, comment: 'Love this! It\'s so unique and well-made. Makes finding my passport in my bag so much easier.', date: '2025-07-15' }]
     },
     {
       id: 'acc-007', name: 'Recycled Brass Keychain', description: 'A heavy, polished keychain with an Adinkra symbol.', longDescription: 'Crafted from recycled brass in Nairobi, this keychain features a powerful Adinkra symbol from Ghana (styles vary). A small but meaningful piece of art to carry with you every day.', price: 1200, originalPrice: 1200, imageUrls: [
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800'
-      ], timesOrdered: 96, reviews: [{ id: 'review-acc7-1', author: 'Chris', rating: 5, comment: 'Great quality. Has a nice weight to it. A cool, subtle way to carry some heritage.', date: '2024-07-14' }]
+      ], timesOrdered: 96, reviews: [{ id: 'review-acc7-1', author: 'Chris', rating: 5, comment: 'Great quality. Has a nice weight to it. A cool, subtle way to carry some heritage.', date: '2025-07-14' }]
     },
     {
       id: 'acc-008', name: 'Ankole Horn Bottle Opener', description: 'A sleek bottle opener with a handle made of Ankole horn.', longDescription: 'This elegant bottle opener features a stainless steel head and a handle crafted from ethically-sourced Ankole horn. Each handle has a unique pattern, making it a sophisticated addition to any home bar.', price: 3500, originalPrice: 3500, imageUrls: [
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1610714150249-93e5a5f45209?w=800'
-      ], timesOrdered: 70, reviews: [{ id: 'review-acc8-1', author: 'HomeBarHero', rating: 5, comment: 'A beautiful and functional piece. Looks so much classier than a regular bottle opener.', date: '2024-07-12' }]
+      ], timesOrdered: 70, reviews: [{ id: 'review-acc8-1', author: 'HomeBarHero', rating: 5, comment: 'A beautiful and functional piece. Looks so much classier than a regular bottle opener.', date: '2025-07-12' }]
     },
     {
       id: 'acc-009', name: 'Woven Raffia Clutch', description: 'A chic, handwoven clutch bag made from natural raffia.', longDescription: 'Perfect for a summer evening, this clutch is woven from Madagascan raffia palm, featuring a simple, elegant design, a secure closure, and a lined interior.', price: 4200, originalPrice: 4500, imageUrls: [
@@ -585,7 +585,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1551843425-1a8a7c2c2f82?w=800',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 270, reviews: [{ id: 'review-acc10-1', author: 'FourEyes', rating: 5, comment: 'So much cuter than a boring black case. The fabric is lovely and it feels protective.', date: '2024-07-09' }]
+      ], timesOrdered: 270, reviews: [{ id: 'review-acc10-1', author: 'FourEyes', rating: 5, comment: 'So much cuter than a boring black case. The fabric is lovely and it feels protective.', date: '2025-07-09' }]
     },
    ],
    "Footwear": [
@@ -604,7 +604,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 180,
       reviews: [
         { id: 'review-s1-1', author: 'Traveler_Dave', rating: 5, comment: 'These are the best sandals I\'ve ever owned. So comfortable and they look incredible. The beadwork is amazing.', date: '2024-07-21' },
-        { id: 'review-s1-2', author: 'Ben Carter', rating: 4, comment: 'Great sandals. Took a day to break in the leather, but now they are super comfortable. Very well made.', date: '2024-07-16' },
+        { id: 'review-s1-2', author: 'Ben Carter', rating: 4, comment: 'Great sandals. Took a day to break in the leather, but now they are super comfortable. Very well made.', date: '2025-07-16' },
       ]
     },
     {
@@ -612,7 +612,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800',
         'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800',
         'https://images.unsplash.com/photo-1599827827055-66760591f24a?w=800'
-      ], timesOrdered: 250, reviews: [{ id: 'review-s2-1', author: 'ColorLover', rating: 5, comment: 'So comfy and the pattern is beautiful. I get so many compliments whenever I wear them.', date: '2024-07-22' }]
+      ], timesOrdered: 250, reviews: [{ id: 'review-s2-1', author: 'ColorLover', rating: 5, comment: 'So comfy and the pattern is beautiful. I get so many compliments whenever I wear them.', date: '2025-07-22' }]
     },
     {
       id: 'shoes-003', name: 'Handwoven Raffia Loafers', description: 'Unisex loafers handwoven from natural raffia palm.', longDescription: 'These breathable and stylish loafers are meticulously woven from raffia for a unique, textured look. They are lightweight, flexible, and perfect for a relaxed, sophisticated style in warm weather.', price: 6500, originalPrice: 7000, imageUrls: [

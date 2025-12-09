@@ -456,7 +456,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 145, reviews: [{ id: 'review-b5-1', author: 'Pampered', rating: 5, comment: 'Smells amazing and makes my skin feel so soft and hydrated all day. Not greasy at all.', date: '2024-07-18' }]
+      ], timesOrdered: 145, reviews: [{ id: 'review-b5-1', author: 'Pampered', rating: 5, comment: 'Smells amazing and makes my skin feel so soft and hydrated all day. Not greasy at all.', date: '2025-07-18' }]
     },
     {
       id: 'beauty-006', name: 'Chebe Hair Growth Powder', description: 'A traditional hair-strengthening powder from Chad.', longDescription: 'Chebe powder is the secret to the incredibly long hair of the women in Chad. Mix it with your favorite oil or conditioner to create a paste that strengthens hair, prevents breakage, and promotes length retention.', price: 2500, originalPrice: 2500, imageUrls: [
@@ -578,7 +578,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800'
-      ], timesOrdered: 180, reviews: [{ id: 'review-acc9-1', author: 'SummerStyle', rating: 5, comment: 'My go-to summer bag. It\'s the perfect size and the natural texture is so chic.', date: '2024-07-11' }]
+      ], timesOrdered: 180, reviews: [{ id: 'review-acc9-1', author: 'SummerStyle', rating: 5, comment: 'My go-to summer bag. It\'s the perfect size and the natural texture is so chic.', date: '2025-07-11' }]
     },
     {
       id: 'acc-010', name: 'Shweshwe Sunglass Case', description: 'A soft, padded case for sunglasses in vibrant Shweshwe fabric.', longDescription: 'Protect your sunglasses with this colorful and soft case. Made from authentic South African Shweshwe fabric with a padded lining, it keeps your glasses safe from scratches in style.', price: 1600, originalPrice: 1600, imageUrls: [
@@ -603,7 +603,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 180,
       reviews: [
-        { id: 'review-s1-1', author: 'Traveler_Dave', rating: 5, comment: 'These are the best sandals I\'ve ever owned. So comfortable and they look incredible. The beadwork is amazing.', date: '2024-07-21' },
+        { id: 'review-s1-1', author: 'Traveler_Dave', rating: 5, comment: 'These are the best sandals I\'ve ever owned. So comfortable and they look incredible. The beadwork is amazing.', date: '2025-07-21' },
         { id: 'review-s1-2', author: 'Ben Carter', rating: 4, comment: 'Great sandals. Took a day to break in the leather, but now they are super comfortable. Very well made.', date: '2025-07-16' },
       ]
     },
@@ -619,56 +619,56 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-s3-1', author: 'EuroStyle', rating: 5, comment: 'Incredibly chic and comfortable. They mold to your feet. Perfect for my trip to the coast.', date: '2024-07-20' }]
+      ], timesOrdered: 210, reviews: [{ id: 'review-s3-1', author: 'EuroStyle', rating: 5, comment: 'Incredibly chic and comfortable. They mold to your feet. Perfect for my trip to the coast.', date: '2025-07-20' }]
     },
     {
       id: 'shoes-004', name: 'Tire Sole "Ten Thousand Toes" Sandals', description: 'Durable and eco-friendly sandals made from recycled car tires.', longDescription: 'Known locally as "ten thousand toes" for their durability, these sandals are an iconic piece of Kenyan ingenuity. The sole is cut from a recycled tire and the straps are made of sturdy leather. Incredibly long-lasting.', price: 3200, originalPrice: 3200, imageUrls: [
         'https://images.unsplash.com/photo-1562273246-885449e802c0?w=800',
         'https://images.unsplash.com/photo-1605812836263-8d4512a8449c?w=800',
         'https://images.unsplash.com/photo-1603191656209-9133f324c153?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-s4-1', author: 'EcoConscious', rating: 5, comment: 'These are indestructible! And it feels great to wear something recycled. Surprisingly comfortable too.', date: '2024-07-18' }]
+      ], timesOrdered: 150, reviews: [{ id: 'review-s4-1', author: 'EcoConscious', rating: 5, comment: 'These are indestructible! And it feels great to wear something recycled. Surprisingly comfortable too.', date: '2025-07-18' }]
     },
     {
       id: 'shoes-005', name: 'Moroccan Babouche Slippers', description: 'Soft leather slippers, handmade in Marrakech.', longDescription: 'These traditional Moroccan babouches are made from incredibly soft, supple sheepskin leather that molds to your feet. Perfect for comfortable and stylish lounging at home.', price: 4500, originalPrice: 5000, imageUrls: [
         'https://images.unsplash.com/photo-1589997193238-552458627a6f?w=800',
         'https://images.unsplash.com/photo-1613919099457-65814a682a93?w=800',
         'https://images.unsplash.com/photo-1593113548208-88b1a2b5a198?w=800'
-      ], timesOrdered: 120, reviews: [{ id: 'review-s5-1', author: 'HomeBody', rating: 5, comment: 'Like walking on clouds. The leather is so soft. A little bit of everyday luxury.', date: '2024-07-15' }]
+      ], timesOrdered: 120, reviews: [{ id: 'review-s5-1', author: 'HomeBody', rating: 5, comment: 'Like walking on clouds. The leather is so soft. A little bit of everyday luxury.', date: '2025-07-15' }]
     },
     {
       id: 'shoes-006', name: 'Ankara Print High-Top Sneakers', description: 'Classic high-top sneakers with bold Ankara fabric panels.', longDescription: 'Stand out from the crowd with these unique sneakers. They combine the classic high-top silhouette with vibrant, eye-catching Ankara print panels for a cool, Afro-urban look.', price: 7200, originalPrice: 7200, imageUrls: [
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800',
         'https://images.unsplash.com/photo-1595134653554-227d8cf12e35?w=800',
         'https://images.unsplash.com/photo-1597089439121-515f4e0a724a?w=800'
-      ], timesOrdered: 197, reviews: [{ id: 'review-s6-1', author: 'SneakerHead', rating: 5, comment: 'Awesome shoes! The print is sick and they are really well-made and comfortable.', date: '2024-07-14' }]
+      ], timesOrdered: 197, reviews: [{ id: 'review-s6-1', author: 'SneakerHead', rating: 5, comment: 'Awesome shoes! The print is sick and they are really well-made and comfortable.', date: '2025-07-14' }]
     },
     {
       id: 'shoes-007', name: 'Women\'s Beaded Thong Sandals', description: 'Elegant flat sandals with fine beadwork.', longDescription: 'These simple yet beautiful thong sandals are elevated by intricate, hand-stitched beadwork on the leather straps. They are perfect for a casual day out or a beach wedding.', price: 4200, originalPrice: 4200, imageUrls: [
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-s7-1', author: 'Sunny', rating: 5, comment: 'My favorite summer sandals. They are so pretty and surprisingly comfortable for walking.', date: '2024-07-12' }]
+      ], timesOrdered: 150, reviews: [{ id: 'review-s7-1', author: 'Sunny', rating: 5, comment: 'My favorite summer sandals. They are so pretty and surprisingly comfortable for walking.', date: '2025-07-12' }]
     },
     {
       id: 'shoes-008', name: 'Suede "Veldskoen" Desert Boots', description: 'The original South African desert boot, made from durable suede.', longDescription: 'The iconic "Vellie" is a South African staple. Made from tough yet soft suede with a durable rubber sole, these boots are built for comfort and to last a lifetime. Incredibly versatile and comfortable.', price: 9500, originalPrice: 10500, imageUrls: [
         'https://images.unsplash.com/photo-1605812836263-8d4512a8449c?w=800',
         'https://images.unsplash.com/photo-1562273246-885449e802c0?w=800',
         'https://images.unsplash.com/photo-1603191656209-9133f324c153?w=800'
-      ], timesOrdered: 220, reviews: [{ id: 'review-s8-1', author: 'RuggedGent', rating: 5, comment: 'Best boots I\'ve ever owned. No break-in period needed, comfortable from day one. And they look great.', date: '2024-07-10' }]
+      ], timesOrdered: 220, reviews: [{ id: 'review-s8-1', author: 'RuggedGent', rating: 5, comment: 'Best boots I\'ve ever owned. No break-in period needed, comfortable from day one. And they look great.', date: '2025-07-10' }]
     },
     {
       id: 'shoes-009', name: 'Cowrie Shell Embellished Slides', description: 'Simple slides decorated with natural cowrie shells.', longDescription: 'These easy-to-wear slides are given a bohemian, Afro-chic twist with hand-stitched cowrie shells on the strap. Perfect for the beach, pool, or a casual summer day.', price: 3500, originalPrice: 3500, imageUrls: [
         'https://images.unsplash.com/photo-1596701918349-74d32a0a2bfb?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-s9-1', author: 'BeachLover', rating: 4, comment: 'Very cute and stylish for summer. The fit is a little wide, but they\'re comfortable.', date: '2024-07-09' }]
+      ], timesOrdered: 150, reviews: [{ id: 'review-s9-1', author: 'BeachLover', rating: 4, comment: 'Very cute and stylish for summer. The fit is a little wide, but they\'re comfortable.', date: '2025-07-09' }]
     },
     {
       id: 'shoes-010', name: 'Imigwegwe Beaded Gumboots', description: 'Standard gumboots transformed into art with Ndebele beadwork.', longDescription: 'A modern take on tradition, these standard gumboots are covered in stunning, colorful geometric beadwork by Ndebele artisans in South Africa, transforming a utilitarian item into a piece of wearable art.', price: 8500, originalPrice: 8500, imageUrls: [
         'https://images.unsplash.com/photo-1603191656209-9133f324c153?w=800',
         'https://images.unsplash.com/photo-1562273246-885449e802c0?w=800',
         'https://images.unsplash.com/photo-1605812836263-8d4512a8449c?w=800'
-      ], timesOrdered: 200, reviews: [{ id: 'review-s10-1', author: 'FestivalGoer', rating: 5, comment: 'These are INSANE! The beadwork is stunning. I can\'t wait to wear them and stand out at the next festival.', date: '2024-07-05' }]
+      ], timesOrdered: 200, reviews: [{ id: 'review-s10-1', author: 'FestivalGoer', rating: 5, comment: 'These are INSANE! The beadwork is stunning. I can\'t wait to wear them and stand out at the next festival.', date: '2025-07-05' }]
     },
    ],
    "For Kids": [

@@ -677,35 +677,35 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1601925698619-8de3e497b714?w=800',
         'https://images.unsplash.com/photo-1602133221473-207959438c22?w=800',
         'https://images.unsplash.com/photo-1585232240183-9b4f63ec255b?w=800'
-      ], timesOrdered: 301, reviews: [{ id: 'review-k1-1', author: 'NewMom', rating: 5, comment: 'The absolute cutest thing! The fabric is so soft on my baby\'s skin.', date: '2024-07-22' }]
+      ], timesOrdered: 301, reviews: [{ id: 'review-k1-1', author: 'NewMom', rating: 5, comment: 'The absolute cutest thing! The fabric is so soft on my baby\'s skin.', date: '2025-07-22' }]
     },
     {
       id: 'kids-002', name: 'Hand-Carved Wooden Animal Set', description: 'A set of 5 hand-carved and painted wooden safari animals.', longDescription: 'This beautiful set of safari animals (lion, elephant, giraffe, zebra, rhino) is hand-carved from sustainable jacaranda wood in Kenya. Painted with non-toxic paints, they are perfect for imaginative play or nursery decor.', price: 4500, originalPrice: 4800, imageUrls: [
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',
         'https://images.unsplash.com/photo-1574781488226-5d614833a695?w=800',
         'https://images.unsplash.com/photo-1598235122244-3652a926315a?w=800'
-      ], timesOrdered: 200, reviews: [{ id: 'review-k2-1', author: 'GrandmaGifts', rating: 5, comment: 'A wonderful, classic toy. The carving and painting are beautifully done. My grandson loves them.', date: '2024-07-20' }]
+      ], timesOrdered: 200, reviews: [{ id: 'review-k2-1', author: 'GrandmaGifts', rating: 5, comment: 'A wonderful, classic toy. The carving and painting are beautifully done. My grandson loves them.', date: '2025-07-20' }]
     },
     {
       id: 'kids-003', name: 'Kitenge Print Toddler Dress', description: 'A vibrant and playful dress for toddlers in a colorful Kitenge print.', longDescription: 'This adorable A-line dress is perfect for your little fashionista. Made from durable, 100% cotton Kitenge fabric, it\'s comfortable enough for playtime and stylish enough for parties.', price: 3500, originalPrice: 3500, imageUrls: [
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800',
         'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800',
         'https://images.unsplash.com/photo-1599827827055-66760591f24a?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-k3-1', author: 'StylishToddler', rating: 5, comment: 'My daughter looks so cute in this dress, and she loves how it twirls. Very well-made.', date: '2024-07-18' }]
+      ], timesOrdered: 150, reviews: [{ id: 'review-k3-1', author: 'StylishToddler', rating: 5, comment: 'My daughter looks so cute in this dress, and she loves how it twirls. Very well-made.', date: '2025-07-18' }]
     },
     {
       id: 'kids-004', name: 'African Folk Tales Picture Book', description: 'A beautifully illustrated book of classic African folk tales.', longDescription: 'Share the magic of African storytelling with this collection of classic folk tales. The vibrant illustrations and engaging stories make it a perfect bedtime read for children of all ages.', price: 1800, originalPrice: 1800, imageUrls: [
         'https://images.unsplash.com/photo-1543784184-1c6e156407db?w=800',
         'https://images.unsplash.com/photo-1461360370928-88290ab05292?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800'
-      ], timesOrdered: 130, reviews: [{ id: 'review-k4-1', author: 'BookwormParent', rating: 5, comment: 'The stories are wonderful and the illustrations are breathtaking. A new family favorite.', date: '2024-07-16' }]
+      ], timesOrdered: 130, reviews: [{ id: 'review-k4-1', author: 'BookwormParent', rating: 5, comment: 'The stories are wonderful and the illustrations are breathtaking. A new family favorite.', date: '2025-07-16' }]
     },
     {
       id: 'kids-005', name: 'Mini Djembe Drum', description: 'A small, playable djembe drum for kids, handcrafted in Ghana.', longDescription: 'Introduce your child to the rhythm of West Africa with this mini djembe. It features a solid wood body and a real goatskin head, producing a surprisingly rich sound. A fun and educational musical toy.', price: 3800, originalPrice: 4000, imageUrls: [
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',
         'https://images.unsplash.com/photo-1610714150249-93e5a5f45209?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-k5-1', author: 'MusicFamily', rating: 5, comment: 'This isn't just a toy, it's a real instrument. The quality is fantastic. My kids have so much fun with it.', date: '2024-07-15' }]
+      ], timesOrdered: 210, reviews: [{ id: 'review-k5-1', author: 'MusicFamily', rating: 5, comment: 'This isn't just a toy, it's a real instrument. The quality is fantastic. My kids have so much fun with it.', date: '2025-07-15' }]
     },
     {
       id: 'kids-006', name: 'Shweshwe Print Baby Bib', description: 'A stylish and absorbent bib made from South African Shweshwe fabric.', longDescription: 'Make mealtime a little more stylish with this durable bib. It features a colorful Shweshwe print on the front and a soft, absorbent backing to keep your baby clean and dry.', price: 1200, originalPrice: 1200, imageUrls: [

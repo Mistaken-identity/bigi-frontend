@@ -174,14 +174,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1617450365313-24603422a578?w=800',
         'https://images.unsplash.com/photo-1600868297712-429a3934d7a8?w=800',
         'https://images.unsplash.com/photo-1618221376839-a7965f7a0e23?w=800'
-      ], timesOrdered: 251, reviews: [{ id: 'review-h5-1', author: 'CozyCorner', rating: 5, comment: 'The softest blanket I have ever owned. It\'s beautifully made and has a very elegant look.', date: '2024-07-18' }]
+      ], timesOrdered: 251, reviews: [{ id: 'review-h5-1', author: 'CozyCorner', rating: 5, comment: 'The softest blanket I have ever owned. It\'s beautifully made and has a very elegant look.', date: '2025-07-18' }]
     },
     {
       id: 'home-006', name: 'Baule Cloth Wall Hanging', description: 'An authentic textile wall hanging from Côte d\'Ivoire.', longDescription: 'This Baule cloth wall hanging features intricate indigo-dyed patterns and fine embroidery. A stunning piece of textile art that brings history and texture to your walls.', price: 12000, originalPrice: 12000, imageUrls: [
         'https://images.unsplash.com/photo-1618221376839-a7965f7a0e23?w=800',
         'https://images.unsplash.com/photo-1618221376814-4903e62f689f?w=800',
         'https://images.unsplash.com/photo-1609228394464-63de239b3bd0?w=800'
-      ], timesOrdered: 243, reviews: [{ id: 'review-h6-1', author: 'DesignInspo', rating: 5, comment: 'An incredible find. The craftsmanship is breathtaking. It\'s the centerpiece of my gallery wall.', date: '2024-07-15' }]
+      ], timesOrdered: 243, reviews: [{ id: 'review-h6-1', author: 'DesignInspo', rating: 5, comment: 'An incredible find. The craftsmanship is breathtaking. It\'s the centerpiece of my gallery wall.', date: '2025-07-15' }]
     },
     {
       id: 'home-007', name: 'Ostrich Eggshell Candle Holder', description: 'A unique candle holder made from a decorated ostrich eggshell.', longDescription: 'Sourced from Namibia, this candle holder is made from a real, unfertilized ostrich eggshell, carefully carved and decorated with traditional San patterns. It casts a warm, beautiful glow.', price: 4200, originalPrice: 4200, imageUrls: [

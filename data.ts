@@ -261,14 +261,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1600985497269-37a4a2b56412?w=800',
         'https://images.unsplash.com/photo-1547496614-54c7283c7a9f?w=800',
         'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800'
-      ], timesOrdered: 280, reviews: [{ id: 'review-j4-1', author: 'Silver_Fan', rating: 5, comment: 'The detail on this ring is incredible. It has a great weight and feels very special to wear.', date: '2024-07-20' }]
+      ], timesOrdered: 280, reviews: [{ id: 'review-j4-1', author: 'Silver_Fan', rating: 5, comment: 'The detail on this ring is incredible. It has a great weight and feels very special to wear.', date: '2025-07-20' }]
     },
     {
       id: 'jewelry-005', name: 'Cowrie Shell Choker', description: 'A beautiful choker necklace made with natural cowrie shells.', longDescription: 'This trendy yet traditional choker is made from natural cowrie shells, historically a symbol of wealth and fertility in Africa. It has an adjustable cord for a comfortable fit.', price: 1900, originalPrice: 1900, imageUrls: [
         'https://images.unsplash.com/photo-1596701918349-74d32a0a2bfb?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800'
-      ], timesOrdered: 310, reviews: [{ id: 'review-j5-1', author: 'IslandVibes', rating: 5, comment: 'Perfect summer necklace. It\'s well-made and looks great layered with other pieces.', date: '2024-07-18' }]
+      ], timesOrdered: 310, reviews: [{ id: 'review-j5-1', author: 'IslandVibes', rating: 5, comment: 'Perfect summer necklace. It\'s well-made and looks great layered with other pieces.', date: '2025-07-18' }]
     },
     {
       id: 'jewelry-006', name: 'Ankole Horn Cuff Bracelet', description: 'A polished cuff bracelet made from sustainably sourced Ankole cow horn.', longDescription: 'This stunning cuff is handcrafted in Uganda from the horn of the Ankole-Watusi cattle. The horn is ethically sourced as a byproduct. Each piece has a unique blend of natural colors, from cream to black.', price: 4500, originalPrice: 4800, imageUrls: [
@@ -282,7 +282,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800',
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1582294121586-44c10705f15a?w=800'
-      ], timesOrdered: 189, reviews: [{ id: 'review-j7-1', author: 'BeadLover', rating: 5, comment: 'The beadwork is so tiny and perfect! I\'m amazed at the skill. They are my new favorite earrings.', date: '2024-07-14' }]
+      ], timesOrdered: 189, reviews: [{ id: 'review-j7-1', author: 'BeadLover', rating: 5, comment: 'The beadwork is so tiny and perfect! I\'m amazed at the skill. They are my new favorite earrings.', date: '2025-07-14' }]
     },
     {
       id: 'jewelry-008', name: 'Recycled Paper Bead Bracelet', description: 'A colorful, stretchable bracelet made from rolled recycled paper beads.', longDescription: 'Handmade by women in Ugandan co-ops, each bead on this bracelet is carefully rolled and varnished from recycled paper. A beautiful example of sustainable, empowering art.', price: 1500, originalPrice: 1500, imageUrls: [
@@ -312,7 +312,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Hand-Carved Soapstone Giraffe',
       description: 'An elegant giraffe sculpture, hand-carved from Kisii soapstone.',
       longDescription: 'This graceful giraffe sculpture is carved by artisans in Tabaka, Kenya, from a single piece of soapstone. The stone\'s natural colors are brought out through a meticulous polishing process, making each piece unique.',
-      price: 3800,
+      price: 3699,
       originalPrice: 3800,
       imageUrls: [
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',
@@ -321,7 +321,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 280,
       reviews: [
-        { id: 'review-a1-1', author: 'CollectorKen', rating: 5, comment: 'The carving is exquisite and the finish is so smooth. A beautiful addition to my collection of African art.', date: '2024-07-22' },
+        { id: 'review-a1-1', author: 'CollectorKen', rating: 5, comment: 'The carving is exquisite and the finish is so smooth. A beautiful addition to my collection of African art.', date: '2025-07-22' },
         { id: 'review-a1-2', author: 'Grace P.', rating: 5, comment: 'I bought this as a housewarming gift, and it was a huge hit. It\'s a very elegant and authentic piece.', date: '2025-07-20' },
       ]
     },

@@ -756,21 +756,21 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1598235122244-3652a926315a?w=800',
         'https://images.unsplash.com/photo-1596701918349-74d32a0a2bfb?w=800'
-      ], timesOrdered: 300, reviews: [{ id: 'review-g2-1', author: 'HomeChef', rating: 5, comment: 'This spice blend is amazing. So fragrant and flavorful. It has transformed my cooking.', date: '2024-07-20' }]
+      ], timesOrdered: 300, reviews: [{ id: 'review-g2-1', author: 'HomeChef', rating: 5, comment: 'This spice blend is amazing. So fragrant and flavorful. It has transformed my cooking.', date: '2025-07-20' }]
     },
     {
       id: 'gourmet-003', name: 'Vanilla Pods from Madagascar', description: 'Plump, fragrant, gourmet-grade vanilla pods.', longDescription: 'Considered the world\'s best, these vanilla pods from Madagascar are incredibly aromatic and full of flavor. Perfect for baking, custards, or making your own vanilla extract.', price: 1800, originalPrice: 1800, imageUrls: [
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800'
-      ], timesOrdered: 100, reviews: [{ id: 'review-g3-1', author: 'BakerBen', rating: 5, comment: 'The quality of these vanilla pods is outstanding. The aroma is incredible. Makes my desserts taste so much better.', date: '2024-07-19' }]
+      ], timesOrdered: 100, reviews: [{ id: 'review-g3-1', author: 'BakerBen', rating: 5, comment: 'The quality of these vanilla pods is outstanding. The aroma is incredible. Makes my desserts taste so much better.', date: '2025-07-19' }]
     },
     {
       id: 'gourmet-004', name: 'Rooibos Tea', description: 'Organic, loose-leaf Rooibos (Red Bush) tea from South Africa.', longDescription: 'Naturally caffeine-free and rich in antioxidants, Rooibos is a flavorful and healthy alternative to traditional tea. It has a smooth, slightly sweet, and earthy flavor.', price: 1500, originalPrice: 1500, imageUrls: [
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 200, reviews: [{ id: 'review-g4-1', author: 'TeaLover', rating: 5, comment: 'A lovely, soothing tea. The quality of this loose-leaf is excellent. I drink it every night.', date: '2024-07-17' }]
+      ], timesOrdered: 200, reviews: [{ id: 'review-g4-1', author: 'TeaLover', rating: 5, comment: 'A lovely, soothing tea. The quality of this loose-leaf is excellent. I drink it every night.', date: '2025-07-17' }]
     },
     {
       id: 'gourmet-005', name: 'Peri-Peri Hot Sauce', description: 'A fiery hot sauce made with African Bird\'s Eye chilies.', longDescription: 'Bring the heat with this authentic Peri-Peri sauce. Made from a blend of African Bird\'s Eye chilies, lemon, and spices, it\'s the perfect marinade or condiment for chicken, meat, and more.', price: 1000, originalPrice: 1000, imageUrls: [

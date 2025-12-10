@@ -416,7 +416,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 275,
       reviews: [
         { id: 'review-b1-1', author: 'NaturalBeauty', rating: 5, comment: 'This is the real deal. So creamy and moisturizing. It has done wonders for my dry skin and my daughter\'s eczema.', date: '2024-07-21' },
-        { id: 'review-b1-2', author: 'Chris P.', rating: 5, comment: 'Amazing product. I use it for my hair and beard. A little goes a long way.', date: '2024-07-17' },
+        { id: 'review-b1-2', author: 'Chris P.', rating: 5, comment: 'Amazing product. I use it for my hair and beard. A little goes a long way.', date: '2025-07-17' },
       ]
     },
     {

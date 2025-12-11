@@ -654,7 +654,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1605812836263-8d4512a8449c?w=800',
         'https://images.unsplash.com/photo-1562273246-885449e802c0?w=800',
         'https://images.unsplash.com/photo-1603191656209-9133f324c153?w=800'
-      ], timesOrdered: 220, reviews: [{ id: 'review-s8-1', author: 'RuggedGent', rating: 5, comment: 'Best boots I\'ve ever owned. No break-in period needed, comfortable from day one. And they look great.', date: '2025-07-10' }]
+      ], timesOrdered: 234, reviews: [{ id: 'review-s8-1', author: 'RuggedGent', rating: 5, comment: 'Best boots I\'ve ever owned. No break-in period needed, comfortable from day one. And they look great.', date: '2025-07-10' }]
     },
     {
       id: 'shoes-009', name: 'Cowrie Shell Embellished Slides', description: 'Simple slides decorated with natural cowrie shells.', longDescription: 'These easy-to-wear slides are given a bohemian, Afro-chic twist with hand-stitched cowrie shells on the strap. Perfect for the beach, pool, or a casual summer day.', price: 3500, originalPrice: 3500, imageUrls: [
@@ -791,7 +791,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 120, reviews: [{ id: 'review-g7-1', author: 'GlutenFreeGal', rating: 5, comment: 'I love this grain! It\'s so easy to cook and has a wonderful texture and flavor. My new favorite side dish.', date: '2024-07-12' }]
+      ], timesOrdered: 140, reviews: [{ id: 'review-g7-1', author: 'GlutenFreeGal', rating: 5, comment: 'I love this grain! It\'s so easy to cook and has a wonderful texture and flavor. My new favorite side dish.', date: '2024-07-12' }]
     },
     {
       id: 'gourmet-008', name: 'Harissa Spice Paste', description: 'A hot and aromatic chili paste from North Africa.', longDescription: 'This traditional Tunisian Harissa is a fiery and fragrant paste made from roasted red peppers, spices, and olive oil. Use it to add a kick to soups, stews, couscous, or as a condiment.', price: 1100, originalPrice: 1100, imageUrls: [
@@ -805,7 +805,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800'
-      ], timesOrdered: 120, reviews: [{ id: 'review-g9-1', author: 'WellnessWarrior', rating: 5, comment: 'A great addition to my morning smoothie. I love the tangy flavor and the nutritional benefits.', date: '2024-07-08' }]
+      ], timesOrdered: 220, reviews: [{ id: 'review-g9-1', author: 'WellnessWarrior', rating: 5, comment: 'A great addition to my morning smoothie. I love the tangy flavor and the nutritional benefits.', date: '2024-07-08' }]
     },
     {
       id: 'gourmet-010', name: 'Palm Oil', description: 'Sustainably sourced, unrefined red palm oil.', longDescription: 'This unrefined red palm oil has a rich, savory flavor and is a staple in West African cooking. It\'s packed with vitamins and is essential for authentic dishes like Jollof rice. Sourced from sustainable farms.', price: 1600, originalPrice: 1600, imageUrls: [

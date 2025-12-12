@@ -484,7 +484,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 143, reviews: [{ id: 'review-b9-1', author: 'OilySkinStruggles', rating: 5, comment: 'Finally, an oil that doesn\'t make me break out! It has actually helped reduce my blackheads and control my shine.', date: '2025-07-10' }]
+      ], timesOrdered: 163, reviews: [{ id: 'review-b9-1', author: 'OilySkinStruggles', rating: 5, comment: 'Finally, an oil that doesn\'t make me break out! It has actually helped reduce my blackheads and control my shine.', date: '2025-07-10' }]
     },
     {
       id: 'beauty-010', name: 'Frankincense Resin Incense', description: 'Raw frankincense resin from the Horn of Africa for burning.', longDescription: 'Purify your space with the sacred smoke of frankincense resin. Used for millennia in ceremonies, it has a calming, grounding aroma. Burn on a charcoal disc for the best experience.', price: 1600, originalPrice: 1600, imageUrls: [
@@ -564,7 +564,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800'
-      ], timesOrdered: 96, reviews: [{ id: 'review-acc7-1', author: 'Chris', rating: 5, comment: 'Great quality. Has a nice weight to it. A cool, subtle way to carry some heritage.', date: '2025-07-14' }]
+      ], timesOrdered: 126, reviews: [{ id: 'review-acc7-1', author: 'Chris', rating: 5, comment: 'Great quality. Has a nice weight to it. A cool, subtle way to carry some heritage.', date: '2025-07-14' }]
     },
     {
       id: 'acc-008', name: 'Ankole Horn Bottle Opener', description: 'A sleek bottle opener with a handle made of Ankole horn.', longDescription: 'This elegant bottle opener features a stainless steel head and a handle crafted from ethically-sourced Ankole horn. Each handle has a unique pattern, making it a sophisticated addition to any home bar.', price: 3500, originalPrice: 3500, imageUrls: [
@@ -777,7 +777,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 240, reviews: [{ id: 'review-g5-1', author: 'SpicyLife', rating: 5, comment: 'This sauce has the perfect balance of heat and flavor. So good on everything!', date: '2024-07-15' }]
+      ], timesOrdered: 250, reviews: [{ id: 'review-g5-1', author: 'SpicyLife', rating: 5, comment: 'This sauce has the perfect balance of heat and flavor. So good on everything!', date: '2024-07-15' }]
     },
     {
       id: 'gourmet-006', name: 'Hibiscus Flowers (Bissap)', description: 'Dried hibiscus flowers for making refreshing drinks and teas.', longDescription: 'Used all over West Africa to make a refreshing drink called Bissap, these dried hibiscus flowers have a tart, cranberry-like flavor. Rich in vitamin C and antioxidants.', price: 900, originalPrice: 900, imageUrls: [

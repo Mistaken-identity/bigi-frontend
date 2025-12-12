@@ -406,14 +406,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Raw Unrefined Shea Butter',
       description: '100% pure, unrefined shea butter sourced from Ghana.',
       longDescription: 'Nourish your skin and hair with the healing power of raw shea butter. Rich in vitamins A, E, and F, it deeply moisturizes, soothes irritation, and improves skin elasticity. Perfect for all skin types.',
-      price: 1500,
+      price: 1499,
       originalPrice: 1500,
       imageUrls: [
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1596701918349-74d32a0a2bfb?w=800'
       ],
-      timesOrdered: 275,
+      timesOrdered: 285,
       reviews: [
         { id: 'review-b1-1', author: 'NaturalBeauty', rating: 5, comment: 'This is the real deal. So creamy and moisturizing. It has done wonders for my dry skin and my daughter\'s eczema.', date: '2025-07-21' },
         { id: 'review-b1-2', author: 'Chris P.', rating: 5, comment: 'Amazing product. I use it for my hair and beard. A little goes a long way.', date: '2025-07-17' },
@@ -424,7 +424,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Authentic African Black Soap',
       description: 'Traditional black soap made with cocoa pods and shea butter.',
       longDescription: 'Experience a deep, clarifying cleanse with authentic African Black Soap. Renowned for its ability to fight acne, reduce blemishes, and gently exfoliate, this soap leaves your skin feeling clean and refreshed without stripping its natural oils.',
-      price: 1200,
+      price: 1299,
       originalPrice: 1400,
       imageUrls: [
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800',

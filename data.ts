@@ -449,14 +449,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1616431955686-cb12a6d71a17?w=800'
-      ], timesOrdered: 120, reviews: [{ id: 'review-b4-1', author: 'GlowUp', rating: 5, comment: 'This oil feels so light but is incredibly moisturizing. My skin has a beautiful glow after using it for a week.', date: '2025-07-20' }]
+      ], timesOrdered: 170, reviews: [{ id: 'review-b4-1', author: 'GlowUp', rating: 5, comment: 'This oil feels so light but is incredibly moisturizing. My skin has a beautiful glow after using it for a week.', date: '2025-07-20' }]
     },
     {
       id: 'beauty-005', name: 'Rooibos Infused Body Butter', description: 'A rich body butter infused with antioxidant-rich South African rooibos.', longDescription: 'Soothe and protect your skin with this creamy body butter. It combines the moisturizing power of shea butter with the anti-aging benefits of rooibos tea extract.', price: 2200, originalPrice: 2200, imageUrls: [
         'https://images.unsplash.com/photo-1560961913-b29a75cb1812?w=800',
         'https://images.unsplash.com/photo-1554922589-5cf27a9dea91?w=800',
         'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
-      ], timesOrdered: 145, reviews: [{ id: 'review-b5-1', author: 'Pampered', rating: 5, comment: 'Smells amazing and makes my skin feel so soft and hydrated all day. Not greasy at all.', date: '2025-07-18' }]
+      ], timesOrdered: 147, reviews: [{ id: 'review-b5-1', author: 'Pampered', rating: 5, comment: 'Smells amazing and makes my skin feel so soft and hydrated all day. Not greasy at all.', date: '2025-07-18' }]
     },
     {
       id: 'beauty-006', name: 'Chebe Hair Growth Powder', description: 'A traditional hair-strengthening powder from Chad.', longDescription: 'Chebe powder is the secret to the incredibly long hair of the women in Chad. Mix it with your favorite oil or conditioner to create a paste that strengthens hair, prevents breakage, and promotes length retention.', price: 2500, originalPrice: 2500, imageUrls: [

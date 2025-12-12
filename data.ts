@@ -415,7 +415,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ],
       timesOrdered: 275,
       reviews: [
-        { id: 'review-b1-1', author: 'NaturalBeauty', rating: 5, comment: 'This is the real deal. So creamy and moisturizing. It has done wonders for my dry skin and my daughter\'s eczema.', date: '2024-07-21' },
+        { id: 'review-b1-1', author: 'NaturalBeauty', rating: 5, comment: 'This is the real deal. So creamy and moisturizing. It has done wonders for my dry skin and my daughter\'s eczema.', date: '2025-07-21' },
         { id: 'review-b1-2', author: 'Chris P.', rating: 5, comment: 'Amazing product. I use it for my hair and beard. A little goes a long way.', date: '2025-07-17' },
       ]
     },
@@ -434,7 +434,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 120,
       reviews: [
         { id: 'review-b2-1', author: 'ClearSkin', rating: 5, comment: 'This soap has been a game-changer for my acne-prone skin. My face feels so clean and my breakouts have reduced significantly.', date: '2025-07-22' },
-        { id: 'review-b2-2', author: 'Sam D.', rating: 4, comment: 'Very effective, but make sure to moisturize well after using as it can be a bit drying. It lathers up really well.', date: '2024-07-15' },
+        { id: 'review-b2-2', author: 'Sam D.', rating: 4, comment: 'Very effective, but make sure to moisturize well after using as it can be a bit drying. It lathers up really well.', date: '2025-07-15' },
       ]
     },
     {

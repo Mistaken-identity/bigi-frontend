@@ -594,7 +594,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Men\'s Beaded Leather Sandals',
       description: 'Handcrafted leather sandals with traditional Maasai beadwork.',
       longDescription: 'Step out in style and comfort with these unique leather sandals. Featuring a durable sole and soft leather straps adorned with intricate beadwork, they are a testament to skilled artisanship. Perfect for warm weather.',
-      price: 5200,
+      price: 5499,
       originalPrice: 5800,
       imageUrls: [
         'https://images.unsplash.com/photo-1562273246-885449e802c0?w=800',
@@ -619,7 +619,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-s3-1', author: 'EuroStyle', rating: 5, comment: 'Incredibly chic and comfortable. They mold to your feet. Perfect for my trip to the coast.', date: '2025-07-20' }]
+      ], timesOrdered: 220, reviews: [{ id: 'review-s3-1', author: 'EuroStyle', rating: 5, comment: 'Incredibly chic and comfortable. They mold to your feet. Perfect for my trip to the coast.', date: '2025-07-20' }]
     },
     {
       id: 'shoes-004', name: 'Tire Sole "Ten Thousand Toes" Sandals', description: 'Durable and eco-friendly sandals made from recycled car tires.', longDescription: 'Known locally as "ten thousand toes" for their durability, these sandals are an iconic piece of Kenyan ingenuity. The sole is cut from a recycled tire and the straps are made of sturdy leather. Incredibly long-lasting.', price: 3200, originalPrice: 3200, imageUrls: [

@@ -536,14 +536,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 350, reviews: [{ id: 'review-acc3-1', author: 'UrbanExplorer', rating: 5, comment: 'Such a cool and unique backpack. It\'s very sturdy and surprisingly spacious. I get compliments on it all the time.', date: '2025-07-20' }]
+      ], timesOrdered: 370, reviews: [{ id: 'review-acc3-1', author: 'UrbanExplorer', rating: 5, comment: 'Such a cool and unique backpack. It\'s very sturdy and surprisingly spacious. I get compliments on it all the time.', date: '2025-07-20' }]
     },
     {
       id: 'acc-004', name: 'Beaded Leather Belt', description: 'A handmade leather belt featuring colorful Maasai beadwork.', longDescription: 'Elevate your jeans or dress with this beautiful, handcrafted belt. The genuine leather is adorned with intricate, hand-stitched beadwork in traditional Maasai patterns, finished with a solid brass buckle.', price: 5800, originalPrice: 5800, imageUrls: [
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800'
-      ], timesOrdered: 332, reviews: [{ id: 'review-acc4-1', author: 'Style Maven', rating: 5, comment: 'The craftsmanship is incredible. A stunning, high-quality belt that makes any outfit special.', date: '2025-07-19' }]
+      ], timesOrdered: 345, reviews: [{ id: 'review-acc4-1', author: 'Style Maven', rating: 5, comment: 'The craftsmanship is incredible. A stunning, high-quality belt that makes any outfit special.', date: '2025-07-19' }]
     },
     {
       id: 'acc-005', name: 'Ankara Print Fabric Fan', description: 'A beautiful and functional folding fan made with Ankara fabric.', longDescription: 'Stay cool in style with this vibrant folding fan. Constructed with a sturdy wooden frame and covered in bold Ankara print fabric, it\'s a practical and beautiful accessory for warm days.', price: 1500, originalPrice: 1500, imageUrls: [

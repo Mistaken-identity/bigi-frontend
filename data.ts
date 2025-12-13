@@ -525,7 +525,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1592328775213-9a3a693ce480?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800',
       ],
-      timesOrdered: 280,
+      timesOrdered: 290,
       reviews: [
         { id: 'review-acc2-1', author: 'Fashionista_Flo', rating: 5, comment: 'My new favorite bag. It\'s beautifully made, spacious, and the combination of leather and Kitenge is just stunning.', date: '2024-07-21' },
         { id: 'review-acc2-2', author: 'Brenda K.', rating: 5, comment: 'This bag is a work of art. The quality is top-notch and it\'s the perfect size for all my essentials.', date: '2025-07-18' },

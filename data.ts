@@ -225,7 +225,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
       ],
-      timesOrdered: 285,
+      timesOrdered: 295,
       reviews: [
         { id: 'review-j1-1', author: 'AfroChic', rating: 5, comment: 'A true statement piece! The beadwork is incredibly detailed. It\'s lightweight and comfortable to wear all day.', date: '2024-07-21' },
         { id: 'review-j1-2', author: 'GiftGiver', rating: 5, comment: 'Bought this as a gift for my sister and she was blown away. It\'s a beautiful piece of culture and art.', date: '2025-07-19' },
@@ -236,7 +236,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Brass Spiral Earrings',
       description: 'Elegant spiral earrings handcrafted from reclaimed brass in Nairobi.',
       longDescription: 'These minimalist yet striking earrings are molded and polished by hand from recycled brass. Their elegant spiral design is versatile, perfect for both everyday wear and special occasions. Lightweight and hypoallergenic.',
-      price: 2500,
+      price: 2599,
       originalPrice: 2800,
       imageUrls: [
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',

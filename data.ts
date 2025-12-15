@@ -312,7 +312,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Hand-Carved Soapstone Giraffe',
       description: 'An elegant giraffe sculpture, hand-carved from Kisii soapstone.',
       longDescription: 'This graceful giraffe sculpture is carved by artisans in Tabaka, Kenya, from a single piece of soapstone. The stone\'s natural colors are brought out through a meticulous polishing process, making each piece unique.',
-      price: 3699,
+      price: 3799,
       originalPrice: 3800,
       imageUrls: [
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',

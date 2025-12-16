@@ -69,7 +69,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1579301258942-824f9b8b321a?w=800',
         'https://images.unsplash.com/photo-1594938382329-87a177558655?w=800'
       ],
-      timesOrdered: 294,
+      timesOrdered: 297,
       reviews: [
         { id: 'review-f4-1', author: 'DapperDan', rating: 5, comment: 'Stunning bow tie. The weaving is intricate and the colors pop. It was a huge hit at the gala.', date: '2025-08-19' },
       ]
@@ -100,7 +100,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1592328775213-9a3a693ce480?w=800',
         'https://images.unsplash.com/photo-1590820088924-2c70094054a8?w=800',
         'https://images.unsplash.com/photo-1621336143335-3372c2121067?w=800'
-      ], timesOrdered: 292, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2025-08-18' }]
+      ], timesOrdered: 296, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2025-08-18' }]
     },
     {
       id: 'fashion-009', name: 'Men\'s Agbada Robe', description: 'A grand, flowing robe for special occasions.', longDescription: 'This traditional Nigerian Agbada is a three-piece set featuring a grand, wide-sleeved robe, an undervest, and matching trousers. Made from premium damask with intricate embroidery.', price: 15000, originalPrice: 16500, imageUrls: [

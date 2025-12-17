@@ -86,14 +86,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1609228394464-63de239b3bd0?w=800',
         'https://images.unsplash.com/photo-1595882512144-db4520a767e4?w=800',
         'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800'
-      ], timesOrdered: 277, reviews: [{ id: 'review-f6-1', author: 'Ngozi A.', rating: 5, comment: 'The dye patterns are incredible. So much more beautiful in person. I love wearing this piece of my heritage.', date: '2024-07-21' }]
+      ], timesOrdered: 287, reviews: [{ id: 'review-f6-1', author: 'Ngozi A.', rating: 5, comment: 'The dye patterns are incredible. So much more beautiful in person. I love wearing this piece of my heritage.', date: '2025-07-21' }]
     },
     {
       id: 'fashion-007', name: 'Shweshwe A-Line Skirt', description: 'A colorful A-line skirt from South Africa.', longDescription: 'Made from iconic Three Cats Shweshwe fabric, this A-line skirt boasts vibrant geometric patterns and a flattering silhouette. It features a comfortable waistband and side pockets.', price: 4500, originalPrice: 4500, imageUrls: [
         'https://images.unsplash.com/photo-1551843425-1a8a7c2c2f82?w=800',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 210, reviews: [{ id: 'review-f7-1', author: 'Lerato P.', rating: 5, comment: 'Beautifully made skirt and the fabric is top quality. The pockets are a huge plus!', date: '2024-07-20' }]
+      ], timesOrdered: 210, reviews: [{ id: 'review-f7-1', author: 'Lerato P.', rating: 5, comment: 'Beautifully made skirt and the fabric is top quality. The pockets are a huge plus!', date: '2025-07-20' }]
     },
     {
       id: 'fashion-008', name: 'Kikoy Beach Sarong', description: 'A soft, versatile sarong from Kenya.', longDescription: 'Woven from soft, absorbent cotton, the traditional Kenyan Kikoy is the perfect beach accessory. Use it as a sarong, a towel, a scarf, or a throw. Features distinctive hand-knotted tassels.', price: 2800, originalPrice: 3000, imageUrls: [
@@ -103,7 +103,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ], timesOrdered: 296, reviews: [{ id: 'review-f8-1', author: 'BeachBum', rating: 5, comment: 'So soft and the colors are gorgeous. Dries quickly. My new vacation essential.', date: '2025-08-18' }]
     },
     {
-      id: 'fashion-009', name: 'Men\'s Agbada Robe', description: 'A grand, flowing robe for special occasions.', longDescription: 'This traditional Nigerian Agbada is a three-piece set featuring a grand, wide-sleeved robe, an undervest, and matching trousers. Made from premium damask with intricate embroidery.', price: 15000, originalPrice: 16500, imageUrls: [
+      id: 'fashion-009', name: 'Men\'s Agbada Robe', description: 'A grand, flowing robe for special occasions.', longDescription: 'This traditional Nigerian Agbada is a three-piece set featuring a grand, wide-sleeved robe, an undervest, and matching trousers. Made from premium damask with intricate embroidery.', price: 15999, originalPrice: 16500, imageUrls: [
         'https://images.unsplash.com/photo-1585232240183-9b4f63ec255b?w=800',
         'https://images.unsplash.com/photo-1601925698619-8de3e497b714?w=800',
         'https://images.unsplash.com/photo-1602133221473-207959438c22?w=800'

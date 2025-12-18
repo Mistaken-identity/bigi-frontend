@@ -225,7 +225,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
       ],
-      timesOrdered: 295,
+      timesOrdered: 297,
       reviews: [
         { id: 'review-j1-1', author: 'AfroChic', rating: 5, comment: 'A true statement piece! The beadwork is incredibly detailed. It\'s lightweight and comfortable to wear all day.', date: '2024-07-21' },
         { id: 'review-j1-2', author: 'GiftGiver', rating: 5, comment: 'Bought this as a gift for my sister and she was blown away. It\'s a beautiful piece of culture and art.', date: '2025-07-19' },
@@ -312,7 +312,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Hand-Carved Soapstone Giraffe',
       description: 'An elegant giraffe sculpture, hand-carved from Kisii soapstone.',
       longDescription: 'This graceful giraffe sculpture is carved by artisans in Tabaka, Kenya, from a single piece of soapstone. The stone\'s natural colors are brought out through a meticulous polishing process, making each piece unique.',
-      price: 3799,
+      price: 3699,
       originalPrice: 3800,
       imageUrls: [
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800',

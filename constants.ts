@@ -132,7 +132,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         joke: "Why did the marketer get dumped? A lack of engagement."
     },
     {
-        name: "Emmanuel Otieno",
+        name: "",
         title: "Co-Founder & Logistics Director",
         role: "Logistics",
         bio: "The Bridge-Builder. He masterminds the complex journey from a rural workshop to a customer's doorstep across the globe. He's building not just a supply chain, but a network of trust that connects our artisans to the world.",

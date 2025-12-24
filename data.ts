@@ -181,35 +181,35 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1618221376839-a7965f7a0e23?w=800',
         'https://images.unsplash.com/photo-1618221376814-4903e62f689f?w=800',
         'https://images.unsplash.com/photo-1609228394464-63de239b3bd0?w=800'
-      ], timesOrdered: 243, reviews: [{ id: 'review-h6-1', author: 'DesignInspo', rating: 5, comment: 'An incredible find. The craftsmanship is breathtaking. It\'s the centerpiece of my gallery wall.', date: '2025-07-15' }]
+      ], timesOrdered: 245, reviews: [{ id: 'review-h6-1', author: 'DesignInspo', rating: 5, comment: 'An incredible find. The craftsmanship is breathtaking. It\'s the centerpiece of my gallery wall.', date: '2025-07-15' }]
     },
     {
       id: 'home-007', name: 'Ostrich Eggshell Candle Holder', description: 'A unique candle holder made from a decorated ostrich eggshell.', longDescription: 'Sourced from Namibia, this candle holder is made from a real, unfertilized ostrich eggshell, carefully carved and decorated with traditional San patterns. It casts a warm, beautiful glow.', price: 4200, originalPrice: 4200, imageUrls: [
         'https://images.unsplash.com/photo-1614285458922-a54b3834e5a9?w=800',
         'https://images.unsplash.com/photo-1596205244510-53434647355e?w=800',
         'https://images.unsplash.com/photo-1612188173489-86f78a7b5d0e?w=800'
-      ], timesOrdered: 80, reviews: [{ id: 'review-h7-1', author: 'GiftGiver', rating: 5, comment: 'Bought this as a unique gift and it was a huge success. So unusual and beautiful.', date: '2025-07-14' }]
+      ], timesOrdered: 99, reviews: [{ id: 'review-h7-1', author: 'GiftGiver', rating: 5, comment: 'Bought this as a unique gift and it was a huge success. So unusual and beautiful.', date: '2025-07-14' }]
     },
     {
       id: 'home-008', name: 'Raffia Palm Placemat Set', description: 'A set of 4 handwoven placemats from Madagascar.', longDescription: 'Bring a natural, bohemian touch to your dining table with these raffia placemats. Woven by hand, they are durable, beautiful, and protect your table in style.', price: 3800, originalPrice: 4000, imageUrls: [
         'https://images.unsplash.com/photo-1599187825597-4054b011403b?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800'
-      ], timesOrdered: 175, reviews: [{ id: 'review-h8-1', author: 'DinnerPartyPro', rating: 5, comment: 'These look fantastic on my table. Very well made and easy to clean.', date: '2025-07-10' }]
+      ], timesOrdered: 177, reviews: [{ id: 'review-h8-1', author: 'DinnerPartyPro', rating: 5, comment: 'These look fantastic on my table. Very well made and easy to clean.', date: '2025-07-10' }]
     },
     {
       id: 'home-009', name: 'Tuareg Leather Floor Cushion', description: 'A hand-tooled leather pouf from Morocco.', longDescription: 'This authentic Moroccan pouf is made from genuine leather and hand-stitched with intricate Tuareg patterns. Perfect as extra seating, a footstool, or a unique side table. (Ships unstuffed).', price: 11500, originalPrice: 12500, imageUrls: [
         'https://images.unsplash.com/photo-1589997193238-552458627a6f?w=800',
         'https://images.unsplash.com/photo-1613919099457-65814a682a93?w=800',
         'https://images.unsplash.com/photo-1593113548208-88b1a2b5a198?w=800'
-      ], timesOrdered: 245, reviews: [{ id: 'review-h9-1', author: 'BohoChic', rating: 5, comment: 'The leather is beautiful and the stitching is perfect. It looks so good in my living room.', date: '2025-07-08' }]
+      ], timesOrdered: 246, reviews: [{ id: 'review-h9-1', author: 'BohoChic', rating: 5, comment: 'The leather is beautiful and the stitching is perfect. It looks so good in my living room.', date: '2025-07-08' }]
     },
     {
       id: 'home-010', name: 'Ndebele Print Table Runner', description: 'A vibrant table runner with South African Ndebele patterns.', longDescription: 'Brighten up your dining space with this colorful table runner. It features the bold, geometric patterns characteristic of Ndebele art, printed on durable, high-quality cotton.', price: 2900, originalPrice: 2900, imageUrls: [
         '/assets/images/',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 240, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2025-07-05' }]
+      ], timesOrdered: 247, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2025-07-05' }]
     },
   ],
   "Jewelry": [
@@ -237,13 +237,13 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       description: 'Elegant spiral earrings handcrafted from reclaimed brass in Nairobi.',
       longDescription: 'These minimalist yet striking earrings are molded and polished by hand from recycled brass. Their elegant spiral design is versatile, perfect for both everyday wear and special occasions. Lightweight and hypoallergenic.',
       price: 2599,
-      originalPrice: 2800,
+      originalPrice: 2700,
       imageUrls: [
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
       ],
-      timesOrdered: 230,
+      timesOrdered: 237,
       reviews: [
         { id: 'review-j2-1', author: 'StylishSusan', rating: 5, comment: 'I wear these almost every day. They are simple, elegant, and go with everything. Plus, I love that they are made from recycled materials.', date: '2024-07-18' },
         { id: 'review-j2-2', author: 'ArtLover', rating: 5, comment: 'Beautifully crafted. They have a lovely weight to them and catch the light perfectly.', date: '2025-07-15' },
@@ -254,14 +254,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800'
-      ], timesOrdered: 150, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2025-07-22' }]
+      ], timesOrdered: 158, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2025-07-22' }]
     },
     {
       id: 'jewelry-004', name: 'Tuareg Silver Ring', description: 'A sterling silver ring with traditional Tuareg engravings.', longDescription: 'Handcrafted by Tuareg artisans in the Sahara, this sterling silver ring features intricate geometric patterns symbolic of the desert nomads. A solid, meaningful piece of wearable art.', price: 6200, originalPrice: 6200, imageUrls: [
         'https://images.unsplash.com/photo-1600985497269-37a4a2b56412?w=800',
         'https://images.unsplash.com/photo-1547496614-54c7283c7a9f?w=800',
         'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800'
-      ], timesOrdered: 280, reviews: [{ id: 'review-j4-1', author: 'Silver_Fan', rating: 5, comment: 'The detail on this ring is incredible. It has a great weight and feels very special to wear.', date: '2025-07-20' }]
+      ], timesOrdered: 289, reviews: [{ id: 'review-j4-1', author: 'Silver_Fan', rating: 5, comment: 'The detail on this ring is incredible. It has a great weight and feels very special to wear.', date: '2025-07-20' }]
     },
     {
       id: 'jewelry-005', name: 'Cowrie Shell Choker', description: 'A beautiful choker necklace made with natural cowrie shells.', longDescription: 'This trendy yet traditional choker is made from natural cowrie shells, historically a symbol of wealth and fertility in Africa. It has an adjustable cord for a comfortable fit.', price: 1900, originalPrice: 1900, imageUrls: [
@@ -275,7 +275,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800'
-      ], timesOrdered: 285, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2025-07-16' }]
+      ], timesOrdered: 289, reviews: [{ id: 'review-j6-1', author: 'EcoWarrior', rating: 5, comment: 'So beautiful and I love that it\'s a sustainable product. The finish is like glass. A real conversation piece.', date: '2025-07-16' }]
     },
     {
       id: 'jewelry-007', name: 'Zulu Beaded Hoop Earrings', description: 'Small hoop earrings adorned with intricate Zulu beadwork.', longDescription: 'These vibrant hoop earrings feature tiny glass beads meticulously woven in traditional Zulu patterns. They are lightweight, colorful, and perfect for adding a touch of South African artistry to your look.', price: 2800, originalPrice: 2800, imageUrls: [

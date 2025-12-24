@@ -69,7 +69,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1579301258942-824f9b8b321a?w=800',
         'https://images.unsplash.com/photo-1594938382329-87a177558655?w=800'
       ],
-      timesOrdered: 297,
+      timesOrdered: 299,
       reviews: [
         { id: 'review-f4-1', author: 'DapperDan', rating: 5, comment: 'Stunning bow tie. The weaving is intricate and the colors pop. It was a huge hit at the gala.', date: '2025-08-19' },
       ]

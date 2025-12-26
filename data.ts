@@ -289,21 +289,21 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1620786259049-775b310438a0?w=800',
         'https://images.unsplash.com/photo-1621949172421-9875de9a74c7?w=800',
         'https://images.unsplash.com/photo-1599387737838-66a151b782b4?w=800'
-      ], timesOrdered: 252, reviews: [{ id: 'review-j8-1', author: 'GreenQueen', rating: 5, comment: 'Love the story behind this bracelet, and it\'s so colorful and fun to wear. A great, affordable gift.', date: '2025-07-11' }]
+      ], timesOrdered: 257, reviews: [{ id: 'review-j8-1', author: 'GreenQueen', rating: 5, comment: 'Love the story behind this bracelet, and it\'s so colorful and fun to wear. A great, affordable gift.', date: '2025-07-11' }]
     },
     {
       id: 'jewelry-009', name: 'Berber Enamel Pendant', description: 'A silver and enamel pendant from the Berber artisans of Morocco.', longDescription: 'This striking pendant features the intricate silverwork and vibrant enamel detailing characteristic of Berber jewelry. A powerful amulet and a beautiful piece of North African history.', price: 7500, originalPrice: 8000, imageUrls: [
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
         'https://images.unsplash.com/photo-1600985497269-37a4a2b56412?w=800',
         'https://images.unsplash.com/photo-1547496614-54c7283c7a9f?w=800'
-      ], timesOrdered: 247, reviews: [{ id: 'review-j9-1', author: 'HistoryBuff', rating: 5, comment: 'A museum-quality piece. The craftsmanship is stunning. It feels amazing to wear.', date: '2025-07-10' }]
+      ], timesOrdered: 249, reviews: [{ id: 'review-j9-1', author: 'HistoryBuff', rating: 5, comment: 'A museum-quality piece. The craftsmanship is stunning. It feels amazing to wear.', date: '2025-07-10' }]
     },
     {
       id: 'jewelry-010', name: 'Africa Map Brass Necklace', description: 'A simple and elegant necklace with a brass pendant of the African continent.', longDescription: 'Show your love for the motherland with this chic necklace. The pendant is cut from polished brass and hangs on a delicate, adjustable chain. A perfect everyday piece.', price: 2200, originalPrice: 2200, imageUrls: [
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800'
-      ], timesOrdered: 319, reviews: [{ id: 'review-j10-1', author: 'ProudlyAfrican', rating: 5, comment: 'Simple, elegant, and meaningful. I haven\'t taken it off since I got it.', date: '2025-07-08' }]
+      ], timesOrdered: 322, reviews: [{ id: 'review-j10-1', author: 'ProudlyAfrican', rating: 5, comment: 'Simple, elegant, and meaningful. I haven\'t taken it off since I got it.', date: '2025-07-08' }]
     },
    ],
    "Art & Crafts": [

@@ -209,7 +209,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         '/assets/images/',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
-      ], timesOrdered: 247, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2025-07-05' }]
+      ], timesOrdered: 257, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2025-07-05' }]
     },
   ],
   "Jewelry": [

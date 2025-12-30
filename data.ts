@@ -243,7 +243,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
       ],
-      timesOrdered: 237,
+      timesOrdered: 255,
       reviews: [
         { id: 'review-j2-1', author: 'StylishSusan', rating: 5, comment: 'I wear these almost every day. They are simple, elegant, and go with everything. Plus, I love that they are made from recycled materials.', date: '2024-07-18' },
         { id: 'review-j2-2', author: 'ArtLover', rating: 5, comment: 'Beautifully crafted. They have a lovely weight to them and catch the light perfectly.', date: '2025-07-15' },
@@ -254,7 +254,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
         'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
         'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800'
-      ], timesOrdered: 158, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2025-07-22' }]
+      ], timesOrdered: 168, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2025-07-22' }]
     },
     {
       id: 'jewelry-004', name: 'Tuareg Silver Ring', description: 'A sterling silver ring with traditional Tuareg engravings.', longDescription: 'Handcrafted by Tuareg artisans in the Sahara, this sterling silver ring features intricate geometric patterns symbolic of the desert nomads. A solid, meaningful piece of wearable art.', price: 6200, originalPrice: 6200, imageUrls: [
@@ -340,7 +340,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       timesOrdered: 409,
       reviews: [
         { id: 'review-a2-1', author: 'David Matasi', rating: 5, comment: 'The colors are so vivid and happy! It makes me smile every time I look at it. Arrived safely and well-packaged.', date: '2025-08-17' },
-        { id: 'review-a2-2', author: 'Mike R.', rating: 5, comment: 'A fantastic piece of art that brings so much life to my office. The detail is wonderful.', date: '2025-08-19' },
+        { id: 'review-a2-2', author: 'Mike V.', rating: 5, comment: 'A fantastic piece of art that brings so much life to my office. The detail is wonderful.', date: '2025-08-19' },
       ]
     },
     {

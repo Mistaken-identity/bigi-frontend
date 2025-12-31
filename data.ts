@@ -62,8 +62,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Kente Cloth Bow Tie',
       description: 'A pre-tied bow tie made from authentic Ghanaian Kente cloth.',
       longDescription: 'Add a touch of heritage and color to your formal wear. This Kente bow tie is expertly crafted and comes pre-tied with an adjustable strap for a perfect fit every time.',
-      price: 2500,
-      originalPrice: 2500,
+      price: 2499,
+      originalPrice: 2700,
       imageUrls: [
         'https://images.unsplash.com/photo-1512101957429-39b0d23c8a99?w=800',
         'https://images.unsplash.com/photo-1579301258942-824f9b8b321a?w=800',

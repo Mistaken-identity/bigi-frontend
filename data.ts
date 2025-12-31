@@ -7,7 +7,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Azure Blue Kitenge Dress',
       description: 'A vibrant, floor-length dress made from 100% authentic Kitenge fabric.',
       longDescription: 'Embrace bold patterns and vibrant colors with this stunning Azure Blue Kitenge Dress. Expertly tailored for a flattering silhouette, this dress is perfect for weddings, parties, or making a statement. The breathable cotton fabric ensures comfort all day long.',
-      price: 4499,
+      price: 4999,
       originalPrice: 5200,
       imageUrls: [
           '/assets/images/a khanga leso dress in Mombasa old town.jpeg',

@@ -225,7 +225,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
       ],
-      timesOrdered: 297,
+      timesOrdered: 299,
       reviews: [
         { id: 'review-j1-1', author: 'AfroChic', rating: 5, comment: 'A true statement piece! The beadwork is incredibly detailed. It\'s lightweight and comfortable to wear all day.', date: '2024-07-21' },
         { id: 'review-j1-2', author: 'GiftGiver', rating: 5, comment: 'Bought this as a gift for my sister and she was blown away. It\'s a beautiful piece of culture and art.', date: '2025-07-19' },

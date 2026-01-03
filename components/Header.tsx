@@ -99,7 +99,7 @@ export const Header: FC<{
                             )}
                             {liveSearchResults.map(product => (
                                 <div key={product.id} onClick={() => onProductClick(product)} className="flex items-center p-2 hover:bg-gray-700 cursor-pointer border-b border-gray-700 last:border-b-0">
-                                    <img src={product.imageUrls[0]} alt={product.name} className="w-12 h-12 object-cover rounded-md mr-3"/>
+                                    <img src={product.imageUrls?.[0] || '/assets/images/placeholder.jpg'} alt={product.name} className="w-12 h-12 object-cover rounded-md mr-3"/>
                                     <div className="flex-grow">
                                         <p className="text-sm font-medium text-gray-100 truncate">{product.name}</p>
                                         <p className="text-sm text-orange-600 font-semibold">{formatCurrency(product.price)}</p>

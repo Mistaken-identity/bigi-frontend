@@ -4,11 +4,8 @@ import { CartItem, DeliveryDetails } from '../types';
 import { DELIVERY_LOCATIONS, SHIPPING_COST } from '../constants';
 import { ArrowLeftIcon, UserIcon, PhoneIcon, EnvelopeIcon, MapPinIcon, CheckCircleIcon, BanknotesIcon, BuildingStorefrontIcon, ChevronDownIcon } from '../icons';
 import { formatCurrency } from '../utils';
-import PlaceOrderButton from '../components/PlaceOrderButton';
+import { useCart } from '../hooks';
 
-
-// inside JSX 
-<PlaceOrderButton />
 
 const FormSection: FC<{ title: string, icon: ReactNode, children: ReactNode }> = ({ title, icon, children }) => (
     <div>
@@ -64,7 +61,9 @@ const ProgressBar: FC<{ current: number, total: number }> = ({ current, total })
     </div>
 );
 
-export const CheckoutView: FC<{ cart: CartItem[], onPlaceOrder: (details: DeliveryDetails) => void, onBack: () => void }> = ({ cart, onPlaceOrder, onBack }) => {
+export const CheckoutView: FC<{ onPlaceOrder: (details: DeliveryDetails) => void, onBack: () => void }> = ({ onPlaceOrder, onBack }) => {
+    // Use cart from hook instead of prop
+    const { cart } = useCart();
     const [details, setDetails] = useState<DeliveryDetails>({
         firstName: '', lastName: '', phone: '', email: '', location: '', locationDetails: '', paymentMethod: 'payOnDelivery', mpesaNumber: '', cardNumber: ''
     });
@@ -359,7 +358,7 @@ export const CheckoutView: FC<{ cart: CartItem[], onPlaceOrder: (details: Delive
                                 {cart.map(item => (
                                     <div key={item.id} className="flex items-start">
                                         {/* Fix: Changed item.imageUrl to item.imageUrls[0] */}
-                                        <img src={item.imageUrls[0]} alt={item.name} className="w-16 h-16 rounded-lg object-cover mr-4" />
+                                        <img src={item.imageUrls?.[0] || '/assets/images/placeholder.jpg'} alt={item.name} className="w-16 h-16 rounded-lg object-cover mr-4" />
                                         <div className="flex-grow">
                                             <p className="font-semibold text-gray-800">{item.name}</p>
                                             <p className="text-sm text-gray-500">Qty: {item.quantity}</p>

@@ -24,7 +24,7 @@ export const WishlistView: FC<{ wishlist: WishlistItem[]; onRemoveFromWishlist: 
             <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 animated-section stagger-container">
                 {wishlist.map(item => (
                     <div key={item.id} className="stagger-item bg-white rounded-lg shadow-md overflow-hidden relative">
-                        <img src={item.imageUrls[0]} alt={item.name} className="w-full h-48 object-cover" />
+                        <img src={item.imageUrls?.[0] || '/assets/images/placeholder.jpg'} alt={item.name} className="w-full h-48 object-cover" />
                         <div className="p-4">
                             <h3 className="text-lg font-semibold text-gray-800 truncate">{item.name}</h3>
                             <p className="text-xl font-bold text-orange-600 mt-2">{formatCurrency(item.price)}</p>

@@ -1,9 +1,12 @@
+/// <reference types="vite/client" />
+
 interface ApiResponse<T> {
   ok: boolean;
   data?: T;
   error?: string;
 }
 
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 /**
  * A wrapper for async operations to provide timeout and standardized error handling.
  * @param operation
@@ -28,3 +31,43 @@ export async function apiFetch<T>(
     return { ok: false, error: errorMessage };
   }
 }
+
+
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://bigi-backend.onrender.com';
+
+export interface OrderData {
+  items: Array<{
+    productId: string;
+    name: string;
+    price: number;
+    qty: number;
+  }>;
+  customer: {
+    name: string;
+    phone: string;
+    email: string;
+    address: string;
+  };
+  payment: {
+    method: string;
+    status: string;
+  };
+  total: number;
+  createdAt: string;
+}
+
+export async function createOrder(orderData: OrderData) { 
+  return apiFetch(async () => {
+     const res = await fetch(`${BASE_URL}/orders`, {
+       method: 'POST', 
+       headers: { 'Content-Type': 'application/json' }, 
+       body: JSON.stringify(orderData), 
+      }); 
+      
+      if (!res.ok) {
+         throw new Error('Failed to place order'); 
+        } 
+
+        return res.json(); 
+      }); 
+    }

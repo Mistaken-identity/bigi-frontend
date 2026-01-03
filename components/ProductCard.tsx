@@ -9,7 +9,7 @@ export const ProductCard: FC<{ product: Product, onAddToCart: (product: Product)
     return (
         <div className={`bg-white rounded-lg overflow-hidden group ${className || 'shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300'}`}>
             <div className="relative cursor-pointer overflow-hidden" onClick={() => onProductClick(product)}>
-                <img src={product.imageUrls[0]} alt={product.name} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300 ease-in-out" />
+                <img src={product.imageUrls?.[0] || '/assets/images/placeholder.jpg'} alt={product.name} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300 ease-in-out" />
                 {discount > 0 && <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded z-10">{discount}% OFF</span>}
             </div>
             <div className="p-4">

@@ -6,6 +6,8 @@ import { CartIcon, TrashIcon, WhatsAppIcon, ExclamationCircleIcon } from '../ico
 import { useAnimateOnScroll } from '../hooks';
 
 export const CartView: FC<{ 
+   
+
     cart: CartItem[]; 
     onUpdateQuantity: (productId: string, quantity: number) => void; 
     onRequestRemoveFromCart: (productId: string) => void; 
@@ -14,10 +16,11 @@ export const CartView: FC<{
     error: string | null;
     onRetry: () => void;
 }> = ({ cart, onUpdateQuantity, onRequestRemoveFromCart, onNavigate, isLoading, error, onRetry }) => {
-    const subtotal = useMemo(() => cart.reduce((sum, item) => sum + item.price * item.quantity, 0), [cart]);
-    const total = subtotal + SHIPPING_COST;
     const itemsRef = useAnimateOnScroll<HTMLDivElement>();
     const summaryRef = useAnimateOnScroll<HTMLDivElement>();
+    
+    const subtotal = useMemo(() => cart.reduce((sum, item) => sum + item.price * item.quantity, 0), [cart]);
+    const total = subtotal + SHIPPING_COST;
     
     const whatsAppMessage = useMemo(() => {
         let message = "Hello Bigi! I'd like to place an order for the following items:\n\n";
@@ -73,7 +76,7 @@ export const CartView: FC<{
                         {cart.map(item => (
                             <div key={item.id} className="stagger-item flex items-center justify-between border-b pb-4">
                                 <div className="flex items-center">
-                                    <img src={item.imageUrls[0]} alt={item.name} className="w-20 h-20 rounded-md object-cover mr-4" />
+                                    <img src={item.imageUrls?.[0] || '/assets/images/placeholder.jpg'} alt={item.name} className="w-20 h-20 rounded-md object-cover mr-4" />
                                     <div>
                                         <h3 className="font-semibold text-gray-800">{item.name}</h3>
                                         <p className="text-gray-500">{formatCurrency(item.price)}</p>
@@ -121,3 +124,4 @@ export const CartView: FC<{
         </div>
     );
 };
+

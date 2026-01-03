@@ -3,6 +3,7 @@ import { Product, CartItem, WishlistItem, DeliveryDetails, Order, LiveSale, User
 import { CATEGORIES, SHIPPING_COST } from './constants';
 import { LOCAL_PRODUCTS } from './data';
 import { searchProducts } from './services/geminiService';
+import { createOrder } from './services/api';
 import { useLocalStorage, useToast, useCart } from './hooks';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
@@ -137,7 +138,7 @@ const App: FC = () => {
         addToast('Thank you for your review!', 'success');
     }, [setAllReviews, addToast]);
 
-    const handlePlaceOrder = useCallback((deliveryDetails: DeliveryDetails) => {
+    const handlePlaceOrder = useCallback(async (deliveryDetails: DeliveryDetails) => {
         const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
         const paymentStatus = deliveryDetails.paymentMethod === 'payOnDelivery' ? 'Pending - Pay on Delivery' : 'Paid';
         const newOrder: Order = {
@@ -150,10 +151,42 @@ const App: FC = () => {
             date: new Date().toLocaleDateString('en-GB'),
             paymentStatus,
         };
-        setOrders(prev => [...prev, newOrder]);
-        clearCart();
-        handleNavigate('orderConfirmation', newOrder);
-    }, [cart, setOrders, clearCart, handleNavigate]);
+
+        // Build order data for API
+        const orderData = {
+            items: cart.map(item => ({
+                productId: item.id,
+                name: item.name,
+                price: item.price,
+                qty: item.quantity
+            })),
+            customer: {
+                name: `${deliveryDetails.firstName} ${deliveryDetails.lastName}`,
+                phone: deliveryDetails.phone,
+                email: deliveryDetails.email,
+                address: `${deliveryDetails.location}, ${deliveryDetails.locationDetails}`
+            },
+            payment: {
+                method: deliveryDetails.paymentMethod === 'payOnDelivery' ? 'payOnDelivery' : 'payAtSite',
+                status: paymentStatus === 'Paid' ? 'paid' : 'pending'
+            },
+            total: subtotal + SHIPPING_COST,
+            createdAt: new Date().toISOString()
+        };
+
+        // Submit to backend
+        const result = await createOrder(orderData);
+
+        if (result.ok) {
+            // Save to local orders
+            setOrders(prev => [...prev, newOrder]);
+            clearCart();
+            addToast('Order placed successfully!', 'success');
+            handleNavigate('orderConfirmation', newOrder);
+        } else {
+            addToast('Failed to place order: ' + (result.error || 'Unknown error'), 'error');
+        }
+    }, [cart, setOrders, clearCart, handleNavigate, addToast]);
 
     const handleLogin = useCallback((user: User) => {
         setCurrentUser(user);
@@ -213,7 +246,7 @@ const App: FC = () => {
         switch (view) {
             case 'products': return <ProductListView category={viewData.category} onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} onBack={() => handleNavigate('home')} />;
             case 'cart': return <ErrorBoundary><CartView cart={cart} onUpdateQuantity={updateCartQuantity} onRequestRemoveFromCart={requestRemoveFromCart} onNavigate={handleNavigate} isLoading={isCartLoading} error={cartError} onRetry={reloadCart} /></ErrorBoundary>;
-            case 'checkout': return <ErrorBoundary><CheckoutView cart={cart} onPlaceOrder={handlePlaceOrder} onBack={() => handleNavigate('cart')} /></ErrorBoundary>;
+            case 'checkout': return <ErrorBoundary><CheckoutView onPlaceOrder={handlePlaceOrder} onBack={() => handleNavigate('cart')} /></ErrorBoundary>;
             case 'wishlist': return <WishlistView wishlist={wishlist} onRemoveFromWishlist={removeFromWishlist} onAddToCart={addToCart} onNavigate={handleNavigate} />;
             case 'aboutUs': return <AboutUsView />;
             case 'search': return <SearchView query={searchQuery} results={searchResults} onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} onBack={() => handleNavigate('home')} />;

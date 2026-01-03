@@ -34,7 +34,7 @@ export const ProductModal: FC<{
     onAddReview: (productId: string, review: Review) => void,
     userReviews: Review[]
 }> = ({ product, onClose, onAddToCart, onAddReview, userReviews }) => {
-    const [selectedImageUrl, setSelectedImageUrl] = useState(product.imageUrls[0]);
+    const [selectedImageUrl, setSelectedImageUrl] = useState(product.imageUrls?.[0] || '/assets/images/placeholder.jpg');
     
     const combinedReviews = useMemo(() => {
         const all = [...userReviews, ...product.reviews];

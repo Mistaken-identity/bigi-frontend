@@ -131,20 +131,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
           '/assets/images/rattan basket4.jpg',
           '/assets/images/rattan basket5.jpg',
       ],
+      
       timesOrdered: 437,
-
-      name: 'Rattan Sisal Basket',
-      description: 'A beautiful and functional decorative basket, handwoven by Kenyan artisans.',
-      longDescription: 'Add a touch of authentic African craftsmanship to your home with this sisal basket. Perfect for storing blankets, magazines, or as a planter pot cover. Each basket is unique, showcasing the skill of the weaver.',
-      price: 3699,
-      originalPrice: 4000,
-      imageUrls: [
-          '/assets/images/rattan basket2.jpeg',
-          'https://images.unsplash.com/photo-1550948386-89512875a643?w=800',
-          'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
-      ],
-
-      timesOrdered: 310, 
       reviews: [
           { id: 'review-h1-1', author: 'Jane D.', rating: 5, comment: 'This basket is even more beautiful in person. The quality is amazing and it adds such a nice, natural touch to my living room.', date: '2025-08-12' },
           { id: 'review-h1-2', author: 'EcoLiving', rating: 5, comment: 'I love that this is a handmade, sustainable product. It\'s sturdy and beautifully made. Highly recommend!', date: '2024-07-10' },

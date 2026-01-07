@@ -1,3 +1,4 @@
+import { createOrder } from "../services/api";
 import React, { FC, useMemo, useRef } from 'react';
 import { CartItem, View } from '../types';
 import { SHIPPING_COST, WHATSAPP_NUMBER } from '../constants';
@@ -30,6 +31,30 @@ export const CartView: FC<{
         message += `\nSubtotal: ${formatCurrency(subtotal)}`;
         message += `\nTotal: ${formatCurrency(total)}`;
         message += "\n\nPlease let me know the next steps. Thank you!";
+       
+        const handlePlaceOrder = async () => { 
+            try { 
+                const orderPayload = { 
+                    items: cart.map((item: any) => ({ 
+                        productId: item.id, 
+                        name: item.name, 
+                        price: item.price, 
+                        quantity: item.quantity, 
+                    })), 
+                    totalAmount: total, 
+                    customer: { 
+                        name: "Guest User", 
+                        phone: "0700000000", 
+                    }, 
+                }; 
+                await createOrder(orderPayload); 
+                alert("Order placed successfully!"); 
+            } catch (error) { 
+                console.error(error);
+                 alert("Failed to place order"); 
+                } 
+            };
+       
         return encodeURIComponent(message);
     }, [cart, subtotal, total]);
 
@@ -114,7 +139,7 @@ export const CartView: FC<{
                             <span>{formatCurrency(total)}</span>
                         </div>
                     </div>
-                    <button onClick={() => onNavigate('checkout')} className="mt-6 w-full bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition-colors">Proceed to Checkout</button>
+                    <button onClick={(handlePlaceOrder) => onNavigate('checkout')} className="mt-6 w-full bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition-colors">Proceed to Checkout</button>
                     <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${whatsAppMessage}`} target="_blank" rel="noopener noreferrer" className="mt-3 w-full bg-green-500 text-white font-bold py-3 rounded-lg hover:bg-green-600 transition-colors flex items-center justify-center">
                          <WhatsAppIcon className="w-6 h-6 mr-2" />
                         Order via WhatsApp

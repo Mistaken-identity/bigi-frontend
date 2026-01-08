@@ -8,7 +8,6 @@ import { useAnimateOnScroll } from '../hooks';
 
 export const CartView: FC<{ 
    
-
     cart: CartItem[]; 
     onUpdateQuantity: (productId: string, quantity: number) => void; 
     onRequestRemoveFromCart: (productId: string) => void; 
@@ -22,7 +21,31 @@ export const CartView: FC<{
     
     const subtotal = useMemo(() => cart.reduce((sum, item) => sum + item.price * item.quantity, 0), [cart]);
     const total = subtotal + SHIPPING_COST;
-    
+    const handlePlaceOrder = async () => { 
+        try { 
+            const orderData = { 
+                items: cart.map(item => ({ 
+                    productId: item.id, 
+                    name: item.name, 
+                    price: item.price, 
+                    quantity: item.quantity, 
+                    image: item.imageUrls?.[0] || "" 
+                })), 
+                total: total, 
+                createdAt: new Date() 
+            }; 
+            
+            const res = await createOrder(orderData); 
+            console.log("Order saved:", res.data); 
+            
+            alert("Order placed successfully!"); 
+            onNavigate("checkout"); 
+        } catch (error: any) { 
+            console.error("Order failed:", error.response?.data || error.message); 
+            alert("Failed to place order"); 
+        } 
+    };
+
     const whatsAppMessage = useMemo(() => {
         let message = "Hello Bigi! I'd like to place an order for the following items:\n\n";
         cart.forEach(item => {
@@ -32,29 +55,7 @@ export const CartView: FC<{
         message += `\nTotal: ${formatCurrency(total)}`;
         message += "\n\nPlease let me know the next steps. Thank you!";
        
-        const handlePlaceOrder = async () => { 
-            try { 
-                const orderPayload = { 
-                    items: cart.map((item: any) => ({ 
-                        productId: item.id, 
-                        name: item.name, 
-                        price: item.price, 
-                        quantity: item.quantity, 
-                    })), 
-                    totalAmount: total, 
-                    customer: { 
-                        name: "Guest User", 
-                        phone: "0700000000", 
-                    }, 
-                }; 
-                await createOrder(orderPayload); 
-                alert("Order placed successfully!"); 
-            } catch (error) { 
-                console.error(error);
-                 alert("Failed to place order"); 
-                } 
-            };
-       
+        // Encode the message for WhatsApp URL
         return encodeURIComponent(message);
     }, [cart, subtotal, total]);
 
@@ -139,7 +140,11 @@ export const CartView: FC<{
                             <span>{formatCurrency(total)}</span>
                         </div>
                     </div>
-                    <button onClick={(handlePlaceOrder) => onNavigate('checkout')} className="mt-6 w-full bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition-colors">Proceed to Checkout</button>
+                    <button 
+                          onClick={handlePlaceOrder} 
+                          className="mt-6 w-full bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition-colors">
+                            Proceed to Checkout
+                          </button>
                     <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${whatsAppMessage}`} target="_blank" rel="noopener noreferrer" className="mt-3 w-full bg-green-500 text-white font-bold py-3 rounded-lg hover:bg-green-600 transition-colors flex items-center justify-center">
                          <WhatsAppIcon className="w-6 h-6 mr-2" />
                         Order via WhatsApp

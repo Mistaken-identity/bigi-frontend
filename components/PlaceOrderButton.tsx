@@ -104,27 +104,22 @@ async function handlePlaceOrder(e?: React.FormEvent) {
         // minimal validation 
         if (!confirm('You did not enter contact details. Are you sure you want to place order?')) return; 
     } 
-    const order = buildOrder(items); 
-    setLoading(true); 
-
-    try { 
-        const result = await createOrder(order); 
+   const order = buildOrder(items); 
+   setLoading(true); 
+   
+   try { 
+    const res = await createOrder(order); 
+     console.log("Order response:", res.data); 
+     alert("Order placed successfully"); 
+     
+     onSuccess?.(res.data); 
+     
+      } catch (error: any) { 
+        console.error("Order error:", error.response?.data || error.message); 
+        alert(error.response?.data?.message || "Failed to place order"); 
+        onError?.(error); 
+    } finally { 
         setLoading(false); 
-        
-        if (result.ok) {
-            alert('Order submitted successfully! We will contact you. Thank you!');
-            // Clear cart after successful order
-            localStorage.removeItem('bigi_cart');
-            if (onSuccess) onSuccess(result);
-        } else {
-            alert('Failed to place order: ' + (result.error || 'Unknown error'));
-            if (onError) onError(new Error(result.error));
-        }
-    } catch (err) { 
-        console.error('Place order failed', err);
-        setLoading(false); 
-        alert('Failed to place order. Please try again or contact us.'); 
-        if (onError) onError(err); 
     } 
 } 
  

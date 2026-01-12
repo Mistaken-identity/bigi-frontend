@@ -78,6 +78,7 @@ export const ProductModal: FC<{
         if (reviews.length > 1) {
           setIsSummaryLoading(true);
           setSummary(null);
+          
           const response = await summarizeReviews(reviews);
           if (response.ok && response.data) {
             setSummary(response.data);

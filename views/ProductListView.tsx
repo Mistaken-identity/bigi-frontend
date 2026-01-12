@@ -5,7 +5,6 @@ import { ArrowLeftIcon, ChevronDownIcon, ExclamationCircleIcon } from '../icons'
 import { ProductCard } from '../components/ProductCard';
 import { useAnimateOnScroll } from '../hooks';
 import { CATEGORY_DESCRIPTIONS } from '../constants';
-
 type SortOption = 'popular' | 'rating-desc' | 'price-asc' | 'price-desc';
 
 export const ProductListView: FC<{ category: string; onProductClick: (product: Product) => void; onAddToCart: (product: Product) => void; onToggleWishlist: (product: Product) => void; wishlistedItems: WishlistItem[]; onBack: () => void; }> = ({ category, onProductClick, onAddToCart, onToggleWishlist, wishlistedItems, onBack }) => {
@@ -20,7 +19,7 @@ export const ProductListView: FC<{ category: string; onProductClick: (product: P
 
     const fetchProducts = useCallback(async () => {
         setLoading(true);
-        setError('');
+        setError
         const response = await generateProductsForCategory(category);
         if (response.ok && response.data) {
             setProducts(response.data);

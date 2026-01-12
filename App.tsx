@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback, useMemo, FC } from 'react';
 import { Product, CartItem, WishlistItem, DeliveryDetails, Order, LiveSale, User, ToastMessage, View, Review } from './types';
 import { CATEGORIES, SHIPPING_COST } from './constants';
 import { LOCAL_PRODUCTS } from './data';
-import { searchProducts } from './services/geminiService';
 import { createOrder } from './services/api';
 import { useLocalStorage, useToast, useCart } from './hooks';
 import { ErrorBoundary } from './components/ErrorBoundary';
@@ -65,34 +64,7 @@ const App: FC = () => {
         window.scrollTo(0, 0);
     }, []);
     
-    const handleSearch = async (query: string) => {
-        setSearchQuery(query);
-        setIsLiveSearchLoading(true);
-        const response = await searchProducts(query);
-        if (response.ok && response.data) {
-            setSearchResults(response.data);
-        } else {
-            setSearchResults([]);
-            addToast(response.error || 'Search failed', 'error');
-        }
-        setIsLiveSearchLoading(false);
-        handleNavigate('search');
-    };
-
-    const handleLiveSearch = useCallback(async (query: string) => {
-        if (!query || query.trim().length < 2) {
-            setLiveSearchResults([]);
-            return;
-        }
-        setIsLiveSearchLoading(true);
-        const response = await searchProducts(query);
-        if (response.ok && response.data) {
-            setLiveSearchResults(response.data.slice(0, 5));
-        } else {
-            setLiveSearchResults([]);
-        }
-        setIsLiveSearchLoading(false);
-    }, []);
+   
     
     const clearLiveSearch = useCallback(() => {
         setLiveSearchResults([]);
@@ -175,19 +147,20 @@ const App: FC = () => {
         };
 
         // Submit to backend
-        const result = await createOrder(orderData);
-
-        if (result.ok) {
-            // Save to local orders
-            setOrders(prev => [...prev, newOrder]);
-            clearCart();
-            addToast('Order placed successfully!', 'success');
-            handleNavigate('orderConfirmation', newOrder);
-        } else {
-            addToast('Failed to place order: ' + (result.error || 'Unknown error'), 'error');
+        try { 
+            const res = await createOrder(orderData); 
+            
+            setOrders(prev => [...prev, newOrder]); 
+            clearCart(); 
+            addToast('Order placed successfully!', 'success'); 
+            handleNavigate('orderConfirmation', newOrder); 
+        
+        } catch (error: any) { 
+            console.error("Order API error:", error.response?.data || error.message); 
+            addToast('Failed to place order', 'error'); 
         }
+        
     }, [cart, setOrders, clearCart, handleNavigate, addToast]);
-
     const handleLogin = useCallback((user: User) => {
         setCurrentUser(user);
         handleNavigate('home');
@@ -275,10 +248,6 @@ const App: FC = () => {
                 wishlistCount={wishlist.length}
                 onNavigate={handleNavigate}
                 onToggleSidebar={() => setSidebarOpen(!isSidebarOpen)}
-                onSearch={handleSearch}
-                onLiveSearch={handleLiveSearch}
-                liveSearchResults={liveSearchResults}
-                isLiveSearchLoading={isLiveSearchLoading}
                 onProductClick={handleProductClick}
                 onClearLiveSearch={clearLiveSearch}
                 currentUser={currentUser}

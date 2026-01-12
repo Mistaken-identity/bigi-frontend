@@ -95,6 +95,7 @@ function buildOrder(items: any[]): Order {
 
 async function handlePlaceOrder(e?: React.FormEvent) { 
     if (e) e.preventDefault(); 
+    
     const items = getCart(); 
     if (!items || items.length === 0) { 
         alert('Your cart is empty.'); 

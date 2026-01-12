@@ -1,8 +1,23 @@
 import axios from "axios";
 
-const API_URL = "https://bigi-backend.onrender.com/api/orders";
+/**
+ * Backend base URL (Render)
+ */
+const BASE_URL = "https://bigi-backend.onrender.com";
 
+/**
+ * Create order (checkout)
+ */
 export const createOrder = async (order: any) => {
-    return axios.post(`${API_URL}`, order);
-};
+  const response = await axios.post(
+    `${BASE_URL}/api/orders`,
+    order,
+    {
+      headers: {
+        "Content-Type": "application/json"
+      }
+    }
+  );
 
+  return response.data;
+};

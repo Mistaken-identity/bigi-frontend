@@ -227,7 +227,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       price: 7500,
       originalPrice: 8500,
       imageUrls: [
-        '/assets/images/necklace.jpeg',
+        '/assets/images/deep.jpeg',
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
         'https://images.unsplash.com/photo-1585646143497-83a21b35c13b?w=800',
       ],
@@ -239,15 +239,15 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
     },
     {
       id: 'jewelry-002',
-      name: 'Brass Spiral Earrings',
-      description: 'Elegant spiral earrings handcrafted from reclaimed brass in Nairobi.',
-      longDescription: 'These minimalist yet striking earrings are molded and polished by hand from recycled brass. Their elegant spiral design is versatile, perfect for both everyday wear and special occasions. Lightweight and hypoallergenic.',
-      price: 2599,
-      originalPrice: 2700,
+      name: '20 litre Haier Microwave Oven',
+      description: 'A modern, compact microwave oven with digital controls.',
+      longDescription: 'This sleek and functional microwave oven is perfect for small kitchens. It features a digital display, easy-to-use controls, and a spacious interior for convenient cooking.',
+      price: 11999,
+      originalPrice: 12999,
       imageUrls: [
-        'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
-        'https://images.unsplash.com/photo-1611652033952-b05425211933?w=800',
-        'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
+        '/assets/images/oven.jpeg',
+        '/assets/images/oven.jpeg',
+        '/assets/images/oven3.jpeg',
       ],
       timesOrdered: 255,
       reviews: [

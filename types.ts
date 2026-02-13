@@ -66,10 +66,13 @@ export interface LiveSale {
 }
 
 export interface User {
-  firstName: string;
-  lastName: string;
+  id?: string;
+  _id?: string;
+  firstName?: string;
+  lastName?: string;
+  name?: string; // For backend auth which returns 'name'
   email: string;
-  password?: string; // Add password for authentication
+  password?: string;
 }
 
 export interface TeamMember {
@@ -108,4 +111,5 @@ export type View =
   | 'auth'
   | 'myAccount'
   | 'terms'
-  | 'privacy';
+  | 'privacy'
+  | 'valentineCollection';

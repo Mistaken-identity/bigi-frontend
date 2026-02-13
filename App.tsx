@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo, FC } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, FC, useRef } from 'react';
 import { Product, CartItem, WishlistItem, DeliveryDetails, Order, LiveSale, User, ToastMessage, View, Review } from './types';
 import { CATEGORIES, SHIPPING_COST } from './constants';
 import { LOCAL_PRODUCTS } from './data';
@@ -30,6 +30,7 @@ import { HelpCenterView } from './views/HelpCenterView';
 import { AuthView } from './views/AuthView';
 import { MyAccountView } from './views/MyAccountView';
 import { LegalView } from './views/LegalView';
+import { ValentineCollectionView } from './views/ValentineCollectionView';
 
 import { TERMS_CONTENT, PRIVACY_POLICY_CONTENT } from './constants';
 
@@ -37,6 +38,8 @@ const App: FC = () => {
     const [view, setView] = useState<View>('home');
     const [viewData, setViewData] = useState<any>(null);
     const { toasts, addToast, removeToast } = useToast();
+    const navigationHistory = useRef<Array<{ view: View; data: any }>>([{ view: 'home', data: null }]);
+    const isNavigatingBack = useRef(false);
 
     // Centralized cart logic is now in the useCart hook
     const { cart, loading: isCartLoading, error: cartError, reload: reloadCart, addToCart, updateCartQuantity, clearCart } = useCart();
@@ -59,12 +62,46 @@ const App: FC = () => {
     const [itemToRemoveFromCart, setItemToRemoveFromCart] = useState<string | null>(null);
 
     const handleNavigate = useCallback((newView: View, data: any = null) => {
+        if (!isNavigatingBack.current) {
+            // Add to history when navigating forward
+            navigationHistory.current.push({ view: newView, data });
+            // Push state to browser history
+            window.history.pushState({ view: newView, data }, '', `#${newView}`);
+        }
+        isNavigatingBack.current = false;
         setView(newView);
         setViewData(data);
         window.scrollTo(0, 0);
     }, []);
     
-   
+    // Handle browser back/forward buttons
+    useEffect(() => {
+        const handlePopState = (event: PopStateEvent) => {
+            if (event.state && event.state.view) {
+                isNavigatingBack.current = true;
+                setView(event.state.view);
+                setViewData(event.state.data || null);
+                window.scrollTo(0, 0);
+            } else if (navigationHistory.current.length > 1) {
+                // If no state, go back in our history
+                navigationHistory.current.pop();
+                const previousState = navigationHistory.current[navigationHistory.current.length - 1];
+                isNavigatingBack.current = true;
+                setView(previousState.view);
+                setViewData(previousState.data);
+                window.scrollTo(0, 0);
+            }
+        };
+
+        window.addEventListener('popstate', handlePopState);
+        
+        // Set initial state
+        window.history.replaceState({ view: 'home', data: null }, '', '#home');
+
+        return () => {
+            window.removeEventListener('popstate', handlePopState);
+        };
+    }, []);
     
     const clearLiveSearch = useCallback(() => {
         setLiveSearchResults([]);
@@ -161,17 +198,18 @@ const App: FC = () => {
         }
         
     }, [cart, setOrders, clearCart, handleNavigate, addToast]);
+
     const handleLogin = useCallback((user: User) => {
         setCurrentUser(user);
         handleNavigate('home');
-        addToast(`Welcome back, ${user.firstName}!`, 'success');
+        addToast(`Welcome back, ${user.firstName || user.name}!`, 'success');
     }, [setCurrentUser, handleNavigate, addToast]);
 
     const handleSignup = useCallback((user: User) => {
         setUsers(prev => [...prev, user]);
         setCurrentUser(user);
         handleNavigate('home');
-        addToast(`Welcome, ${user.firstName}! Your account has been created.`, 'success');
+        addToast(`Welcome, ${user.firstName || user.name}! Your account has been created.`, 'success');
     }, [setUsers, setCurrentUser, handleNavigate, addToast]);
 
     const performLogout = useCallback(() => {
@@ -232,6 +270,7 @@ const App: FC = () => {
             case 'terms': return <LegalView title="Terms & Conditions" content={TERMS_CONTENT} onNavigate={handleNavigate} />;
             case 'privacy': return <LegalView title="Privacy Policy" content={PRIVACY_POLICY_CONTENT} onNavigate={handleNavigate} />;
             case 'orderConfirmation': return <OrderConfirmationView order={viewData as Order} onNavigate={handleNavigate} />;
+            case 'valentineCollection': return <ValentineCollectionView onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} onBack={() => handleNavigate('home')} />;
             case 'home':
             default: return <HomeView onNavigate={handleNavigate} onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} />;
         }
@@ -240,46 +279,46 @@ const App: FC = () => {
     const cartCount = useMemo(() => cart?.reduce((sum, item) => sum + item.quantity, 0) ?? 0, [cart]);
 
     const mainLayout = (
-      <>
-        <Sidebar onNavigate={handleNavigate} isOpen={isSidebarOpen} onClose={() => setSidebarOpen(false)} currentUser={currentUser} onLogout={requestLogout} />
-        <div className="transition-all duration-300 lg:ml-64 flex flex-col min-h-screen">
-            <Header
-                cartCount={cartCount}
-                wishlistCount={wishlist.length}
-                onNavigate={handleNavigate}
-                onToggleSidebar={() => setSidebarOpen(!isSidebarOpen)}
-                onProductClick={handleProductClick}
-                onClearLiveSearch={clearLiveSearch}
-                currentUser={currentUser}
-            />
-            <main className="p-4 sm:p-6 lg:p-8 flex-grow">
-                {renderView()}
-            </main>
-            <Footer onNavigate={handleNavigate} />
+        <div>
+            <Sidebar onNavigate={handleNavigate} isOpen={isSidebarOpen} onClose={() => setSidebarOpen(false)} currentUser={currentUser} onLogout={requestLogout} />
+            <div className="transition-all duration-300 lg:ml-64 flex flex-col min-h-screen">
+                <Header
+                    cartCount={cartCount}
+                    wishlistCount={wishlist.length}
+                    onNavigate={handleNavigate}
+                    onToggleSidebar={() => setSidebarOpen(!isSidebarOpen)}
+                    onProductClick={handleProductClick}
+                    onClearLiveSearch={clearLiveSearch}
+                    currentUser={currentUser}
+                />
+                <main className="p-4 sm:p-6 lg:p-8 flex-grow">
+                    {renderView()}
+                </main>
+                <Footer onNavigate={handleNavigate} />
+            </div>
+            {selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} onAddToCart={addToCart} onAddReview={addReview} userReviews={allReviews[selectedProduct.id] || []} />}
+            <ToastContainer toasts={toasts} removeToast={removeToast} />
+            {liveSales.length > 0 && <LiveSaleNotification sale={liveSales[0]} onClose={() => closeLiveSale(0)} />}
+            <ConfirmationModal
+                isOpen={showLogoutConfirm}
+                onClose={() => setShowLogoutConfirm(false)}
+                onConfirm={performLogout}
+                title="Confirm Logout"
+                confirmText="Logout"
+            >
+                Are you sure you want to log out of your account?
+            </ConfirmationModal>
+            <ConfirmationModal
+                isOpen={!!itemToRemoveFromCart}
+                onClose={() => setItemToRemoveFromCart(null)}
+                onConfirm={performRemoveFromCart}
+                title="Remove Item"
+                confirmText="Remove"
+            >
+                Are you sure you want to remove this item from your cart?
+            </ConfirmationModal>
+            <FloatingWhatsAppButton />
         </div>
-        {selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} onAddToCart={addToCart} onAddReview={addReview} userReviews={allReviews[selectedProduct.id] || []} />}
-        <ToastContainer toasts={toasts} removeToast={removeToast} />
-        {liveSales.length > 0 && <LiveSaleNotification sale={liveSales[0]} onClose={() => closeLiveSale(0)} />}
-        <ConfirmationModal
-            isOpen={showLogoutConfirm}
-            onClose={() => setShowLogoutConfirm(false)}
-            onConfirm={performLogout}
-            title="Confirm Logout"
-            confirmText="Logout"
-        >
-            Are you sure you want to log out of your account?
-        </ConfirmationModal>
-        <ConfirmationModal
-            isOpen={!!itemToRemoveFromCart}
-            onClose={() => setItemToRemoveFromCart(null)}
-            onConfirm={performRemoveFromCart}
-            title="Remove Item"
-            confirmText="Remove"
-        >
-            Are you sure you want to remove this item from your cart?
-        </ConfirmationModal>
-        <FloatingWhatsAppButton />
-      </>
     );
     
     if (view === 'auth' || view === 'orderConfirmation') {
@@ -290,3 +329,4 @@ const App: FC = () => {
 };
 
 export default App;
+

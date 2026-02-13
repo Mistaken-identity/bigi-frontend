@@ -6,6 +6,9 @@ import { CATEGORIES, TESTIMONIALS } from '../constants';
 import { LOCAL_PRODUCTS } from '../data';
 import { ProductCard } from '../components/ProductCard';
 import { StarIcon, QuestionMarkCircleIcon, BoltIcon, BookOpenIcon, HeartIcon, BuildingStorefrontIcon, UserIcon, ShoppingBagIcon, SparklesIcon, ComputerDesktopIcon } from '../icons';
+import ValentineBanner from '../components/ValentineBanner.tsx';
+import CountdownTimer from '../components/CountdownTimer';
+import ValentineOffers from '../components/ValentineOffers.tsx';
 
 export const HomeView: FC<{ onNavigate: (view: View, data?: any) => void; onProductClick: (product: Product) => void; onAddToCart: (product: Product) => void; onToggleWishlist: (product: Product) => void; wishlistedItems: WishlistItem[]; }> = ({ onNavigate, onProductClick, onAddToCart, onToggleWishlist, wishlistedItems }) => {
     const featuredProducts = useMemo(() => Object.values(LOCAL_PRODUCTS).flat().sort((a, b) => (b.timesOrdered || 0) - (a.timesOrdered || 0)).slice(0, 8), []);
@@ -35,14 +38,24 @@ export const HomeView: FC<{ onNavigate: (view: View, data?: any) => void; onProd
     return (
         <div className="space-y-16">
             {/* Hero Section */}
-            <div className="relative h-[70vh] bg-cover bg-center rounded-b-2xl flex items-center justify-center text-center text-white p-4" style={{ backgroundImage: "url('/assets/images/10bd146b-51cc-4bc9-bbe0-79234d2bed7e.jpeg')" }}>
+            <div className="relative h-[70vh] bg-cover bg-center rounded-b-2xl flex items-center justify-center text-center text-white p-4" style={{ backgroundImage: "url('/assets/images/valentine.png')" }}>
                 <div className="absolute inset-0 bg-black/60 rounded-b-2xl"></div>
                 <div className="relative z-10 animate-slide-in-up">
                     <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>Artistry in Every Thread</h1>
                     <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.8)' }}>Experience the heart of Africa delivered to your doorstep for free—pay only when it arrives.</p>
-                    <button onClick={() => onNavigate('products', {category: 'Apparel & Fashion'})} className="mt-8 bg-orange-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg">Shop Now</button>
+                    <button disabled className="mt-8 bg-gray-400 text-gray-200 font-bold py-3 px-8 rounded-full text-lg cursor-not-allowed opacity-60 shadow-lg">Shop Now</button>
                 </div>
             </div>
+
+            {/* Valentine's Day Theme */}
+            <ValentineBanner onNavigate={onNavigate} />
+            <CountdownTimer targetDate="2026-02-15T23:59:59" />
+            <ValentineOffers 
+                onAddToCart={onAddToCart}
+                onToggleWishlist={onToggleWishlist}
+                onProductClick={onProductClick}
+                wishlistedItems={wishlistedItems}
+            />
             
             {/* Categories Section */}
             <div>

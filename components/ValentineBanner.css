@@ -1,0 +1,147 @@
+.valentine-banner {
+  position: relative;
+  background: linear-gradient(135deg, #ff6b9d 0%, #c06c84 50%, #f67280 100%);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 60px 20px;
+}
+
+.hearts-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.floating-heart {
+  position: absolute;
+  animation: floatUp 8s infinite ease-in-out;
+  opacity: 0;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.banner-content {
+  text-align: center;
+  color: white;
+  z-index: 10;
+  max-width: 900px;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.valentine-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  animation: pulse 2.5s infinite;
+  letter-spacing: 2px;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.valentine-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.valentine-discount {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.discount-number {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ffe0e0;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.shop-now-btn {
+  display: inline-block;
+  background: white;
+  color: #ff6b9d;
+  padding: 18px 50px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  border: 3px solid transparent;
+}
+
+.shop-now-btn:hover {
+  transform: translateY(-5px) scale(1.08);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+  background: #ffe0e0;
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .valentine-banner {
+    min-height: 450px;
+    padding: 40px 15px;
+  }
+  
+  .valentine-title {
+    font-size: 2.5rem;
+  }
+  
+  .valentine-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .discount-number {
+    font-size: 2.5rem;
+  }
+  
+  .shop-now-btn {
+    padding: 15px 35px;
+    font-size: 1.1rem;
+  }
+}

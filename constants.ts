@@ -1,3 +1,4 @@
+
 import { Testimonial, TeamMember } from './types';
 
 export const CATEGORIES = [
@@ -11,6 +12,7 @@ export const CATEGORIES = [
   "For Kids",
   "Gourmet & Kitchen",
   "Books & Stationery",
+  "Home Appliances",
 ];
 
 export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
@@ -23,7 +25,8 @@ export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "Footwear": "Step out in style with handcrafted leather sandals, vibrant espadrilles, and other unique footwear.",
   "For Kids": "Delight your little ones with charming, handcrafted toys, books, and clothing inspired by Africa.",
   "Gourmet & Kitchen": "Savor the flavors of the continent with our selection of exotic spices, single-origin coffees, and pantry staples.",
-  "Books & Stationery": "Immerse yourself in African literature and express your creativity with our beautifully crafted stationery."
+  "Books & Stationery": "Immerse yourself in African literature and express your creativity with our beautifully crafted stationery.",
+  "Home Appliances": "Upgrade your home with premium appliances including washing machines, blenders, and kitchen essentials for modern living."
 };
 
 export const SLOGAN = "Buy it, get it.";

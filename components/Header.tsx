@@ -4,29 +4,31 @@ import { Bars3Icon, MagnifyingGlassIcon, HeartIcon, CartIcon, UserIcon } from '.
 import { AnimatedWelcome } from './AnimatedWelcome';
 import { formatCurrency } from '../utils';
 
-export const Header: FC<{ 
-    cartCount: number, 
-    wishlistCount: number, 
-    onNavigate: (view: View) => void, 
-    onToggleSidebar: () => void, 
-    onSearch: (query:string) => void, 
-    onLiveSearch: (query:string) => void,
-    liveSearchResults: Product[],
-    isLiveSearchLoading: boolean,
-    onProductClick: (product: Product) => void,
-    onClearLiveSearch: () => void,
-    currentUser: User | null 
-}> = ({ 
+interface HeaderProps {
+    cartCount: number;
+    wishlistCount: number;
+    onNavigate: (view: View) => void;
+    onToggleSidebar: () => void;
+    onSearch?: (query: string) => void;
+    onLiveSearch?: (query: string) => void;
+    liveSearchResults?: Product[];
+    isLiveSearchLoading?: boolean;
+    onProductClick?: (product: Product) => void;
+    onClearLiveSearch?: () => void;
+    currentUser: User | null;
+}
+
+export const Header: FC<HeaderProps> = ({ 
     cartCount, 
     wishlistCount, 
     onNavigate, 
     onToggleSidebar, 
-    onSearch,
-    onLiveSearch,
-    liveSearchResults,
-    isLiveSearchLoading,
-    onProductClick,
-    onClearLiveSearch,
+    onSearch = () => {},
+    onLiveSearch = () => {},
+    liveSearchResults = [],
+    isLiveSearchLoading = false,
+    onProductClick = () => {},
+    onClearLiveSearch = () => {},
     currentUser 
 }) => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -126,3 +128,4 @@ export const Header: FC<{
         </header>
     );
 };
+

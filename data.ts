@@ -212,7 +212,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
     },
     {
       id: 'home-010', name: 'Ndebele Print Table Runner', description: 'A vibrant table runner with South African Ndebele patterns.', longDescription: 'Brighten up your dining space with this colorful table runner. It features the bold, geometric patterns characteristic of Ndebele art, printed on durable, high-quality cotton.', price: 2900, originalPrice: 2900, imageUrls: [
-        '/assets/images/',
+        'https://images.unsplash.com/photo-1551843425-1a8a7c2c2f82?w=800',
         'https://images.unsplash.com/photo-1620309136936-e380e3c545b7?w=800',
         'https://images.unsplash.com/photo-1617053314959-2384a44e46a2?w=800'
       ], timesOrdered: 257, reviews: [{ id: 'review-h10-1', author: 'Entertainer', rating: 5, comment: 'Vibrant colors and great quality fabric. It really makes my table setting pop.', date: '2025-07-05' }]
@@ -221,11 +221,11 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
   "Jewelry": [
     {
       id: 'jewelry-001',
-      name: 'Maasai Beaded Necklace',
-      description: 'A vibrant, multi-layered necklace handmade by Maasai women.',
-      longDescription: 'This traditional Maasai necklace is a wearable piece of art. Crafted with hundreds of tiny glass beads, its intricate patterns and bold colors represent beauty, strength, and tradition. It features a secure and comfortable fastening.',
-      price: 4200,
-      originalPrice: 4200,
+      name: 'Owngreat 12 litre double deep fryer',
+      description: 'Owngetreat deep fryer is a compact and efficient kitchen appliance designed for frying a variety of foods with ease. It features a stainless steel body, adjustable temperature control, and a removable frying basket for convenient cooking and cleaning.',
+      longDescription: '.',
+      price: 7500,
+      originalPrice: 8500,
       imageUrls: [
         '/assets/images/necklace.jpeg',
         'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800',
@@ -748,6 +748,66 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800'
       ], timesOrdered: 150, reviews: [{ id: 'review-k10-1', author: 'GameNight', rating: 5, comment: 'A beautiful game board. We love playing this as a family. A great way to get the kids off their screens.', date: '2024-07-05' }]
     },
+    {
+      id: 'kids-011',
+      name: 'Giant Plush Teddy Bear - Cream White',
+      description: 'An extra-large, ultra-soft cream white teddy bear perfect for cuddles and Valentine\'s gifts.',
+      longDescription: 'This magnificent giant teddy bear stands tall as the ultimate companion for children and a romantic Valentine\'s gift. Crafted with premium ultra-soft plush material in a beautiful cream white color, this oversized bear features a charming checkered bow tie that adds a touch of elegance. The bear\'s friendly face with embroidered eyes and nose makes it safe for all ages. Perfect for bedrooms, nurseries, or as a statement piece in any room. This cuddly giant provides comfort, warmth, and endless hugs. Ideal for Valentine\'s Day, birthdays, or as a special surprise gift. The generous size makes it perfect for both children and adults who appreciate quality plush toys.',
+      price: 9999,
+      originalPrice: 12500,
+      imageUrls: [
+        '/assets/images/Large teddybear.jpeg',
+        '/assets/images/Large teddybear.jpeg',
+        'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800'
+      ],
+      timesOrdered: 234,
+      reviews: [
+        { id: 'review-k11-1', author: 'Jennifer M.', rating: 5, comment: 'This teddy bear is HUGE and absolutely adorable! My daughter was over the moon when she saw it. The quality is exceptional - so soft and well-made. The bow tie is a cute touch!', date: '2025-02-08' },
+        { id: 'review-k11-2', author: 'Patrick O.', rating: 5, comment: 'Bought this as a Valentine\'s gift for my girlfriend and she loved it! It\'s even bigger than expected. The cream color is beautiful and it\'s incredibly soft. Worth every shilling!', date: '2025-02-10' },
+        { id: 'review-k11-3', author: 'Mary K.', rating: 5, comment: 'Perfect gift for my son\'s 5th birthday! He sleeps with it every night. The size is impressive and the quality is top-notch. Highly recommend for anyone looking for a special gift!', date: '2025-02-12' },
+        { id: 'review-k11-4', author: 'David N.', rating: 5, comment: 'Amazing quality! The bear is well-stuffed, maintains its shape, and the stitching is perfect. My niece absolutely adores it. Great value for the price!', date: '2025-02-14' },
+      ]
+    },
+    {
+      id: 'kids-012',
+      name: 'Giant Plush Teddy Bear - Pink',
+      description: 'An extra-large, ultra-soft pink teddy bear perfect for cuddles and romantic Valentine\'s gifts.',
+      longDescription: 'Fall in love with this adorable giant pink teddy bear, the perfect Valentine\'s Day gift or special surprise for someone you cherish. This oversized plush companion features premium ultra-soft material in a beautiful pink color that symbolizes love and affection. Adorned with an elegant checkered bow tie, this bear combines cuteness with sophistication. The friendly embroidered face with safe, stitched features makes it suitable for all ages. Standing impressively tall, this cuddly giant is perfect for bedrooms, living rooms, or as a romantic gesture. Whether for children who love pink or as a heartfelt Valentine\'s gift for your special someone, this bear delivers comfort, joy, and endless cuddles. The generous size and exceptional quality make it a memorable gift that will be treasured for years to come.',
+      price: 9999,
+      originalPrice: 12500,
+      imageUrls: [
+        '/assets/images/Large teddybear.jpeg',
+        '/assets/images/Large teddybear.jpeg',
+        'https://images.unsplash.com/photo-1563236780-a6a964eac221?w=800'
+      ],
+      timesOrdered: 267,
+      reviews: [
+        { id: 'review-k12-1', author: 'Sarah L.', rating: 5, comment: 'The pink color is absolutely gorgeous! My daughter squealed with joy when she saw it. It\'s incredibly soft and the size is perfect. Best purchase ever!', date: '2025-02-09' },
+        { id: 'review-k12-2', author: 'Michael W.', rating: 5, comment: 'Surprised my wife with this for Valentine\'s Day and she was thrilled! The quality exceeded my expectations. It\'s huge, soft, and the pink color is lovely. Highly recommend!', date: '2025-02-11' },
+        { id: 'review-k12-3', author: 'Grace T.', rating: 5, comment: 'Perfect Valentine\'s gift! The bear is well-made, super soft, and the pink shade is beautiful. My girlfriend loves it and it looks great in our bedroom. Worth every penny!', date: '2025-02-13' },
+        { id: 'review-k12-4', author: 'Lucy N.', rating: 5, comment: 'Bought this for my little girl and she\'s obsessed! The quality is outstanding - no loose threads, perfect stitching, and so cuddly. The bow tie adds a nice touch. Excellent value!', date: '2025-02-15' },
+      ]
+    },
+    {
+      id: 'kids-013',
+      name: 'Valentine\'s Teddy Bear with Rose - Small',
+      description: 'An adorable small white teddy bear holding a red rose, the perfect romantic Valentine\'s gift.',
+      longDescription: 'Express your love with this charming small white teddy bear that comes holding a beautiful red rose. This cuddly companion is the perfect size for gifting - not too big, not too small, just right for showing someone you care. The soft, plush white fur is incredibly huggable, and the bear features an adorable face with embroidered details and a cute black polka dot bow tie. The attached red rose adds a romantic touch that makes this the ideal Valentine\'s Day gift. Perfect for expressing your feelings to a girlfriend, boyfriend, spouse, or anyone special in your life. This teddy bear is also great for anniversaries, apologies, or just because moments. The compact size makes it easy to present as a surprise, fits perfectly on a desk or bedside table, and is ideal for those who want a meaningful gift without taking up too much space. Made with high-quality materials, this bear is built to last and will serve as a lasting reminder of your affection. Whether you\'re celebrating your first Valentine\'s together or your fiftieth, this sweet teddy bear with rose is a timeless symbol of love and care.',
+      price: 2000,
+      originalPrice: 2500,
+      imageUrls: [
+        '/assets/images/small teddybear.jpeg',
+        '/assets/images/teddybear small.jpeg',
+        '/assets/images/small teddybear.jpeg'
+      ],
+      timesOrdered: 342,
+      reviews: [
+        { id: 'review-k13-1', author: 'James M.', rating: 5, comment: 'My girlfriend loved this! The perfect size and the rose is a nice touch. Very soft and cuddly. Great value for the price!', date: '2025-02-08' },
+        { id: 'review-k13-2', author: 'Catherine W.', rating: 5, comment: 'Bought this for my boyfriend and he was so touched! The teddy bear is adorable and the quality is excellent. The bow tie is cute too!', date: '2025-02-10' },
+        { id: 'review-k13-3', author: 'David K.', rating: 5, comment: 'Perfect Valentine\'s gift! Not too big, not too small. The white color is beautiful and the rose makes it extra special. Highly recommend!', date: '2025-02-12' },
+        { id: 'review-k13-4', author: 'Mary N.', rating: 5, comment: 'Such a sweet gift! My partner keeps it on the bedside table. The quality is great and it\'s so soft. Worth every shilling!', date: '2025-02-14' },
+      ]
+    },
    ],
    "Gourmet & Kitchen": [
     {
@@ -821,6 +881,232 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ], timesOrdered: 130, reviews: [{ id: 'review-g10-1', author: 'AuthenticCook', rating: 5, comment: 'This is the real stuff. The flavor is exactly what my Jollof was missing. And I feel good knowing it\'s sustainably sourced.', date: '2024-07-05' }]
     }
    ],
+   "Gift Packs": [
+    {
+      id: 'giftpack-001',
+      name: 'Valentine\'s Cozy Comfort Gift Pack',
+      description: 'A luxurious comfort collection featuring premium cozy essentials perfect for your loved one.',
+      longDescription: 'Wrap your loved one in warmth and comfort this Valentine\'s Day with this exquisite cozy gift pack. This thoughtfully curated bundle includes: a premium Cashmere Blanket/Scarf for ultimate warmth and elegance (KES 3,500 value), a high-quality Stainless Steel Vacuum Thermos to keep beverages at the perfect temperature (KES 2,500 value), adorable Fuzzy Heart-Pattern Slippers for cozy comfort at home (KES 2,000 value), and a charming Decorative Humidifier/Night Light with cute character design for ambiance and wellness (KES 3,000 value). Total individual value: KES 11,000. Save KES 3,001 with this special Valentine\'s bundle! Each item is carefully selected to provide comfort, warmth, and joy. Perfect for creating cozy moments at home, whether relaxing with a book, enjoying a favorite hot beverage, or unwinding after a long day. Show your love with gifts that prioritize comfort and well-being. Ideal for anyone special you want to pamper this Valentine\'s Day - perfect for partners, family members, or dear friends.',
+      price: 7999,
+      originalPrice: 11000,
+      imageUrls: [
+        '/assets/images/WhatsApp Image 2026-02-11 at 13.45.25.jpeg',
+        '/assets/images/WhatsApp Image 2026-02-11 at 13.45.25.jpeg',
+        'https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?w=800',
+        'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800'
+      ],
+      timesOrdered: 112,
+      reviews: [
+        { id: 'review-gp1-1', author: 'Michael T.', rating: 5, comment: 'My partner absolutely loves this cozy pack! The cashmere blanket is so soft and the thermos keeps drinks hot for hours. The slippers are their new favorites. Perfect Valentine\'s gift!', date: '2025-02-01' },
+        { id: 'review-gp1-2', author: 'David K.', rating: 5, comment: 'Best gift ever! My loved one was so touched by how thoughtful this pack is. They use everything daily. The humidifier is adorable and works great. Highly recommend!', date: '2025-02-03' },
+        { id: 'review-gp1-3', author: 'James O.', rating: 5, comment: 'This gift pack exceeded my expectations. The quality of each item is exceptional. It\'s the coziest gift anyone could receive. Worth every shilling!', date: '2025-02-05' },
+        { id: 'review-gp1-4', author: 'Peter M.', rating: 5, comment: 'Amazing value for money! The cashmere blanket alone is worth the price. Everything is high quality and beautifully packaged. My friend loved it!', date: '2025-02-07' },
+      ]
+    },
+    {
+      id: 'giftpack-005',
+      name: 'Valentine\'s Cozy Comfort Gift Pack with Teddy Bear - For Her',
+      description: 'A luxurious comfort collection featuring an adorable teddy bear and premium cozy essentials, perfect for her.',
+      longDescription: 'Show your love this Valentine\'s Day with this specially curated gift pack for her! This delightful bundle combines comfort and cuteness with: an adorable Plush Teddy Bear for endless cuddles and companionship (KES 3,000 value), a premium Cashmere Blanket/Scarf for ultimate warmth and elegance (KES 3,500 value), a high-quality Stainless Steel Vacuum Thermos to keep her favorite beverages at the perfect temperature (KES 2,500 value), and adorable Fuzzy Heart-Pattern Slippers for cozy comfort at home (KES 2,000 value). Total individual value: KES 11,000. Save KES 3,100 with this special Valentine\'s bundle! Each item is thoughtfully selected to bring warmth, comfort, and joy to her daily life. The cuddly teddy bear adds a sweet, romantic touch that she\'ll treasure forever. Perfect for creating cozy moments at home - whether she\'s relaxing with a book, enjoying a hot beverage, or unwinding after a long day. This gift pack shows you care about her comfort and happiness. Ideal for girlfriends, wives, mothers, sisters, or any special woman in your life who deserves to be pampered this Valentine\'s Day. Each item combines practicality with thoughtfulness, making this the ultimate expression of love and care.',
+      price: 8000,
+      originalPrice: 11000,
+      imageUrls: [
+        '/assets/images/ladies.jpeg',
+        '/assets/images/ladies.jpeg',
+        '/assets/images/small teddybear.jpeg',
+        'https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?w=800'
+      ],
+      timesOrdered: 87,
+      reviews: [
+        { id: 'review-gp5-1', author: 'Patrick O.', rating: 5, comment: 'My girlfriend absolutely loved this gift pack! The teddy bear was the perfect touch - she sleeps with it every night. The cashmere blanket is so soft and the slippers are her new favorites. Best Valentine\'s gift ever!', date: '2025-02-10' },
+        { id: 'review-gp5-2', author: 'Daniel M.', rating: 5, comment: 'Bought this for my wife and she was over the moon! The combination of the cute teddy bear with practical items like the thermos and blanket is genius. She uses everything daily. Highly recommend!', date: '2025-02-12' },
+        { id: 'review-gp5-3', author: 'Kevin N.', rating: 5, comment: 'Perfect gift for her! My sister loved every item in this pack. The teddy bear is adorable and high quality. The slippers are super cozy. Great value for money!', date: '2025-02-13' },
+        { id: 'review-gp5-4', author: 'Brian W.', rating: 5, comment: 'This gift pack exceeded all expectations! My girlfriend said it\'s the most thoughtful gift she\'s ever received. The teddy bear made her cry happy tears. Everything is premium quality. Worth every shilling!', date: '2025-02-14' },
+      ]
+    },
+    {
+      id: 'giftpack-004',
+      name: 'Valentine\'s Executive Professional Gift Set',
+      description: 'A sophisticated red-themed professional gift set perfect for the ambitious professional in your life.',
+      longDescription: 'Celebrate Valentine\'s Day with this elegant Executive Professional Gift Set, designed for the modern professional who values style and functionality. This premium bundle includes: a luxurious Red Leather-Bound Executive Notebook with magnetic closure for important notes and ideas (KES 1,800 value), a sleek Premium Metal Ballpoint Pen with smooth writing experience and elegant design (KES 800 value), and a high-quality Stainless Steel Vacuum Thermos in sophisticated red finish to keep beverages at the perfect temperature throughout the workday (KES 2,200 value). Total individual value: KES 4,800. Save KES 300 with this exclusive Valentine\'s bundle! Each item is carefully selected to combine professional elegance with practical functionality. The coordinated red color scheme symbolizes passion and ambition, making it the perfect gift for entrepreneurs, executives, students, or anyone who appreciates quality stationery and professional accessories. Ideal for expressing your love and support for their professional journey. Perfect for partners, colleagues, mentors, or anyone special who deserves recognition this Valentine\'s Day. Comes beautifully packaged in an elegant gift box, ready to impress.',
+      price: 4500,
+      originalPrice: 4800,
+      imageUrls: [
+        '/assets/images/men red.jpeg',
+        '/assets/images/men red.jpeg',
+        'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800',
+        'https://images.unsplash.com/photo-1606663889134-b1dedb5ed8b7?w=800'
+      ],
+      timesOrdered: 89,
+      reviews: [
+        { id: 'review-gp4-1', author: 'Sarah W.', rating: 5, comment: 'Got this for my husband who just started his business. He loves the professional look and uses everything daily. The notebook quality is exceptional!', date: '2025-02-09' },
+        { id: 'review-gp4-2', author: 'John M.', rating: 5, comment: 'Perfect gift for my girlfriend who\'s a lawyer. The red color is elegant and everything is high quality. She was thrilled with this thoughtful gift!', date: '2025-02-11' },
+        { id: 'review-gp4-3', author: 'Grace K.', rating: 5, comment: 'Excellent value! The thermos keeps coffee hot all day, the pen writes smoothly, and the notebook is perfect for meetings. Highly recommend for professionals!', date: '2025-02-13' },
+        { id: 'review-gp4-4', author: 'Daniel O.', rating: 5, comment: 'Bought this for my mentor as a Valentine\'s appreciation gift. The packaging is beautiful and the quality exceeded expectations. A classy gift set!', date: '2025-02-14' },
+      ]
+    },
+    {
+      id: 'giftpack-002',
+      name: 'Valentine\'s Gift Pack for Him',
+      description: 'A sophisticated collection of premium items for the distinguished gentleman.',
+      longDescription: 'Celebrate the special man in your life with this distinguished Valentine\'s gift pack. This carefully curated bundle includes: a stylish Men\'s Royal Dashiki shirt perfect for any occasion (KES 3,299 value), elegant Brass Spiral Earrings for a modern touch (KES 2,599 value), a unique Recycled Brass Keychain with Adinkra symbol (KES 1,200 value), and premium Authentic African Black Soap for superior skincare (KES 1,299 value). Total individual value: KES 8,397. Save KES 2,398 with this exclusive Valentine\'s bundle! Each item combines traditional African craftsmanship with contemporary style, perfect for the modern gentleman who appreciates quality and heritage. Ideal for husbands, boyfriends, fathers, brothers, or any special man you want to honor this Valentine\'s Day. Show him he\'s valued with gifts that blend style, culture, and practicality.',
+      price: 4500,
+      originalPrice: 8397,
+      imageUrls: [
+        '/assets/images/men gift blue small.jpeg',
+        '/assets/images/African Style-New5.jpeg',
+        'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800',
+        'https://images.unsplash.com/photo-1601056263911-7383792f5899?w=800'
+      ],
+      timesOrdered: 76,
+      reviews: [
+        { id: 'review-gp2-1', author: 'Sarah M.', rating: 5, comment: 'Got this for my husband and he loves every single item! The Dashiki fits perfectly and looks so elegant. The black soap has improved his skin so much. Great gift pack!', date: '2025-02-02' },
+        { id: 'review-gp2-2', author: 'Grace N.', rating: 5, comment: 'My boyfriend was thrilled with this gift! The quality is outstanding and the selection is perfect for a modern man. The earrings are his new favorite accessory. Highly recommend!', date: '2025-02-04' },
+        { id: 'review-gp2-3', author: 'Linda W.', rating: 5, comment: 'Excellent value for money! My brother loved everything in this pack. The Dashiki is beautifully embroidered and the keychain is such a unique touch. Will definitely buy again!', date: '2025-02-06' },
+      ]
+    },
+    {
+      id: 'giftpack-003',
+      name: 'Valentine\'s Premium Heritage Gift Pack for Him',
+      description: 'An exclusive premium collection celebrating African heritage and craftsmanship for the distinguished gentleman.',
+      longDescription: 'Honor the special man in your life with this premium Valentine\'s gift pack that celebrates African heritage and artistry. This exclusive bundle includes: a stunning Maasai Beaded Necklace showcasing traditional craftsmanship (KES 4,200 value), premium Raw Unrefined Shea Butter for superior skincare and grooming (KES 1,499 value), an elegant Handcrafted Wooden Lamp Shade for sophisticated ambient lighting (KES 1,499 value), and a beautiful handwoven Rattan Basket for stylish organization (KES 2,299 value). Total individual value: KES 9,497. Save KES 1,497 with this exclusive Valentine\'s bundle! Each item is meticulously handcrafted by skilled artisans, representing the finest African craftsmanship and cultural heritage. Perfect for the modern gentleman who appreciates authentic artisanal quality, cultural significance, and timeless style. The beaded necklace makes a bold fashion statement, the shea butter provides natural grooming benefits, the lamp shade adds warmth to his space, and the rattan basket offers practical elegance. Ideal for husbands, boyfriends, fathers, brothers, or any special man who values heritage, quality, and meaningful gifts this Valentine\'s Day.',
+      price: 8000,
+      originalPrice: 9497,
+      imageUrls: [
+        '/assets/images/men gift large.jpeg',
+        '/assets/images/',
+        '/assets/images/',
+        'https://images.unsplash.com/photo-1634081639910-3a5b3a65a363?w=800'
+      ],
+      timesOrdered: 54,
+      reviews: [
+        { id: 'review-gp3-1', author: 'Catherine W.', rating: 5, comment: 'Bought this premium pack for my husband and he was blown away! The Maasai necklace is a stunning piece of art. The quality of everything is exceptional. Worth every shilling!', date: '2025-02-08' },
+        { id: 'review-gp3-2', author: 'John K.', rating: 5, comment: 'This is the perfect gift for a man who appreciates culture and quality. My brother loved every item, especially the handcrafted lamp shade. Highly recommend!', date: '2025-02-10' },
+        { id: 'review-gp3-3', author: 'Mary N.', rating: 5, comment: 'Excellent gift pack! My boyfriend uses the shea butter daily and the rattan basket is perfect for his desk. The beaded necklace is his new favorite accessory. Amazing value!', date: '2025-02-12' },
+      ]
+    },
+    {
+      id: 'giftpack-006',
+      name: 'Valentine\'s Deluxe Cozy Comfort Gift Pack',
+      description: 'An ultimate luxury comfort collection featuring premium cozy essentials and adorable accessories for the perfect Valentine\'s gift.',
+      longDescription: 'Surprise your loved one with the ultimate cozy comfort experience this Valentine\'s Day! This deluxe gift pack is thoughtfully curated with premium items for maximum comfort and joy. The bundle includes: a luxurious Premium Cashmere Blanket/Scarf in elegant cream color for ultimate warmth and sophistication (KES 3,500 value), a high-quality Stainless Steel Vacuum Thermos to keep beverages perfectly hot or cold throughout the day (KES 2,500 value), adorable Fuzzy Heart-Pattern Slippers for cozy comfort at home (KES 2,000 value), and a charming Decorative Humidifier/Night Light with an adorable character design that adds ambiance while promoting wellness (KES 3,000 value). Total individual value: KES 11,000. Save KES 3,001 with this exclusive Valentine\'s bundle! Each premium item is carefully selected to create the perfect cozy atmosphere and show how much you care. The elegant cream cashmere adds a touch of luxury, the thermos ensures their favorite drinks stay at the perfect temperature, the heart-patterned slippers provide comfort with every step, and the cute humidifier creates a soothing environment. Perfect for creating romantic, cozy moments at home - whether cuddling up with a movie, enjoying breakfast in bed, or simply relaxing together. This gift pack is ideal for expressing your love to partners, spouses, or anyone special who deserves to be pampered with comfort and care this Valentine\'s Day. Beautifully packaged and ready to make hearts melt!',
+      price: 7999,
+      originalPrice: 11000,
+      imageUrls: [
+        '/assets/images/men edition.jpeg',
+        '/assets/images/WhatsApp Image 2026-02-11 at 13.45.25.jpeg',
+        'https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?w=800',
+        'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800'
+      ],
+      timesOrdered: 95,
+      reviews: [
+        { id: 'review-gp6-1', author: 'Rachel M.', rating: 5, comment: 'This is the most thoughtful gift pack ever! My partner loved every single item. The cashmere blanket is incredibly soft and the humidifier is so cute. Perfect Valentine\'s gift!', date: '2025-02-09' },
+        { id: 'review-gp6-2', author: 'Steven K.', rating: 5, comment: 'Bought this for my wife and she was absolutely thrilled! The quality of everything is outstanding. The slippers are her new favorites and she uses the thermos daily. Highly recommend!', date: '2025-02-11' },
+        { id: 'review-gp6-3', author: 'Angela W.', rating: 5, comment: 'Amazing value for money! Each item is high quality and the presentation is beautiful. My girlfriend said it\'s the best gift she\'s ever received. The humidifier is adorable!', date: '2025-02-13' },
+        { id: 'review-gp6-4', author: 'Thomas N.', rating: 5, comment: 'This gift pack is pure luxury! The cashmere blanket alone is worth the price. Everything works perfectly and looks beautiful. My partner uses everything daily. Worth every shilling!', date: '2025-02-15' },
+      ]
+    },
+   ],
+   "Home Appliances": [
+    {
+      id: 'appliance-001',
+      name: 'SMARTPRO Front Load Washing Machine - 8kg',
+      description: 'Premium gold finish front-loading washing machine with 8kg capacity, perfect for modern homes.',
+      longDescription: 'Elevate your home with the SMARTPRO Front Load Washing Machine. This stunning gold-finished appliance combines elegance with efficiency, featuring an 8kg capacity drum, energy-efficient operation, and advanced washing programs. The sleek black glass door and intuitive control panel make laundry day a breeze. Perfect Valentine\'s gift for the home you love! Features multiple wash programs, quick wash option, and whisper-quiet operation. Energy rating certified for cost-effective performance.',
+      price: 38999,
+      originalPrice: 42000,
+      imageUrls: [
+        '/assets/images/washing machine.jpeg',
+        '/assets/images/washing machine.jpeg',
+        'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800'
+      ],
+      timesOrdered: 145,
+      reviews: [
+        { id: 'review-app1-1', author: 'Sarah M.', rating: 5, comment: 'This washing machine is absolutely beautiful! The gold finish looks premium and it washes clothes perfectly. Very quiet operation too.', date: '2025-01-15' },
+        { id: 'review-app1-2', author: 'James K.', rating: 5, comment: 'Best purchase for our new home. Energy efficient and the 8kg capacity is perfect for our family of four. Highly recommend!', date: '2025-01-20' },
+        { id: 'review-app1-3', author: 'Linda W.', rating: 5, comment: 'Love the gold color! It adds a touch of luxury to our laundry room. Works perfectly and very energy efficient.', date: '2025-01-25' },
+      ]
+    },
+    {
+      id: 'appliance-002',
+      name: 'Black Ipcom water dispenser',
+      description: 'Premium black finish water dispenser with modern design and easy operation.',
+      longDescription: 'Upgrade your home with this sleek black-finished Ipcom water dispenser. Designed for both style and convenience, it features a modern aesthetic and intuitive operation. The durable build ensures long-lasting performance, while the black finish complements any interior design. Perfect for homes and offices alike, it provides easy access to filtered water. Features include: easy-to-use controls, filtered water system, compact design, and quick installation.',
+      price: 13500,
+      originalPrice: 16000,
+      imageUrls: [
+        '/assets/images/water dispencer.jpeg',
+        '/assets/images/water dispencer.jpeg',
+        'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800'
+      ],
+      timesOrdered: 132,
+      reviews: [
+        { id: 'review-app2-1', author: 'Michael T.', rating: 5, comment: 'The 10kg capacity is perfect for our family of six. No more multiple loads! The machine is efficient and the gold color is stunning.', date: '2025-01-18' },
+        { id: 'review-app2-2', author: 'Grace N.', rating: 5, comment: 'Absolutely love this washing machine! It\'s quiet, efficient, and looks amazing in our laundry room. Worth every shilling!', date: '2025-01-22' },
+        { id: 'review-app2-3', author: 'David O.', rating: 5, comment: 'Best investment for our home. The large capacity means I can wash bedding and curtains easily. Highly energy efficient too!', date: '2025-01-28' },
+      ]
+    },
+    {
+      id: 'appliance-003',
+      name: 'ElectroMate Multifunction Blender Robot BD05',
+      description: 'Professional 3500W multifunction blender with multiple speed settings and robust design.',
+      longDescription: 'Transform your kitchen with the ElectroMate Multifunction Blender Robot BD05. This powerful 3500W blender is designed for serious home chefs and smoothie enthusiasts. Featuring a large-capacity BPA-free pitcher, precision stainless steel blades, and multiple speed settings (Low Speed and High Speed controls), it effortlessly handles everything from crushing ice to making silky smooth purees. The striking red and black design with professional-grade construction makes it a standout addition to any kitchen. Perfect Valentine\'s gift for the cooking enthusiast in your life! The BD05 model comes with safety features, easy-to-clean components, and a powerful motor that can handle the toughest ingredients. Whether you\'re making morning smoothies, soups, sauces, or crushing ice for cocktails, this blender delivers professional results every time.',
+      price: 15999,
+      originalPrice: 18500,
+      imageUrls: [
+        '/assets/images/blender.jpeg',
+        '/assets/images/blender.jpeg',
+        'https://images.unsplash.com/photo-1585515320310-259814833e62?w=800'
+      ],
+      timesOrdered: 438,
+      reviews: [
+        { id: 'review-app3-1', author: 'Patricia K.', rating: 5, comment: 'This blender is a beast! The 3500W motor crushes ice like butter. My smoothies have never been smoother. The build quality is excellent and it looks professional.', date: '2025-01-10' },
+        { id: 'review-app3-2', author: 'John M.', rating: 5, comment: 'Best blender I\'ve ever owned. The multiple speed settings give you complete control. Made hot soup directly in the blender - amazing! Worth every penny.', date: '2025-01-14' },
+        { id: 'review-app3-3', author: 'Alice N.', rating: 5, comment: 'Powerful and efficient! I use it daily for my morning protein shakes. The large pitcher is perfect for making drinks for the whole family. Highly recommend!', date: '2025-01-19' },
+        { id: 'review-app3-4', author: 'Robert W.', rating: 4, comment: 'Great blender with impressive power. The only minor issue is it can be a bit loud at high speed, but that\'s expected with such a powerful motor. Performance is outstanding!', date: '2025-01-23' },
+      ]
+    },
+    {
+      id: 'appliance-004',
+      name: 'AMAZE 3-Burner Gas Stove',
+      description: 'Professional 3-burner gas stove with stainless steel finish, perfect for modern kitchens.',
+      longDescription: 'Upgrade your cooking experience with the AMAZE 3-Burner Gas Stove. This sleek and efficient gas cooker features three high-performance burners with individual flame control, allowing you to cook multiple dishes simultaneously with precision. The durable stainless steel construction ensures longevity and easy cleaning, while the modern design complements any kitchen decor. Each burner is equipped with a safety auto-ignition system and flame failure device for peace of mind. The sturdy pan supports can accommodate pots and pans of various sizes, from small saucepans to large cooking vessels. Perfect Valentine\'s gift for the home chef who loves to cook! The compact design makes it ideal for apartments, small kitchens, or as an additional cooking station. Features include: three independent burners with adjustable flame control, easy-to-clean stainless steel surface, durable cast iron pan supports, safety flame failure device, and efficient gas consumption. Whether you\'re preparing a romantic dinner for two or cooking for the whole family, this reliable gas stove delivers consistent performance every time. Show your love by gifting a practical appliance that makes daily cooking easier and more enjoyable.',
+      price: 3999,
+      originalPrice: 5500,
+      imageUrls: [
+        '/assets/images/cooker.jpeg',
+        '/assets/images/cooker.jpeg',
+        'https://images.unsplash.com/photo-1585515320310-259814833e62?w=800'
+      ],
+      timesOrdered: 198,
+      reviews: [
+        { id: 'review-app4-1', author: 'Jane K.', rating: 5, comment: 'Excellent gas stove! The three burners are perfect for my family. Heats up quickly and the flame control is very precise. Great value for money!', date: '2025-02-05' },
+        { id: 'review-app4-2', author: 'Peter M.', rating: 5, comment: 'Bought this as a Valentine\'s gift for my wife and she loves it! The stainless steel finish looks premium and it\'s very easy to clean. Highly recommend!', date: '2025-02-08' },
+        { id: 'review-app4-3', author: 'Susan W.', rating: 5, comment: 'Perfect for my small kitchen! The three burners are enough for all my cooking needs. Very sturdy and well-built. Best purchase this year!', date: '2025-02-11' },
+        { id: 'review-app4-4', author: 'Michael O.', rating: 5, comment: 'Great quality gas stove at an affordable price. The auto-ignition works perfectly and the burners are powerful. My girlfriend is very happy with it!', date: '2025-02-13' },
+      ]
+    },
+    {
+      id: 'appliance-005',
+      name: 'Bosch Regina 10pc Granite Cookware Set',
+      description: 'Premium 10-piece granite-coated cookware set with glass lids, perfect for healthy cooking.',
+      longDescription: 'Elevate your culinary experience with the Bosch Regina 10-piece Granite Cookware Set. This comprehensive collection includes everything you need for a complete kitchen: multiple pot sizes with matching glass lids, all featuring a beautiful granite-effect non-stick coating that ensures healthy, oil-free cooking. The elegant black granite finish with subtle speckles adds a touch of sophistication to your kitchen while providing exceptional cooking performance. Each piece is crafted with a thick aluminum base for even heat distribution, preventing hot spots and ensuring perfectly cooked meals every time. The ergonomic handles stay cool during cooking for safe and comfortable handling. The transparent glass lids allow you to monitor your cooking without losing heat or moisture, while the steam vents prevent boiling over. Perfect Valentine\'s gift for couples who love to cook together! This set includes various pot sizes suitable for everything from boiling pasta to slow-cooking stews, making it ideal for both everyday meals and special occasions. The non-stick granite coating requires minimal oil, promoting healthier cooking and making cleanup a breeze. Features include: 10-piece complete set, premium granite non-stick coating, tempered glass lids with steam vents, heat-resistant handles, suitable for all stovetops except induction, and dishwasher safe. Show your love with a gift that combines practicality, health, and style - perfect for newlyweds, couples setting up home, or anyone who appreciates quality cookware.',
+      price: 3999,
+      originalPrice: 5999,
+      imageUrls: [
+        '/assets/images/bosch 10pc.jpeg',
+        '/assets/images/bosch 10pc.jpeg',
+        'https://images.unsplash.com/photo-1585515320310-259814833e62?w=800'
+      ],
+      timesOrdered: 176,
+      reviews: [
+        { id: 'review-app5-1', author: 'Grace N.', rating: 5, comment: 'Amazing cookware set! The granite coating is excellent - nothing sticks and it\'s so easy to clean. The glass lids are a great feature. Love it!', date: '2025-02-06' },
+        { id: 'review-app5-2', author: 'Daniel K.', rating: 5, comment: 'Bought this for my wife for Valentine\'s and she\'s thrilled! The quality is outstanding and the set includes all the sizes we need. Great investment!', date: '2025-02-09' },
+        { id: 'review-app5-3', author: 'Lucy M.', rating: 5, comment: 'Best cookware I\'ve ever owned! The non-stick coating works perfectly and the pots heat evenly. The black granite finish looks so elegant. Highly recommend!', date: '2025-02-12' },
+        { id: 'review-app5-4', author: 'Brian W.', rating: 5, comment: 'Excellent value for a 10-piece set! The quality is comparable to much more expensive brands. My girlfriend loves cooking with these pots. Perfect Valentine\'s gift!', date: '2025-02-14' },
+      ]
+    },
+   ],
    "Books & Stationery": [
     {
       id: 'books-001', name: '"Things Fall Apart" by Chinua Achebe', description: 'A landmark of African literature.', longDescription: 'A true classic, "Things Fall Apart" is a compelling story of one man\'s tragic downfall in pre-colonial Nigeria. A must-read for anyone interested in African literature and history.', price: 1800, originalPrice: 1800, imageUrls: [
@@ -891,6 +1177,6 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
         'https://images.unsplash.com/photo-1461360370928-88290ab05292?w=800',
         'https://images.unsplash.com/photo-1518997232213-991b585c5def?w=800'
       ], timesOrdered: 110, reviews: [{ id: 'review-bk10-1', author: 'CreativeSoul', rating: 5, comment: 'I love this coloring book! The designs are beautiful and I enjoy reading the proverbs as I color. Very relaxing.', date: '2024-07-09' }]
-    },
+    }
    ]
 };

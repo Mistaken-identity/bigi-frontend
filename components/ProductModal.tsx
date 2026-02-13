@@ -144,7 +144,7 @@ export const ProductModal: FC<{
                                 <img src={selectedImageUrl} alt={product.name} className="w-full h-full object-cover rounded-lg" />
                             </div>
                             <div className="grid grid-cols-4 gap-2">
-                                {product.imageUrls.map((url, index) => (
+                                {product.imageUrls?.map((url, index) => (
                                     <div key={index} className="aspect-square bg-gray-100 rounded-md cursor-pointer transition-transform duration-200 hover:scale-105" onClick={() => setSelectedImageUrl(url)}>
                                         <img src={url} alt={`${product.name} thumbnail ${index + 1}`} className={`w-full h-full object-cover rounded-md border-2 ${selectedImageUrl === url ? 'border-orange-500' : 'border-transparent'}`} />
                                     </div>

@@ -793,14 +793,14 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'Valentine\'s Teddy Bear with Rose - Small',
       description: 'An adorable small white teddy bear holding a red rose, the perfect romantic Valentine\'s gift.',
       longDescription: 'Express your love with this charming small white teddy bear that comes holding a beautiful red rose. This cuddly companion is the perfect size for gifting - not too big, not too small, just right for showing someone you care. The soft, plush white fur is incredibly huggable, and the bear features an adorable face with embroidered details and a cute black polka dot bow tie. The attached red rose adds a romantic touch that makes this the ideal Valentine\'s Day gift. Perfect for expressing your feelings to a girlfriend, boyfriend, spouse, or anyone special in your life. This teddy bear is also great for anniversaries, apologies, or just because moments. The compact size makes it easy to present as a surprise, fits perfectly on a desk or bedside table, and is ideal for those who want a meaningful gift without taking up too much space. Made with high-quality materials, this bear is built to last and will serve as a lasting reminder of your affection. Whether you\'re celebrating your first Valentine\'s together or your fiftieth, this sweet teddy bear with rose is a timeless symbol of love and care.',
-      price: 2000,
-      originalPrice: 2500,
+      price: 2799,
+      originalPrice: 3000,
       imageUrls: [
-        '/assets/images/small teddybear.jpeg',
+        '/assets/images/teddybear small.jpeg',
         '/assets/images/teddybear small.jpeg',
         '/assets/images/small teddybear.jpeg'
       ],
-      timesOrdered: 342,
+      timesOrdered: 432,
       reviews: [
         { id: 'review-k13-1', author: 'James M.', rating: 5, comment: 'My girlfriend loved this! The perfect size and the rose is a nice touch. Very soft and cuddly. Great value for the price!', date: '2025-02-08' },
         { id: 'review-k13-2', author: 'Catherine W.', rating: 5, comment: 'Bought this for my boyfriend and he was so touched! The teddy bear is adorable and the quality is excellent. The bow tie is cute too!', date: '2025-02-10' },
@@ -1051,8 +1051,8 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       name: 'ElectroMate Multifunction Blender Robot BD05',
       description: 'Professional 3500W multifunction blender with multiple speed settings and robust design.',
       longDescription: 'Transform your kitchen with the ElectroMate Multifunction Blender Robot BD05. This powerful 3500W blender is designed for serious home chefs and smoothie enthusiasts. Featuring a large-capacity BPA-free pitcher, precision stainless steel blades, and multiple speed settings (Low Speed and High Speed controls), it effortlessly handles everything from crushing ice to making silky smooth purees. The striking red and black design with professional-grade construction makes it a standout addition to any kitchen. Perfect Valentine\'s gift for the cooking enthusiast in your life! The BD05 model comes with safety features, easy-to-clean components, and a powerful motor that can handle the toughest ingredients. Whether you\'re making morning smoothies, soups, sauces, or crushing ice for cocktails, this blender delivers professional results every time.',
-      price: 15999,
-      originalPrice: 18500,
+      price: 4999,
+      originalPrice: 5499,
       imageUrls: [
         '/assets/images/blender.jpeg',
         '/assets/images/blender.jpeg',

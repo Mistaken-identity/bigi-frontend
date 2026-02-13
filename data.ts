@@ -256,10 +256,10 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
       ]
     },
     {
-      id: 'jewelry-003', name: 'Fulani Gold Twisted Hoops', description: 'Iconic golden hoops inspired by the Fulani people of West Africa.', longDescription: 'These lightweight, oversized hoops are crafted from gold-plated brass, featuring the distinctive twisted design of Fulani jewelry. They are a bold, timeless statement of elegance and heritage.', price: 3800, originalPrice: 4000, imageUrls: [
-        'https://images.unsplash.com/photo-1611591437134-4b5b88282365?w=800',
-        'https://images.unsplash.com/photo-1620912189839-858850a1b654?w=800',
-        'https://images.unsplash.com/photo-1617453691342-f8c6d1f9a1e3?w=800'
+      id: 'jewelry-003', name: 'Amaze Single burner', description: 'Iconic golden hoops inspired by the Fulani people of West Africa.', longDescription: 'These lightweight, oversized hoops are crafted from gold-plated brass, featuring the distinctive twisted design of Fulani jewelry. They are a bold, timeless statement of elegance and heritage.', price: 3800, originalPrice: 4000, imageUrls: [
+        '/assets/images/single burner.jpeg',
+        '/assets/images/single burner.jpeg',
+        '/assets/images/single burner3.jpeg'
       ], timesOrdered: 168, reviews: [{ id: 'review-j3-1', author: 'GoldenGirl', rating: 5, comment: 'I feel so powerful when I wear these. They are surprisingly light for their size. Absolutely love them!', date: '2025-07-22' }]
     },
     {

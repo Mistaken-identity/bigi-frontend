@@ -88,7 +88,7 @@ export const ValentineCollectionView: FC<ValentineCollectionViewProps> = ({
               💝 Valentine's Special Collection 💝
             </h1>
             <p className="text-xl md:text-2xl mb-2 font-light">
-              Celebrate Love with Perfect Gifts
+              Celebrate Love with Perfect Gifts delivered free to your door step.
             </p>
             <p className="text-lg opacity-90">
               Up to <span className="text-3xl font-bold">30% OFF</span> on Selected Items

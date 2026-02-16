@@ -221,7 +221,7 @@ export const ValentineCollectionView: FC<ValentineCollectionViewProps> = ({
           </h2>
           <p className="text-gray-700 text-lg mb-6 max-w-2xl mx-auto">
             Whether it's a sparkling piece of jewelry or a thoughtful home appliance, 
-            every gift tells a story of love and care. Shop now and enjoy free delivery 
+            every gift tells a story of love and care. Shop now and enjoy free door to door delivery 
             on all Valentine's special items!
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">

@@ -4,13 +4,13 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
   "Apparel & Fashion": [
     {
       id: 'fashion-001',
-      name: 'Azure Blue Kitenge Dress',
-      description: 'A vibrant, floor-length dress made from 100% authentic Kitenge fabric.',
-      longDescription: 'Embrace bold patterns and vibrant colors with this stunning Azure Blue Kitenge Dress. Expertly tailored for a flattering silhouette, this dress is perfect for weddings, parties, or making a statement. The breathable cotton fabric ensures comfort all day long.',
-      price: 4999,
-      originalPrice: 5200,
+      name: 'Macro double deep fryer',
+      description: '12 litre double deep fryer with stainless steel body and adjustable temperature control.',
+      longDescription: 'The Macro double deep fryer is perfect for home use. It features a stainless steel body for durability and an adjustable temperature control for precise cooking.',
+      price: 8999,
+      originalPrice: 10500,
       imageUrls: [
-          '/assets/images/a khanga leso dress in Mombasa old town.jpeg',
+          '/assets/images/double deep fryer.jpeg',
           'https://images.unsplash.com/photo-1599827827055-66760591f24a?w=800',
           'https://images.unsplash.com/photo-1588185968037-353d7123933c?w=800',
       ],

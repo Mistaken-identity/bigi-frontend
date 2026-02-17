@@ -23,13 +23,13 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
     },
     {
       id: 'fashion-002',
-      name: 'Men\'s Royal Dashiki',
+      name: 'Bathroom Shelf Organizer',
       description: 'A classic embroidered Dashiki shirt, perfect for formal and casual occasions.',
       longDescription: 'This Royal Dashiki is a symbol of African heritage and style. Made from premium, soft cotton, it features intricate golden embroidery along the neckline and sleeves. It offers a comfortable, relaxed fit for any event.',
       price: 3299,
       originalPrice: 4000,
       imageUrls: [
-          '/assets/images/African Style-New5.jpeg',
+          '/assets/images/bathroom shelf organiser.jpeg',
           'https://images.unsplash.com/photo-1602133221473-207959438c22?w=800',
           'https://images.unsplash.com/photo-1585232240183-9b4f63ec255b?w=800',
       ],
@@ -41,7 +41,7 @@ export const LOCAL_PRODUCTS: Record<string, Product[]> = {
     },
     {
       id: 'fashion-003',
-      name: 'Ankara Print Headwrap',
+      name: 'Bold Ankara Headwrap',
       description: 'A versatile and vibrant headwrap made from authentic Ankara fabric.',
       longDescription: 'Style your hair in countless ways with this beautiful Ankara headwrap. The bold patterns add a pop of color to any outfit, celebrating African fashion with every tie.',
       price: 1800,

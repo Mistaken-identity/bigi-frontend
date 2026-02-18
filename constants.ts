@@ -128,7 +128,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
     {
         name: "Morice Charles",
-        title: "Co-Founder & Marketing Director",
+        title: "Marketing Director",
         role: "marketing",
         bio: "Builds our community and shares the Bigi vision one great story at a time. He's the reason you're here reading this.",
         imageUrl: "/assets/images/morice.jpg",
@@ -136,7 +136,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
     {
         name: "",
-        title: "Co-Founder & Logistics Director",
+        title: "Logistics Director",
         role: "Logistics",
         bio: "The Bridge-Builder. He masterminds the complex journey from a rural workshop to a customer's doorstep across the globe. He's building not just a supply chain, but a network of trust that connects our artisans to the world.",
         imageUrl: "/assets/images/manu.jpg",

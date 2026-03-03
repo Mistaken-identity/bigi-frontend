@@ -1,8 +1,10 @@
+
+import { supabase } from './services/supabase'
+
 import React, { useState, useEffect, useCallback, useMemo, FC, useRef } from 'react';
 import { Product, CartItem, WishlistItem, DeliveryDetails, Order, LiveSale, User, ToastMessage, View, Review } from './types';
 import { CATEGORIES, SHIPPING_COST } from './constants';
 import { LOCAL_PRODUCTS } from './data';
-import { createOrder } from './services/api';
 import { useLocalStorage, useToast, useCart } from './hooks';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
@@ -185,7 +187,13 @@ const App: FC = () => {
 
         // Submit to backend
         try { 
-            const res = await createOrder(orderData); 
+                  const { data, error } = await supabase
+                    .from('orders')
+                    .insert([orderData]);
+
+                if (error) {
+                   throw error;
+                }
             
             setOrders(prev => [...prev, newOrder]); 
             clearCart(); 

@@ -141,7 +141,7 @@ export const CartView: FC<{
                         </div>
                     </div>
                     <button 
-                          onClick={handlePlaceOrder} 
+                          onClick={() => onNavigate('checkout')} 
                           className="mt-6 w-full bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition-colors">
                             Proceed to Checkout
                           </button>

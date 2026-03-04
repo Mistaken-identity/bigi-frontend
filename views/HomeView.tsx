@@ -47,15 +47,7 @@ export const HomeView: FC<{ onNavigate: (view: View, data?: any) => void; onProd
                 </div>
             </div>
 
-            {/* Valentine's Day Theme */}
-            <ValentineBanner onNavigate={onNavigate} />
-            <CountdownTimer targetDate="2026-02-15T23:59:59" />
-            <ValentineOffers 
-                onAddToCart={onAddToCart}
-                onToggleWishlist={onToggleWishlist}
-                onProductClick={onProductClick}
-                wishlistedItems={wishlistedItems}
-            />
+       
             
             {/* Categories Section */}
             <div>

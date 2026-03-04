@@ -32,7 +32,7 @@ import { HelpCenterView } from './views/HelpCenterView';
 import { AuthView } from './views/AuthView';
 import { MyAccountView } from './views/MyAccountView';
 import { LegalView } from './views/LegalView';
-import { ValentineCollectionView } from './views/ValentineCollectionView';
+//import { ValentineCollectionView } from './views/ValentineCollectionView';
 
 import { TERMS_CONTENT, PRIVACY_POLICY_CONTENT } from './constants';
 
@@ -278,7 +278,7 @@ const App: FC = () => {
             case 'terms': return <LegalView title="Terms & Conditions" content={TERMS_CONTENT} onNavigate={handleNavigate} />;
             case 'privacy': return <LegalView title="Privacy Policy" content={PRIVACY_POLICY_CONTENT} onNavigate={handleNavigate} />;
             case 'orderConfirmation': return <OrderConfirmationView order={viewData as Order} onNavigate={handleNavigate} />;
-            case 'valentineCollection': return <ValentineCollectionView onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} onBack={() => handleNavigate('home')} />;
+            //case 'valentineCollection': return <ValentineCollectionView onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} onBack={() => handleNavigate('home')} />;
             case 'home':
             default: return <HomeView onNavigate={handleNavigate} onProductClick={handleProductClick} onAddToCart={addToCart} onToggleWishlist={toggleWishlist} wishlistedItems={wishlist} />;
         }

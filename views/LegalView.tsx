@@ -13,7 +13,7 @@ export const LegalView: FC<{ title: string, content: { title: string, content: s
             ))}
             {content.length > 5 && onNavigate && (
                 <div className="text-center p-4 bg-gray-100 rounded-md">
-                    <p>This is a summary of our terms. For the full document, please contact our support team.</p>
+                    <p>This is just a summary of our terms. For the full document, please contact our support team.</p>
                     <button onClick={() => onNavigate('contactUs')} className="font-semibold text-orange-600 hover:underline mt-2">Contact Support</button>
                 </div>
             )}

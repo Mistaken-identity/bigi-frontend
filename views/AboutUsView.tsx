@@ -117,7 +117,7 @@ export const AboutUsView: FC = () => {
                     </div>
                 </div>
                 
-                {/* Team Section */}
+                {/* Our Team Section */}
                 <div ref={teamSectionRef} className="animated-section">
                     <div className="container mx-auto px-6 text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-8">Meet The Founders</h2>

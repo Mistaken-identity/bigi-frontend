@@ -78,7 +78,7 @@ export const AboutUsView: FC = () => {
                     </div>
                 </div>
 
-                {/* Our Why Section */}
+                {/* Why Section */}
                 <div ref={whySectionRef} className="animated-section">
                      <div className="bg-gray-50 py-16">
                         <div className="container mx-auto px-6 text-center">
